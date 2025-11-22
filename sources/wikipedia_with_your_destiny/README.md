@@ -8,10 +8,18 @@ This directory contains the Wikipedia article about "With Your Destiny" (WYD).
 - **Date Scraped**: November 22, 2025
 - **License**: Creative Commons Attribution-ShareAlike 4.0 License
 
-## Files
+## Structure
 
-- `with_your_destiny.html` - Original Wikipedia HTML page (89 KB)
-- `with_your_destiny.md` - Converted Markdown version (23 KB)
+```
+wikipedia_with_your_destiny/
+├── README.md
+└── data/
+    ├── articles/
+    │   ├── with_your_destiny.html    # Original Wikipedia HTML (89 KB)
+    │   └── markdown/
+    │       └── with_your_destiny.md  # Converted Markdown (23 KB)
+    └── images/                       # (empty - Wikipedia article has no images)
+```
 
 ## Article Summary
 
