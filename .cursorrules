@@ -20,11 +20,16 @@ wyd/
     │       ├── articles/            # Original HTML files (78 articles)
     │       │   └── markdown/        # Converted Markdown files
     │       └── images/              # Downloaded images (423 files)
-    └── wikipedia_with_your_destiny/ # Wikipedia article source
+    ├── wikipedia_with_your_destiny/ # Wikipedia article source
+    │   └── data/
+    │       ├── articles/            # Wikipedia HTML
+    │       │   └── markdown/        # Wikipedia Markdown
+    │       └── images/              # (empty for this source)
+    └── raidhut_quests/              # WYD Quest Guides from Raid Hut
         └── data/
-            ├── articles/            # Wikipedia HTML
-            │   └── markdown/        # Wikipedia Markdown
-            └── images/              # (empty for this source)
+            ├── articles/            # Quest guides HTML (136 KB)
+            │   └── markdown/        # Converted Markdown with local images
+            └── images/              # Quest guide images (9 files)
 ```
 
 # Primary Goals
