@@ -1153,6 +1153,21 @@ Sim, o Selo é utilizado uma única vez para transformar sua capa, sendo consumi
 
 ---
 
+
+
+---
+
+## Quest Item Icons
+
+*These are the item and reward icons referenced throughout the quest guide:*
+
+![](../../images/3191.gif) ![](../../images/3192.gif) ![](../../images/3433.gif) ![](../../images/3434.gif) ![](../../images/3435.gif) ![](../../images/4006.gif) 
+![](../../images/401.gif) ![](../../images/4081.gif) ![](../../images/4117.gif) ![](../../images/4118.gif) ![](../../images/4119.gif) ![](../../images/4120.gif) 
+![](../../images/4121.gif) ![](../../images/4122.gif) ![](../../images/4123.gif) ![](../../images/4124.gif) ![](../../images/4125.gif) ![](../../images/4126.gif) 
+![](../../images/4146.gif) ![](../../images/451.gif) ![](../../images/452.gif) ![](../../images/453.gif) ![](../../images/465.gif) ![](../../images/467.gif) 
+![](../../images/468.gif) ![](../../images/470.gif) ![](../../images/481.gif) ![](../../images/524.gif) ![](../../images/551.gif) ![](../../images/555.gif) 
+![](../../images/559.gif) ![](../../images/en.gif) ![](../../images/pt_br.gif) 
+
 Atenciosamente,
 Equipe WYD Global.
 
