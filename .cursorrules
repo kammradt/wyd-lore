@@ -4,6 +4,29 @@ The project consists of:
 1. **Documentation:** A comprehensive history and lore of the MMORPG "With Your Destiny" (WYD), written in Markdown.
 2. **Automation:** A Ruby-based scraper using Capybara to extract data, patch notes, and lore from various community websites and archives to populate the documentation.
 
+# Project Structure
+```
+wyd/
+├── Gemfile                          # Ruby dependencies (shared)
+├── README.md                        # Main project documentation
+└── sources/                         # All scraped content organized by source
+    ├── feedback_kersef/             # WYD FAQ scraping project
+    │   ├── scripts/                 # Ruby automation scripts
+    │   │   ├── scraper.rb           # Main Capybara-based web scraper
+    │   │   ├── extract_urls.rb      # URL extraction helper
+    │   │   ├── download_articles.rb # Batch article downloader
+    │   │   └── html_to_markdown.rb  # HTML to Markdown converter
+    │   └── data/                    # Scraped content
+    │       ├── articles/            # Original HTML files (78 articles)
+    │       │   └── markdown/        # Converted Markdown files
+    │       └── images/              # Downloaded images (423 files)
+    └── wikipedia_with_your_destiny/ # Wikipedia article source
+        └── data/
+            ├── articles/            # Wikipedia HTML
+            │   └── markdown/        # Wikipedia Markdown
+            └── images/              # (empty for this source)
+```
+
 # Primary Goals
 - Maintain accurate, engaging, and well-formatted Markdown documentation regarding WYD lore.
 - Write clean, robust, and modern Ruby code to automate data extraction.
