@@ -218,22 +218,14 @@ Objetivos Detalhados:
 **1ª Etapa**
 - Derrote o GremlinDecoy para obter a Chave da Primeira Porta e receba Poções de Cura do FirstTrainer;
 
-![](../../images/moldura.png)
-
 **2ª Etapa**
 - Vença o GiantCrill, colete a Chave da Segunda Porta e obtenha adicionais aleatórios nas armas com o SecondTrainer;
-
-![](../../images/moldura.png)
 
 **3ª Etapa**
 - Elimine o OrcSniper, pegue a Chave da Última Porta e aprimore suas armas e armaduras com o ThirdTrainer;
 
-![](../../images/moldura.png)
-
 **4ª Etapa**
 - Derrote o OrcWarrior, adquira o Emblema Orc e ganhe um bônus significativo de experiência com o TrainerChief.
-
-![](../../images/moldura.png)
 
 Localizações Importantes:
 
@@ -269,8 +261,6 @@ Recompensas:
 **1ª Etapa**
 - [20] Poção de Cura (M);
 
-![](../../images/moldura.png)
-
 **2ª Etapa**
 - Aplicação de adicionais aleatórios nas armas equipadas;
 
@@ -279,8 +269,6 @@ Recompensas:
 
 **4ª Etapa**
 - [01] Olho Crescente - Ao utiliza-lo clicando com o botão direito concede ao personagem 3.000 pontos de experiência.
-
-![](../../images/moldura.png)
 
 Estratégias:
 
@@ -356,8 +344,6 @@ Recompensas:
 
 - Caixa da Sabedoria - Ao usá-la (clicando com o botão direito), o jogador recebe 30.000 de experiência.
 
-![](../../images/moldura.png)
-
 Estratégias:
 
 - Para acessar o local da quest basta clicar no NPC Gravekeeper e derrotar os monstros que estão lá dentro;
@@ -404,17 +390,11 @@ Objetivos Detalhados:
 **1ª Etapa**
 - Derrote o OrcKeeper para obter a Chave do Portão Sul;
 
-![](../../images/moldura.png)
-
 **2ª Etapa**
 - Vença o OrcGuard, colete a Última Chave Orc;
 
-![](../../images/moldura.png)
-
 **3ª Etapa**
 - Elimine o CheifOrc, pegue a Última Chave Orc Leste;
-
-![](../../images/moldura.png)
 
 **4ª Etapa**
 - Derrote o OrcLord, adquira Pílula do Poder Mágico.
@@ -439,8 +419,6 @@ NPCs Importantes:
 Recompensas:
 
 - [01] Pílula do Poder Mágico - Um artefato mágico único que, ao ser consumido (clicando com o botão direito), concede ao personagem 9 pontos de skill.
-
-![](../../images/moldura.png)
 
 Estratégias:
 
@@ -509,12 +487,6 @@ Recompensas:
 
 - Amuleto de Prata ou Amuleto de Ouro ou Amuleto Místico - Equipamentos que, ao serem utilizados, melhoram os atributos do personagem. A natureza exata do amuleto recebido pode variar de acordo com o desempenho na missão.
 
-![](../../images/moldura.png)
-
-![](../../images/moldura.png)
-
-![](../../images/moldura.png)
-
 Estratégias:
 
 - Para iniciar a quest fale com o NPC KnightsLeader;
@@ -556,8 +528,6 @@ Objetivos Detalhados:
 
 - Derrote os monstros NainTrollChief, até dropar o item Pedaço da Chance;
 
-![](../../images/moldura.png)
-
 - Fale com o NPC Kruno Priest.
 
 Localizações Importantes:
@@ -573,8 +543,6 @@ NPCs Importantes:
 Recompensas:
 
 - [01] Composto de Chance - Este item singular permite que você resete 50 pontos de aprendizagem de habilidade, zerando todos os skills aprendidos e permitindo uma redistribuição.
-
-![](../../images/moldura.png)
 
 Estratégias:
 
@@ -618,8 +586,6 @@ Objetivos Detalhados:
 - Inicie a quest conversando com o NPC TS Chief;
 
 - Derrote os TaursKing até obter o Emblema da Aprendizagem;
-
-![](../../images/moldura.png)
 
 - Equipe o Emblema da Aprendizagem e apresente-se ao NPC TS Leader para receber sua recompensa.
 
@@ -701,8 +667,6 @@ Recompensas:
 
 - Lágrima Angelical - Ao usá-la (clicando com o botão direito), o jogador recebe 120.000 de experiência.
 
-![](../../images/moldura.png)
-
 Estratégias:
 
 - Para acessar o local da quest basta clicar no NPC Gardener e derrotar os monstros que estão lá dentro;
@@ -752,8 +716,6 @@ Objetivos Detalhados:
 
 - Derrote os monstros InionTrollChief, até dropar o item Pedaço de Equilíbrio;
 
-![](../../images/moldura.png)
-
 - Fale com o NPC Amelia Priest.
 
 Localizações Importantes:
@@ -769,8 +731,6 @@ NPCs Importantes:
 Recompensas:
 
 - [01] Composto de Equilíbrio - Este artefato poderoso permite ao herói reajustar 100 pontos de aprendizagem de habilidade, possibilitando uma nova configuração de suas capacidades.
-
-![](../../images/moldura.png)
 
 Estratégias:
 
@@ -837,8 +797,6 @@ Recompensas:
 
 - Coração de Kaizen - Ao usá-lo (clicando com o botão direito), o jogador recebe 250.000 de experiência.
 
-![](../../images/moldura.png)
-
 Estratégias:
 
 - Para acessar o local da quest basta clicar no NPC Scout e derrotar os monstros que estão lá dentro;
@@ -854,8 +812,6 @@ Dicas e Informações:
 - Você pode chegar mais rápido no local da entrada da Dungeon utilizando o portal de teleporte localizado em Armia (X:2141 Y:2069);
 
 - Você pode chegar mais rápido no local da quest utilizando o item Pedido de Caça (Dung). Clique com o botão direito nele, e selecione a opção "Dungeon 1 - Local do Cav. Caveira - 481 4062". Esse item é vendido no NPC Farche, que fica localizado em Erion (X:2468 Y:2008).
-
-![](../../images/moldura.png)
 
 Perguntas Frequentes:
 
@@ -910,8 +866,6 @@ Recompensas:
 
 - [01] Molar do Gárgula - Um item mágico que, quando utilizado, eleva as armaduras equipadas para o nível de refinamento +6, concedendo ao usuário uma defesa extraordinária.
 
-![](../../images/moldura.png)
-
 Estratégias:
 
 - Para iniciar a quest fale com o NPC Scout;
@@ -931,8 +885,6 @@ Dicas e Informações:
 - Você pode chegar mais rápido no local da entrada da Dungeon utilizando o portal de teleporte localizado em Armia (X: 2141 Y:2069);
 
 - Você pode chegar mais rápido no local da quest utilizando o item Pedido de Caça (Dung). Clique com o botão direito nele, e selecione a opção "Dungeon 1 - Local do Golem - 876 4058". Esse item é vendido no NPC Farche, que fica localizado em Erion (X: 2468 Y: 2008).
-
-![](../../images/moldura.png)
 
 Perguntas Frequentes:
 
@@ -963,8 +915,6 @@ Objetivos Detalhados:
 
 - Derrote os DarkKnightKing para obter o Emblema do Reino;
 
-![](../../images/moldura.png)
-
 - Com o Emblema em mãos, apresente-se ao Rei do Reino escolhido e jure sua lealdade para receber sua recompensa.
 
 Localizações Importantes:
@@ -984,8 +934,6 @@ NPCs Importantes:
 Recompensas:
 
 - [01] Manto Akelonia (Red) ou [01] Manto Hekalotia (Blue) - Um símbolo de sua lealdade e novo status como Cavaleiro do Reino, cada manto não só aprimora seus atributos, mas também reflete a honra de servir ao seu reino.
-
-![](../../images/moldura.png)
 
 Estratégias:
 
@@ -1056,8 +1004,6 @@ Recompensas:
 
 - Olho de Sangue - Ao usá-lo (clicando com o botão direito), o jogador recebe 500.000 de experiência.
 
-![](../../images/moldura.png)
-
 Estratégias:
 
 - Para acessar o local da quest basta clicar no NPC Scout e derrotar os monstros que estão lá dentro;
@@ -1073,8 +1019,6 @@ Dicas e Informações:
 - Você pode chegar mais rápido no local da entrada da Dungeon utilizando o portal de teleporte localizado em Armia (X: 2141 Y:2069);
 
 Você pode chegar mais rápido no local da quest utilizando o item Pedido de Caça (Dung). Clique com o botão direito nele, e selecione a opção "Dungeon 1 - Local do Cav. Caveira - 724 3781". Esse item é vendido no NPC Farche, que fica localizado em Erion (X:2468 Y:2008).
-
-![](../../images/moldura.png)
 
 Perguntas Frequentes:
 
@@ -1127,8 +1071,6 @@ Recompensas:
 
 - Pedra Espiritual dos Elfos - Ao usá-lo (clicando com o botão direito), o jogador recebe 800.000 de experiência.
 
-![](../../images/moldura.png)
-
 Estratégias:
 
 - Para acessar o local da quest basta clicar no NPC Guard e derrotar os monstros que estão lá dentro;
@@ -1144,8 +1086,6 @@ Dicas e Informações:
 - Você pode chegar mais rápido no local da entrada do Submundo utilizando o portal de teleporte localizado em Azran (X:2453 Y:1717);
 
 - Você pode chegar mais rápido no local da quest utilizando o item Pedido de Caça (SubM). Clique com o botão direito nele, e selecione a opção "Submundo 1 - Local do Aquagolem - 1333 3994". Esse item é vendido no NPC Farche, que fica localizado em Erion (X:2468 Y:2008).
-
-![](../../images/moldura.png)
 
 Perguntas Frequentes:
 
@@ -1180,8 +1120,6 @@ Objetivos Detalhados:
 
 - Adquira o item chamado Selo do Guerreiro;
 
-![](../../images/moldura.png)
-
 - Clique com o botão direito no item e conclua a quest.
 
 Localizações Importantes:
@@ -1195,10 +1133,6 @@ NPCs Importantes:
 Recompensas:
 
 - [01] Elite de Akelonia (Red) ou [01] Elite de Hekalotia (Blue) - Capas que simbolizam a supremacia e o status elevado dentro dos respectivos reinos, oferecendo benefícios significativos ao guerreiro.
-
-![](../../images/moldura.png)
-
-![](../../images/moldura.png)
 
 Estratégias:
 
