@@ -30,7 +30,10 @@ This project aims to preserve and organize the history, lore, and game mechanics
 We've collected and scrapped information form several sources.
 
 ### 🎮 [Feedback Kersef - Game Guides](sources/feedback_kersef/data/articles/markdown/)
-**78 comprehensive game guides** covering:
+
+<details>
+<summary>78 comprehensive game guides covering:</summary>
+
 - **Lore & History**: The creation myth, gods (Yetzirah, Tzfah, Armia, Kafma), celestial battles
 - **Character Systems**: Classes (Transknight, Hunter, Foema, Beastmaster), skills (9th-12th)
 - **Progression**: Level unlocks (40, 90, 200, 240-360), Celestial/Sub-Celestial creation
@@ -42,8 +45,13 @@ We've collected and scrapped information form several sources.
 
 📁 **423 images** including maps, item icons, UI screenshots, and quest diagrams
 
+</details>
+
 ### 🗺️ [Raid Hut - Quest Guides](sources/raidhut_quests/data/articles/markdown/)
-**Complete quest progression guide** (Level 1-400):
+
+<details>
+<summary>Complete quest progression guide (Level 1-400):</summary>
+
 - **Training Quests**: Campo de Treino, Defensor da Alma
 - **Mid-Level Content**: Benção de Deus, Jardim de Deus, Equilíbrio da Força
 - **Advanced Quests**: Ressureição do Cavaleiro Negro, Hidra Imortal
@@ -52,12 +60,19 @@ We've collected and scrapped information form several sources.
 
 📁 **40 images** including quest banners, item icons, and reward previews
 
+</details>
+
 ### 📰 [Wikipedia - Game Overview](sources/wikipedia_with_your_destiny/data/articles/markdown/)
-**Encyclopedia article** with:
+
+<details>
+<summary>Encyclopedia article with:</summary>
+
 - Game history and publisher information
 - Official release timeline (May 2003 - Present)
 - Core gameplay mechanics and features
 - Regional variations (Global, Korea, Brazil, Malaysia, Philippines)
+
+</details>
 
 ## 🏗️ Project Structure
 
