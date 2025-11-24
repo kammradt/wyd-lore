@@ -158,6 +158,17 @@ We've deliberately chosen **Markdown as our documentation format** for a powerfu
 - 🔧 **Flexible**: Easy to transform into websites, PDFs, ebooks, or any future format
 - 🌍 **Universal**: Markdown is human-readable AND machine-readable
 
+### What's Next?
+
+With this foundation, we can build:
+- **AI Quest Helper**: Ask questions about any quest and get instant answers
+- **Lore Encyclopedia**: Interactive timeline of WYD universe events
+- **Equipment Optimizer**: Smart build recommendations based on documented stats
+- **Translation Tools**: Multi-language documentation generation
+- **And more...**: The possibilities are limitless when knowledge is structured
+
+*This isn't just documentation—it's a knowledge base ready for the AI age.* ✨
+
 ## 📋 TODO
 
 - [ ] Verify if all images are correctly linked in markdown files
