@@ -15,7 +15,7 @@ This project aims to preserve and organize the history, lore, and game mechanics
 
 - **Lore**: Epic story of gods (Yetzirah, Tzfah) and their conflict affecting humanity
 - **Kingdoms**: Hekalotia (Blue) vs Akeronia (Red) in eternal rivalry
-- **Progression**: From Mortal → Celestial → Sub-Celestial → Arch (1500+ levels)
+- **Progression**: From Mortal → Arch → Celestial → Sub-Celestial
 - **Classes**: 4 unique classes with 150+ customizable skills
 - **PvP**: Massive battles supporting up to 1000 simultaneous players
 - **Content**: Dungeons, quests, guild wars, kingdom battles, mounts, and more
