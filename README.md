@@ -9,6 +9,8 @@
 
 This project aims to preserve and organize the history, lore, and game mechanics of **With Your Destiny (WYD)**, a fantasy MMORPG developed by JoyImpact Co., Ltd. Through automated web scraping and careful curation, we've compiled guides, quest information, and historical records from various sources.
 
+## Future
+
 ## 🎮 About With Your Destiny (WYD)
 
 **With Your Destiny** is a Free-to-play Fantasy MMORPG set in the world of **Kersef**, featuring:
@@ -141,6 +143,33 @@ open sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destin
 - **HTML Parsing**: Nokogiri 1.16
 - **Conversion**: markitdown (HTML to Markdown)
 - **Browser**: Headless Chrome via ChromeDriver
+
+## ✨🌐 Future Vision
+
+### Preserving History for Tomorrow
+
+The primary goal of this project is to **document and preserve as much WYD history as possible**, ensuring that this 20+ year legacy remains accessible for future generations of players, researchers, and enthusiasts.
+
+### Why Markdown?
+
+We've deliberately chosen **Markdown as our documentation format** for a powerful reason: **LLM compatibility**. By structuring all game knowledge in clean, semantic Markdown:
+
+- 🤖 **AI-Ready**: The entire knowledge base can be fed to Large Language Models
+- 🔮 **Future Applications**: Build intelligent quest assistants, lore chatbots, game wikis, and interactive guides
+- 🧠 **Semantic Understanding**: LLMs can parse, analyze, and generate insights from the structured data
+- 🔧 **Flexible**: Easy to transform into websites, PDFs, ebooks, or any future format
+- 🌍 **Universal**: Markdown is human-readable AND machine-readable
+
+### What's Next?
+
+With this foundation, we can build:
+- **AI Quest Helper**: Ask questions about any quest and get instant answers
+- **Lore Encyclopedia**: Interactive timeline of WYD universe events
+- **Equipment Optimizer**: Smart build recommendations based on documented stats
+- **Translation Tools**: Multi-language documentation generation
+- **And more...**: The possibilities are limitless when knowledge is structured
+
+*This isn't just documentation—it's a knowledge base ready for the AI age.* ✨
 
 ## 📝 Contributing
 
