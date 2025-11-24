@@ -150,8 +150,6 @@ open sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destin
 
 The primary goal of this project is to **document and preserve as much WYD history as possible**, ensuring that this 20+ year legacy remains accessible for future generations of players, researchers, and enthusiasts.
 
-### Why Markdown?
-
 We've deliberately chosen **Markdown as our documentation format** for a powerful reason: **LLM compatibility**. By structuring all game knowledge in clean, semantic Markdown:
 
 - 🤖 **AI-Ready**: The entire knowledge base can be fed to Large Language Models
@@ -160,16 +158,9 @@ We've deliberately chosen **Markdown as our documentation format** for a powerfu
 - 🔧 **Flexible**: Easy to transform into websites, PDFs, ebooks, or any future format
 - 🌍 **Universal**: Markdown is human-readable AND machine-readable
 
-### What's Next?
+## 📋 TODO
 
-With this foundation, we can build:
-- **AI Quest Helper**: Ask questions about any quest and get instant answers
-- **Lore Encyclopedia**: Interactive timeline of WYD universe events
-- **Equipment Optimizer**: Smart build recommendations based on documented stats
-- **Translation Tools**: Multi-language documentation generation
-- **And more...**: The possibilities are limitless when knowledge is structured
-
-*This isn't just documentation—it's a knowledge base ready for the AI age.* ✨
+- [ ] Verify if all images are correctly linked in markdown files
 
 ## 📝 Contributing
 
