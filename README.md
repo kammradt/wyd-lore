@@ -9,9 +9,25 @@
 
 This project aims to preserve and organize the history, lore, and game mechanics of **With Your Destiny (WYD)**, a fantasy MMORPG developed by JoyImpact Co., Ltd. Through automated web scraping and careful curation, we've compiled guides, quest information, and historical records from various sources.
 
+## 🎮 About With Your Destiny (WYD)
+
+**With Your Destiny** is a Free-to-play Fantasy MMORPG set in the world of **Kersef**, featuring:
+
+- **Lore**: Epic story of gods (Yetzirah, Tzfah) and their conflict affecting humanity
+- **Kingdoms**: Hekalotia (Blue) vs Akeronia (Red) in eternal rivalry
+- **Progression**: From Mortal → Celestial → Sub-Celestial → Arch (1500+ levels)
+- **Classes**: 4 unique classes with 150+ customizable skills
+- **PvP**: Massive battles supporting up to 1000 simultaneous players
+- **Content**: Dungeons, quests, guild wars, kingdom battles, mounts, and more
+
+**Publisher History:**
+- Original: HanbitSoft Inc. (2003)
+- Current: Raid Hut Ltd. (2019-present, Global) & JoyImpact (Korea)
+
+
 ## 📚 Documentation Sources
 
-We've collected **80 markdown documents** from multiple sources, all converted and organized for easy reading:
+We've collected and scrapped information form several sources.
 
 ### 🎮 [Feedback Kersef - Game Guides](sources/feedback_kersef/data/articles/markdown/)
 **78 comprehensive game guides** covering:
@@ -120,16 +136,6 @@ ruby scripts/scraper.rb
 # Convert HTML to Markdown
 ruby scripts/html_to_markdown.rb
 ```
-
-## 📊 Content Statistics
-
-| Source | Articles | Images | Size |
-|--------|----------|--------|------|
-| **Feedback Kersef** | 78 | 423 | ~3.2 MB (HTML) |
-| **Raid Hut Quests** | 1 | 40 | 136 KB (HTML) |
-| **Wikipedia** | 1 | 0 | 89 KB (HTML) |
-| **Total** | **80** | **463** | **~3.5 MB** |
-
 ## 🛠️ Technology Stack
 
 - **Language**: Ruby 3.x
@@ -137,21 +143,6 @@ ruby scripts/html_to_markdown.rb
 - **HTML Parsing**: Nokogiri 1.16
 - **Conversion**: markitdown (HTML to Markdown)
 - **Browser**: Headless Chrome via ChromeDriver
-
-## 🎮 About With Your Destiny (WYD)
-
-**With Your Destiny** is a Free-to-play Fantasy MMORPG set in the world of **Kersef**, featuring:
-
-- **Lore**: Epic story of gods (Yetzirah, Tzfah) and their conflict affecting humanity
-- **Kingdoms**: Hekalotia (Blue) vs Akeronia (Red) in eternal rivalry
-- **Progression**: From Mortal → Celestial → Sub-Celestial → Arch (1500+ levels)
-- **Classes**: 4 unique classes with 150+ customizable skills
-- **PvP**: Massive battles supporting up to 1000 simultaneous players
-- **Content**: Dungeons, quests, guild wars, kingdom battles, mounts, and more
-
-**Publisher History:**
-- Original: HanbitSoft Inc. (2003)
-- Current: Raid Hut Ltd. (2019-present, Global) & JoyImpact (Korea)
 
 ## 📝 Contributing
 
