@@ -83,10 +83,7 @@ wyd/
 └── sources/                         # All scraped content
     ├── feedback_kersef/             # WYD FAQ (feedback.kersef.com)
     │   ├── scripts/                 # Ruby automation scripts
-    │   │   ├── scraper.rb           # Main Capybara web scraper
-    │   │   ├── extract_urls.rb      # URL extraction
-    │   │   ├── download_articles.rb # Batch downloader
-    │   │   └── html_to_markdown.rb  # HTML to Markdown converter
+    │   │   ├── *.rb                 # Scripts in ruyby
     │   └── data/
     │       ├── articles/            # 78 original HTML files
     │       │   └── markdown/        # 78 Markdown files ⭐
@@ -100,9 +97,8 @@ wyd/
     │
     └── wikipedia_with_your_destiny/ # Wikipedia Article
         └── data/
-            ├── articles/            # Original HTML
-            │   └── markdown/        # Wikipedia Markdown ⭐
-            └── images/              # (empty)
+            └── articles/            # Original HTML
+                └── markdown/        # Wikipedia Markdown ⭐
 ```
 
 ## 🚀 Quick Start
@@ -138,19 +134,6 @@ open sources/raidhut_quests/data/articles/markdown/quests_mortais.md
 open sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
 ```
 
-### Running the Scrapers
-
-To update or scrape new content:
-
-```bash
-cd sources/feedback_kersef
-
-# Run the main scraper
-ruby scripts/scraper.rb
-
-# Convert HTML to Markdown
-ruby scripts/html_to_markdown.rb
-```
 ## 🛠️ Technology Stack
 
 - **Language**: Ruby 3.x
