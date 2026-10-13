@@ -1,0 +1,812 @@
+# English titles, summaries and tags for each wiki page, keyed by category/slug.
+# Written with AI from the archived sources; correct freely.
+lore/history-of-kersef:
+  title: História
+  title_en: History of Kersef
+  summary_en: 'An elder narrator tells WYD''s creation myth: the supreme beings Yetzirah and Tzfah create the world and humanity, then the gods Kafma, Armia, Daleth, Samech and Haden. It covers the Celestial Battle, the destruction of the Sephira bridge, the Continental War led by the mage Nershess, and the world 400 years later, where the power of the Arch survives only as legend.'
+  tags:
+  - lore
+  - history
+  - yetzirah
+  - tzfah
+  - gods
+  - celestial-battle
+history/game-overview:
+  title: With Your Destiny
+  title_en: With Your Destiny
+  summary_en: Overview of With Your Destiny (WYD), a free-to-play MMORPG developed by JoyImpact and released in May 2003, with Raid Hut as its sole official global publisher since February 2019. It summarizes the plot of the supreme beings Yetzirah and Tzfah and the rival kingdoms Hekalotia and Akeronia on the continent of Kersef, along with war modes, the four classes and key systems.
+  tags:
+  - history
+  - overview
+  - publisher
+  - joyimpact
+  - raid-hut
+  - gameplay
+classes/overview:
+  title: Personagens e Primeiras Impressões
+  title_en: Characters and First Impressions
+  summary_en: Introduces the four classes (Transknight, Foema, Beastmaster, Huntress) and their many skill lineages. It also covers starting in the city of Armia, the Training Field for level 1 characters and basic mouse controls for moving and attacking.
+  tags:
+  - classes
+  - beginner
+  - armia
+  - transknight
+  - foema
+  - controls
+classes/skills:
+  title: Skills
+  title_en: Skills
+  summary_en: 'Explains how to learn skills from each class''s skill master in Armia: Capitão Cavaleiros for TransKnight, Mestre Archi for Beastmaster, Foema Anciã for Foema and ForeLearne for Huntress. It describes the three skill lineages per class, the 24-skill limit, learning points, Aprender Arma and how to use the skill hotbar.'
+  tags:
+  - skills
+  - classes
+  - skill-lineage
+  - npc-skillmaster
+  - armia
+classes/9th-skill:
+  title: Nona Skill (9th)
+  title_en: Ninth Skill (9th)
+  summary_en: Lists each class's 9th skills, bought from the NPC 9thMaster in Armia and learnable from level 201 by Celestial and Sub-Celestial characters for 255 skill points. A character can only learn the 9th of the same lineage as its 8th, learning it raises the mastery cap to 320, and it can be unlearned with the Círculo Divino Composto.
+  tags:
+  - skills
+  - 9th-skill
+  - celestial
+  - npc-9thmaster
+  - classes
+classes/10th-skill:
+  title: 10ª Skill
+  title_en: 10th Skill
+  summary_en: Describes the 10th skill for each lineage of the Foema, TransKnight, BeastMaster and Huntress classes, such as Proteção Absoluta and Invocação Final. Learning one requires all previous skills and 4000 fame points.
+  tags:
+  - skills
+  - 10th-skill
+  - fame
+  - classes
+classes/11th-skill:
+  title: 11ª Skills
+  title_en: 11th Skills
+  summary_en: Lists the 11th skill book for each class lineage, such as Blaze Launcher, Life Wave Book and Bleeding Book, with their effects. Learning one requires level 281 or higher, 8,000 fame points and the skill's book.
+  tags:
+  - skills
+  - 11th-skill
+  - skill-books
+  - fame
+  - classes
+classes/12th-skill:
+  title: 12ª Skills
+  title_en: 12th Skills
+  summary_en: Lists the 12th skills for every class lineage, learnable by Celestial characters above level 320 from the NPC Jazeg in Armia. The 11th skill of the same lineage is a prerequisite, and the cost is 12,000 fame (initially reduced to 1,200 for testing).
+  tags:
+  - skills
+  - 12th-skill
+  - celestial
+  - npc-jazeg
+  - classes
+classes/class-and-body-change:
+  title: Mudança de Classe e Mudança de Corpo
+  title_en: Class Change and Body Change
+  summary_en: Explains changing a character's class through the NPC Wooreunammu in Kefra (Sephirot of the target class plus 100kk) or with the Sephiroth Blessing item, which unlearns all Sephira skills. A body change uses the Sephiroth Protection item, and both items come from the Global server's monthly events.
+  tags:
+  - classes
+  - class-change
+  - sephirot
+  - npc-wooreunammu
+  - kefra
+progression/beginners-guide:
+  title: Guia para Novatos
+  title_en: Beginner's Guide
+  summary_en: A beginner's guide to WYD Global covering the green newbie channel, setting a numeric password, picking one of the four classes and the starting Training Field quest. In that quest, players talk to the Unicornio and CabuncleWyd NPCs and defeat the Orc boss for the Orc emblem. It also explains the interface and hotkeys.
+  tags:
+  - beginner
+  - guide
+  - training-field
+  - interface
+  - classes
+progression/arch:
+  title: Arch
+  title_en: Arch
+  summary_en: Covers the Arch class, unlocked after completing the quests A procura da vida eterna and Um novo começo, which creates a second character with the same name. It explains the Arch's equipment restrictions (no helmets, class E weapons or Lydians), the bonuses gained at level 370 and per-level stat growth by class.
+  tags:
+  - arch
+  - progression
+  - classes
+  - stats
+  - quest
+progression/celestial-creation:
+  title: Criação do Celestial
+  title_en: Celestial Creation
+  summary_en: Explains how to create a Celestial, which needs a level 400 mortal, an Arch of at least level 356, the four secret stones, the class Saphirot and the Pedra da Imortalidade. Odin in Kefra handles the secret stones, and Ehre in Erion configures the Limite da Alma (Soul) skill using jewel combinations.
+  tags:
+  - celestial
+  - progression
+  - npc-odin
+  - soul
+  - cythera
+progression/celestial-level-40-unlock:
+  title: Desbloqueio do Level 40 - Celestial
+  title_en: Celestial Level 40 Unlock
+  summary_en: Explains how to unlock a Celestial's level cap at 40 by delivering the runes Fehu, Mannaz, Thuirisaz and Ansuz in that order, plus 2 sealed scrolls and a magic seal, to the NPC Odin.
+  tags:
+  - celestial
+  - level-unlock
+  - runes
+  - npc-odin
+  - progression
+progression/celestial-level-90-unlock:
+  title: Desbloqueio do Level 90 - Celestial
+  title_en: Celestial Level 90 Unlock
+  summary_en: Explains how to unlock a Celestial's level cap at 90. The runes Sowilo, Kenaz, Uraz, Thurisaz, Isa, Tiwaz and Hagalaz go to the NPC Odin in order, with 2,000,000 gold, to create the Pedra da Fúria, which can fail when used.
+  tags:
+  - celestial
+  - level-unlock
+  - runes
+  - npc-odin
+  - pedra-da-furia
+progression/celestial-reset-level-200:
+  title: Reset Celestial Level 200
+  title_en: Celestial Level 200 Reset
+  summary_en: After creating the Cythera Arcana at level 200, Celestials and Sub-Celestials can reset up to 3 times for 160 points each. Each reset needs level 200+ (4 billion experience), 1000 fame and a Pedra da Fúria, and it consumes 50 million experience.
+  tags:
+  - celestial
+  - reset
+  - progression
+  - pedra-da-furia
+  - sub-celestial
+progression/celestial-level-240-360-unlock:
+  title: Desbloqueio Nível 240 a 360 - Celestial
+  title_en: Celestial Level 240 to 360 Unlock
+  summary_en: Explains unlocking a Celestial's levels 240, 280, 320 and 360 with the Proteção Divina item, composed at the NPC Dedekinto in Kefra from 2 Coração Beriel Amald and 2 Alma Beriel (25% success). The level 240 unlock never fails, while from 280 both characters must be the same level and there is a 50% failure chance.
+  tags:
+  - celestial
+  - level-unlock
+  - npc-dedekinto
+  - kefra
+  - progression
+progression/sub-celestial:
+  title: Sub Celestial
+  title_en: Sub-Celestial
+  summary_en: Explains creating a Sub-Celestial from a Celestial of level 120+ using 100 fame, a Sephirot of the chosen class and a Pedra Ideal, then switching between the two with the Pedra Misteriosa made at the NPC Ehre in Erion. It covers the Cythera bonuses the main character gets from the Sub's level and notes that the Sub must relearn all Sephira skills.
+  tags:
+  - sub-celestial
+  - celestial
+  - progression
+  - npc-ehre
+  - cythera
+progression/cythera:
+  title: Cythera Arcana
+  title_en: Cythera Arcana
+  summary_en: Explains creating the Cythera Arcana (A), the highest tiara tier, with a level 200+ Celestial or Sub-Celestial, the four secret stones, a Pedra da Fúria, a Cythera M +11 and 1000 fame, at a 50% success rate. It also covers recreating it at the NPC Arcane Jeweler in Kefra from level 241, which takes 2 of each secret stone, 2 Pedras da Fúria, 4 Valkyria emblems and 100kk gold.
+  tags:
+  - cythera
+  - celestial
+  - crafting
+  - npc-arcane-jeweler
+  - kefra
+quests/training-camp:
+  title: Campo de Treinamento
+  title_en: Training Camp
+  summary_en: Beginner quest for levels 1-35 at the training camp east of Armia, split into four areas whose bosses (GremlinDecoy, GiantCrill, OrcSniper, OrcWarrior) drop keys to the next gate. Trainer NPCs (FirstTrainer, SecondTrainer, ThirdTrainer, TrainerChief) reward healing potions, random weapon options, refinement up to +6 and an Olho Crescente experience item, once per character.
+  tags:
+  - quest
+  - beginner
+  - armia
+  - training-camp
+  - npc-trainerchief
+quests/spirit-guardian:
+  title: Defensor da Alma
+  title_en: Spirit Guardian
+  summary_en: Repeatable leveling quest for levels 40-115 in the Armia cemetery, entered via the NPC Gravekeeper, where players fight monsters said to be trying to revive the General da Morte. Monsters drop the Caixa da Sabedoria, which grants 30,000 experience when used.
+  tags:
+  - quest
+  - leveling
+  - armia
+  - cemetery
+  - npc-gravekeeper
+quests/conquering-orc-castle:
+  title: Conquista do Castelo Orc
+  title_en: Conquering Orc Castle
+  summary_en: Quest for levels 1-400 at the Orc Castle north of Armia, progressing through gates by defeating OrcKeeper, OrcGuard and CheifOrc for keys before facing the OrcLord. The reward is the Pílula do Poder Mágico, usable once per character for 9 skill points.
+  tags:
+  - quest
+  - orc-castle
+  - armia
+  - boss-orclord
+  - skill-points
+quests/defending-mystic-land:
+  title: Defensor da Terra Mística
+  title_en: Defending Mystic Land
+  summary_en: One-time quest for levels 60-400 started with the NPC KnightsLeader in Azran, in which players defend the NPC ExploitLeader from monsters in the Mystic Lands south of Azran. The reward is a Silver, Gold or Mystic amulet depending on performance.
+  tags:
+  - quest
+  - azran
+  - mystic-land
+  - escort
+  - amulet
+quests/bless-of-the-god:
+  title: Benção de Deus
+  title_en: Bless of the God
+  summary_en: One-time quest for levels 70-75 north of Erion, started with the Zesty Priest, in which players hunt the NainTrollChief boss for the Pedaço da Chance relic and bring it to the priest Kruno. Kruno turns it into a Composto de Chance, which resets 50 points of skills and learning and cannot be used by Arch characters.
+  tags:
+  - quest
+  - skill-reset
+  - erion
+  - npc-kruno-priest
+  - boss-nain-troll-chief
+quests/ceremony-to-apprentice:
+  title: Formatura de Cavaleiros Aprendizes
+  title_en: Ceremony to Apprentice
+  summary_en: One-time quest for levels 101-150 at the Knights' Training Field south of Azran, started with the NPC TS Chief. Players defeat TaursKing for the Emblema da Aprendizagem, then present it to the TS Leader to receive the Manto do Aprendiz cape.
+  tags:
+  - quest
+  - azran
+  - cape
+  - boss-taursking
+  - npc-ts-leader
+quests/gods-garden:
+  title: Jardim de Deus
+  title_en: God's Garden
+  summary_en: Repeatable leveling quest for levels 116-190 in God's Garden south of Azran, entered via the NPC Gardener. Monsters there drop the Lágrima Angelical, which grants 120,000 experience when used.
+  tags:
+  - quest
+  - leveling
+  - azran
+  - gods-garden
+  - npc-gardener
+quests/balance-of-power:
+  title: Equilíbrio da Força
+  title_en: Balance of Power
+  summary_en: One-time quest for levels 120-125 south of Azran tied to the Achro cathedral and the priestess Amelia, who keeps the balance between Akelonia and Hekalotia. Players defeat InionTrollChief for the Pedaço de Equilíbrio and receive the Composto de Equilíbrio, which resets 100 skill learning points.
+  tags:
+  - quest
+  - skill-reset
+  - azran
+  - npc-amelia-priest
+  - boss-inion-troll-chief
+quests/revival-of-the-dark-knight:
+  title: Ressurreição do Cavaleiro Negro
+  title_en: Revival of the Dark Knight
+  summary_en: Repeatable leveling quest for levels 191-265 on the first floor of the Dungeon, where Kaizen's tomb has been desecrated and Kaizen revived by the Esqueleto Consery. Entered via the NPC Scout, it rewards the Coração de Kaizen, worth 250,000 experience.
+  tags:
+  - quest
+  - leveling
+  - dungeon
+  - kaizen
+  - npc-scout
+quests/gargoyles-molar-tooth:
+  title: Molar do Gárgula
+  title_en: Gargoyle's Molar Tooth
+  summary_en: Quest for levels 201-255 on the first floor of the Dungeon, accessed via the NPC Scout, where players hunt GagoilChief for the rare Molar do Gárgula. Using the single-use item refines equipped armor to +6.
+  tags:
+  - quest
+  - dungeon
+  - refinement
+  - boss-gagoil-chief
+  - npc-scout
+quests/knight-of-the-kingdom:
+  title: Cavaleiro do Reino
+  title_en: Knight of the Kingdom
+  summary_en: One-time quest for levels 220-250 in the center of the kingdoms, started with a RoyalGuard, in which players defeat DarkKnightKing for the Emblema do Reino. Swearing loyalty to KingGlantuar (Red) or KingHarabard (Blue) grants the Manto Akelonia or Manto Hekalotia respectively.
+  tags:
+  - quest
+  - kingdom
+  - cape
+  - akelonia
+  - hekalotia
+  - boss-dark-knight-king
+quests/immortality-of-hydra:
+  title: Hidra Imortal
+  title_en: Immortality of Hydra
+  summary_en: Repeatable leveling quest for levels 266-320 on the first floor of the Dungeon, where Hydras were corrupted by the Olho de Sangue and bound to the ancient evil of Haden. Entered via the NPC Scout, it rewards the Olho de Sangue, worth 500,000 experience.
+  tags:
+  - quest
+  - leveling
+  - dungeon
+  - hydra
+  - haden
+  - npc-scout
+quests/beginning-of-unhappiness:
+  title: Início da Infelicidade
+  title_en: Beginning of Unhappiness
+  summary_en: Repeatable leveling quest for levels 321-355 on the first floor of the Submundo, tied to the exiled Elves turned Dark Elves by Haden's power. Entered via the NPC Guard, it rewards the Pedra Espiritual dos Elfos, worth 800,000 experience.
+  tags:
+  - quest
+  - leveling
+  - submundo
+  - dark-elves
+  - haden
+  - npc-guard
+quests/mantle-unlock-355:
+  title: Desbloqueio de Capa 355
+  title_en: Mantle Unlock 355
+  summary_en: Quest for levels 355-400 completed by using the Selo do Guerreiro, obtained from other players or the NPC Farche in Erion. Using the seal transforms the player's cape into the Elite de Akelonia (Red) or Elite de Hekalotia (Blue).
+  tags:
+  - quest
+  - cape
+  - level-355
+  - npc-farche
+  - kingdom
+quests/traces-of-the-celestial-world:
+  title: À Procura dos Rastros do Mundo Celestial
+  title_en: Searching for Traces of the Celestial World
+  summary_en: Special quest about seven crystals left over from the Celestial War, dropped by monsters around Armia. Bringing all seven (Cristal I to VII) to the Golden Dragon (Dragão Dourado) in Armia applies a random new attribute to a non-Arch weapon refined +10 or higher, or an Ancient weapon.
+  tags:
+  - quest
+  - celestial-war
+  - crystals
+  - armia
+  - weapon-attributes
+quests/arch-spirit-contract:
+  title: Contrato dos Espíritos
+  title_en: Spirit Contract
+  summary_en: Four-phase one-time quest for Arch characters at level 355 with over 1,950,000,000 experience, using items hunted in the Kefra Dungeon. Each completed phase costs 100 million experience and raises ability values.
+  tags:
+  - quest
+  - arch
+  - kefra
+  - level-355
+  - progression
+quests/valkyrie-queen:
+  title: Rainha Valquíria
+  title_en: Valkyrie Queen
+  summary_en: Celestial-only, party-only quest in four stages with a 15-minute timer, starting by killing the IceQueen Mirror in Nipleheim and continuing in the Ice Castle against summoned monsters and the Sombra Negra. The final boss, Ice Queen Verid, always drops the Coração do Beriel plus one extra reward such as Alma do Beriel or Refinação Abençoada +1.
+  tags:
+  - quest
+  - celestial
+  - party
+  - nipleheim
+  - boss-ice-queen-verid
+quests/spoils-hunter:
+  title: Caçador de Espólios
+  title_en: Spoils Hunter
+  summary_en: Daily hunting quest requiring the Mercenary Coupon and a Normal or Mystic Hunter Costume, with time-based hand-ins to the NPCs HuntMaster/LootMaster or Huntsman/Lootsman. Rewards are Rubies, spent at the NPC RubiMaster, and Tesouro Perdido chests opened at the PirateMaster.
+  tags:
+  - quest
+  - daily
+  - rubies
+  - npc-rubimaster
+  - hunting
+quests/nordic-brothers:
+  title: Irmãos Nórdicos
+  title_en: Nordic Brothers
+  summary_en: Covers the artisan brothers Hoder, who adds an extra attribute to Bahamut and Amunra Cytheras, and Balder, who attempts refinement of Celestial characters' capes from +9 up to +13. Both NPCs are found inside the Zona Infernal quest map.
+  tags:
+  - quest
+  - npc-hoder
+  - npc-balder
+  - cythera
+  - celestial
+  - cape-refinement
+maps/armia:
+  title: Armia
+  title_en: Armia
+  summary_en: Map guide to Armia, the walled starting city of every new WYD character, listing its NPCs such as Martin, Galford, the Golden Dragon, Premium Neil, the Cargo Guard and the class skill masters. It also covers the guild zone, PvP zone, teleports to Noatun and the dungeons, and the training field.
+  tags:
+  - city
+  - starting-area
+  - npcs
+  - map
+maps/nippleheim:
+  title: Nippleheim
+  title_en: Nippleheim
+  summary_en: Map and lore of Nippleheim, the frozen land north of Azran where Tzfah and his right hand Neses were exiled after the Celestial War, and where the Karden Command base was built to fight the dark elves. It lists local NPCs including July, Shany, Tiny, Martin and Premium Neil.
+  tags:
+  - map
+  - lore
+  - frozen-land
+  - npcs
+  - dark-elves
+maps/underworld:
+  title: Submundo
+  title_en: Underworld
+  summary_en: Lore of the Underworld, born from the war between the kingdoms of Hekalotia and Akelonia over the celestial ore 'Temuh'. The area is split into the Nikirr Dungeon (first level) and the Underworld (second level) beyond the River of Death, with demon-type monsters growing stronger deeper in.
+  tags:
+  - dungeon
+  - lore
+  - map
+  - demons
+maps/kefra-dungeon:
+  title: Dungeon Kefra
+  title_en: Kefra Dungeon
+  summary_en: Covers the Kefra Dungeon map, its lore about the struggle over the Crown of Athila and the Kult Desert, and the weekly Kefra boss fight in the Kefra Hall, reached by giving a Sealed Scroll to the Survivor NPC. Defeating Kefra opens a portal on the beginner channel to the Unknown Continent, home of Alquimista Odin and Uxmal; drops include the Stone of Immortality and Sephirots.
+  tags:
+  - dungeon
+  - boss
+  - kefra
+  - lore
+  - drops
+maps/dragon-field:
+  title: Dragon Field
+  title_en: Dragon Field
+  summary_en: Map reached through the Gold Dragon NPC in Azran with the Dragon Guardian item equipped (made from a Dragon Soul at the Dragon Elder). Part 1 is guarded by the boss Legend Verid, which drops the Mark of Archangel, and Part 2 by the bosses Nesses and Haden, which can unlock level 360 for celestial characters.
+  tags:
+  - map
+  - boss
+  - celestial
+  - endgame
+  - dragon
+maps/unknown-desert:
+  title: Deserto Desconhecido
+  title_en: Unknown Desert
+  summary_en: Map accessed through the NPC Angela Sister in Noatun on the beginner channel by handing in an Ancestral Artifact; it resets every 20 minutes. It drops Shiny Laktorerium pieces and the Dragon Soul used to reach Dragon Field, with monsters such as BoneDragon, Scorpion and Fire Gagoil.
+  tags:
+  - map
+  - desert
+  - drops
+  - dragon-soul
+maps/infernal-zone:
+  title: Zona Infernal
+  title_en: Infernal Zone
+  summary_en: Daily group quest held at 22:00 and 22:30 for up to 52 players, entered with the Gate of Hell ticket and played in six phases of bosses and Lichs. It ends with protecting the NPC Dionys for a large experience reward; HellLich and ArchLich drop items such as Infinity Symbols, Moonstone and Jewel of Darkness.
+  tags:
+  - quest
+  - group-content
+  - experience
+  - lich
+  - drops
+maps/nightmare:
+  title: Pesadelo A
+  title_en: Nightmare A
+  summary_en: Group leveling quest for high-level Arch and celestial characters, set in Azran, where the party protects 8 city NPCs for 15 minutes. Entry is possible at XX:10, XX:30 and XX:50, and the enemies include Taron, Iron Taron, Hell Spider, Manticora and Lugefer.
+  tags:
+  - quest
+  - experience
+  - group-content
+  - arch
+  - celestial
+maps/rune-trail:
+  title: Pista de Runas
+  title_en: Rune Trail
+  summary_en: Group quest crafted from seven Lactolerium dusts at Alquimista Odin and registered with the NPC Uxmal in the Kefra Hall, giving runes, drops, experience and the blessed refinement. It has seven stages from +0 to +6 (Lich, Tower, Amon, Wolf, Labyrinth, Barlog, Rabbit), each with its own goal and rune rewards.
+  tags:
+  - quest
+  - runes
+  - group-content
+  - kefra
+  - refinement
+maps/coliseum:
+  title: Coliseu
+  title_en: Coliseum
+  summary_en: Daily PvP drop quest in the arena east of Azran on beginner servers, entered with the Public Notification item. It runs in three tiers at 19:00, 20:00 and 21:00, the first two only for mortals and Archs, and drops crystals, remains and Ori and Lac dusts.
+  tags:
+  - quest
+  - pvp
+  - arena
+  - drops
+items/ancient-weapons:
+  title: Armas Ancient
+  title_en: Ancient Weapons
+  summary_en: Explains how to combine a +9 weapon with a Diamond, Emerald, Coral or Garnet gem at the Compositor NPC in Azran to create an Ancient weapon with an extra attribute. Optional +7 to +10 items raise the success chance, and all items are lost on failure.
+  tags:
+  - weapons
+  - ancient
+  - composition
+  - gems
+items/arch-weapon-additional-transfer:
+  title: Passando Adicional para Arma Arch
+  title_en: Transferring Additional Stats to an Arch Weapon
+  summary_en: Short guide to transferring an additional (add) to an Arch weapon at the NPC Tainy in Karden, using the target +9 Ancient weapon, a +9 Ancient weapon with the desired add, a +9 [D] or [E] item and 100,000,000 gold. The process can fail.
+  tags:
+  - weapons
+  - arch
+  - ancient
+  - composition
+items/mithril-bar:
+  title: Barra de Mithril
+  title_en: Mithril Bar
+  summary_en: Guide to Mithril Bars, which improve the additional stats of Arch and celestial weapons and armor refined to at least +11, in Magic Attack, Damage, Critical, Defense and Immunity classes. It lists the maximum add per class and equipment slot and the threshold below which bars no longer reduce the add.
+  tags:
+  - refinement
+  - arch
+  - celestial
+  - equipment
+items/celestial-armor:
+  title: Criação e Refinação de Armaduras Celestiais
+  title_en: Creating and Refining Celestial Armor
+  summary_en: 'Guide to making celestial weapons and armor: sealed items are composed at InfWeapon and InfArmor near the Azran dragon, refined to +9 with Lac dust, then combined at Odin in the lost city of Kefra with a +15 Arch piece, a Moonstone and secret stones. It also covers the use of the Moonstone and Jewel of Darkness.'
+  tags:
+  - celestial
+  - armor
+  - refinement
+  - composition
+  - weapons
+items/belts:
+  title: Composição de Cintos
+  title_en: Belt Composition
+  summary_en: Covers composing tier 1 and tier 2 belts at the NPC MystWizard using Symbols of Wisdom, Royal Coupons and, for tier 2, two matching tier 1 belts. The composition cannot fail and the resulting belts are untradeable.
+  tags:
+  - belts
+  - composition
+  - equipment
+items/mount-growth-stabilizer:
+  title: Mount Growth Stabilizer
+  title_en: Mount Growth Stabilizer
+  summary_en: Item used to refine mount cores and ease mount improvement, composed in packs of 100 at the NPC Conjurer Ehre in Erion from 5 Magic Seals, 100 Lac dusts and 1kk gold. The composition never fails.
+  tags:
+  - mounts
+  - refinement
+  - composition
+items/spirit-stones:
+  title: Pedra Espiritual E e F / Pedra Amunra
+  title_en: Spirit Stones E and F / Amunra Stone
+  summary_en: Explains class E and F spirit stones, which grant piercing damage and damage absorption, with class F composed at the NPC Shany by Arch 356+ characters. It also covers adding base stats with Ankhs of Justice, Eternity and Glory at Ehre in Erion, and notes that Amunra stones follow the same rules.
+  tags:
+  - spirit-stones
+  - composition
+  - refinement
+  - arch
+items/essence-of-gods:
+  title: Refinação de Essence of Gods
+  title_en: Essence of Gods Refinement
+  summary_en: Covers refining the Essence of Gods at the NPC Conjurer Ehre in Erion with Lac 100 dust, Lac dust, a Bless Stabilizer and 1kk gold. Only celestial characters of level 320 or higher can attempt it, and failure destroys everything except the Essence.
+  tags:
+  - refinement
+  - celestial
+  - composition
+items/capes:
+  title: Capas
+  title_en: Capes
+  summary_en: 'Guide to kingdom capes, which set a character''s kingdom: mortals get a red or blue cape through the Kingdom Knight quest at level 220 or by bringing sapphires to the King above level 250. It also covers switching with the Peerage Lift, cape borders at levels 255 and 355, and capes for Arch characters.'
+  tags:
+  - capes
+  - kingdom
+  - quest
+  - arch
+items/fairies:
+  title: Fadas
+  title_en: Fairies
+  summary_en: Guide to the five fairies (blue, green, red, silver and golden), support items that boost drop rate and experience. Blue, green and red are sold by Premium Neil, while silver and golden are made from a red fairy with the Silver Flash from Farche in Erion or the Golden Flash from Mai, and they auto-sell non-stackable drops.
+  tags:
+  - fairies
+  - experience
+  - drop-rate
+  - cash-shop
+items/soul-fragments:
+  title: Fragmentos da Alma
+  title_en: Soul Fragments
+  summary_en: Soul Fragments are traded in sets of 12 to the NPC Alchemy Annie in Azran for a random Phoenix or Unicorn Soul, used to make the Stone of Immortality for Arch, Celestial and Sub Celestial characters. They drop from RujeperBroken in the desert, LichVatama and LichCrunt in Kefra, and the Unknown Desert.
+  tags:
+  - materials
+  - immortality-stone
+  - drops
+  - arch
+  - celestial
+items/water-scrolls:
+  title: Pergaminhos da Água
+  title_en: Water Scrolls
+  summary_en: Water Scrolls open timed experience rooms in the water cave near Azran for groups of at least 8 players. The Normal and Mystic scrolls are for mortals and Archs, while the Arcane scroll is only for celestials.
+  tags:
+  - quest
+  - experience
+  - group-content
+  - scrolls
+items/premium-neil:
+  title: Premium Neil (Prisang Neil)
+  title_en: Premium Neil (Prisang Neil)
+  summary_en: Premium Neil is the NPC found in every city next to the Cargo Guard who sells all NP (cash) items, organized in tabs named after the game's cities. Listed items include fairies, experience chests, name-change stones, Divine Potions, sapphires, Replation and jewels for Ancient items.
+  tags:
+  - npc
+  - cash-shop
+  - items
+  - fairies
+systems/interface:
+  title: Interface
+  title_en: Interface
+  summary_en: Explains the main elements of the WYD game screen, including the HP, MP and mount HP bars, mini map, chat window, potion counter and experience bar, along with their keyboard shortcuts.
+  tags:
+  - interface
+  - ui
+  - hotkeys
+  - beginner
+systems/controls:
+  title: Controles
+  title_en: Controls
+  summary_en: 'Covers basic game controls: mouse movement and attacks, using skills from the quick slots (1-10 / F1-F10), toggling auto-attack with the T key, and buying from merchant NPCs and the storage.'
+  tags:
+  - controls
+  - combat
+  - skills
+  - beginner
+  - shop
+systems/party:
+  title: Grupo
+  title_en: Party
+  summary_en: Describes how to form, join and leave a party and kick members, and the experience bonus table that grows from 180% for 2 members to 300% for 8 or more.
+  tags:
+  - party
+  - experience
+  - group-play
+  - beginner
+systems/combat-control-macro:
+  title: Modo C.C. (Controle de Combate/Macro)
+  title_en: C.C. Mode (Combat Control/Macro)
+  summary_en: Explains C.C. Mode, the auto-combat macro that attacks or casts skills on monsters in range, uses buffs from the first quick slot, and drinks potions or feeds the mount automatically at set HP percentages; it never attacks other players.
+  tags:
+  - macro
+  - auto-combat
+  - potions
+  - hunting
+systems/replation:
+  title: Replation
+  title_en: Replation
+  summary_en: Covers the Pedra Replation, sold in classes A to C by the merchant Lucy in Azran, which changes the class of armor at +3 or lower and adds a random class attribute on success but destroys the item on failure.
+  tags:
+  - replation
+  - armor
+  - item-class
+  - crafting
+systems/kingdoms:
+  title: Sistema de Reinos
+  title_en: Kingdom System
+  summary_en: Explains the lore of the split into the kingdoms Hekalotia and Akelonia, how to join one from level 220 by paying the King in Safira, leaving a kingdom for 16 Safiras, and the capes and PK experience benefits of membership.
+  tags:
+  - kingdom
+  - lore
+  - capes
+  - safira
+  - pvp
+systems/painting:
+  title: Sistema de Pintura
+  title_en: Painting System
+  summary_en: Explains how to dye defensive gear (not weapons or accessories) by refining Tintura with Poeira de Oriharucon into Feijão Mágico, bought from Premium Neil; only items at +1 or higher can be painted.
+  tags:
+  - painting
+  - dye
+  - cosmetics
+  - equipment
+systems/refinement:
+  title: Sistema de Refinação
+  title_en: Refinement System
+  summary_en: Covers item refinement from +0 to +11 using Poeira de Oriharucon and Lactorerium, the Ancient weapon path, +10 composition at NPC Alieen in Azran with jewel effect gems, and +12 to +15 composition at Alquimista Odin in Kefra city with fixed success rates of 4% to 1%.
+  tags:
+  - refinement
+  - equipment
+  - ancient
+  - composition
+  - crafting
+systems/mounts:
+  title: Montaria
+  title_en: Mounts
+  summary_en: Explains how mounts grow from egg to foal to mount, how Amagos raise mount level up to 120, the bonuses mounts give (speed, damage, evasion, absorption) and the need to feed them; Grifo Sangrento eggs are for Celestial characters only.
+  tags:
+  - mounts
+  - pets
+  - equipment
+  - amagos
+systems/evasion:
+  title: Evasão
+  title_en: Evasion
+  summary_en: Short guide on the evasion attribute, which gives enemy attacks a chance to miss, and how to raise it through dexterity and certain mounts.
+  tags:
+  - evasion
+  - attributes
+  - dexterity
+  - defense
+systems/critical-attack-x4:
+  title: Ataque Crítico X4
+  title_en: Critical Attack x4
+  summary_en: 'Explains how attack speed lets physical characters multiply critical hits: 200% enables x2, 400% enables x3 and 800% enables x4 criticals, with example builds and their multiplier chances.'
+  tags:
+  - critical
+  - attack-speed
+  - combat
+  - builds
+systems/chaos-points:
+  title: Chaos Points
+  title_en: Chaos Points
+  summary_en: Describes the Chaos Points (CP) PK system ranging from -75 to +75, how killing players lowers CP, how leveling and the Pergaminho do Perdão raise it, the /cp command, and exceptions such as guild wars and city PK areas.
+  tags:
+  - chaos-points
+  - pk
+  - pvp
+  - penalties
+systems/guild:
+  title: Guild
+  title_en: Guild
+  summary_en: Covers creating a guild for 100 million gold via the O panel (up to 52 members and 3 sub-leaders), member management, Fame Guild earned from Tower, City and Noatun wars and bosses like Kefra and SandLich, Guild Influence and the Guild Shop.
+  tags:
+  - guild
+  - guild-war
+  - fame
+  - community
+pvp/kingdom-war:
+  title: Guerra de Reinos
+  title_en: Kingdom War
+  summary_en: Explains the Kingdom War held Monday to Friday from 22:00 to 22:50 on the Novato server, entered through the Noatun portal, where players kill enemy-kingdom players, NPCs and the King to earn fame without CP loss.
+  tags:
+  - pvp
+  - kingdom
+  - war
+  - fame
+  - noatun
+pvp/royal-arena:
+  title: Arena Real
+  title_en: Royal Arena
+  summary_en: Describes the Royal Arena tournament for Celestial characters, with registration at the Repus NPCs in Armia, Azran and Gelo at 13:00, 19:00, 20:30 and 23:00 for up to 52 players, its Infinite Tower mode, battle pass, ranking tiers and Real Master rewards.
+  tags:
+  - pvp
+  - arena
+  - tournament
+  - celestial
+  - rewards
+npcs/godmaster:
+  title: GodMaster
+  title_en: GodMaster
+  summary_en: The GodMaster NPC in Armia (X:2126 Y:2123) trades class-specific skill books such as the 10th and 11th skills; books are account-bound and purchases cannot be undone.
+  tags:
+  - npc
+  - skills
+  - skill-books
+  - armia
+npcs/divine-merchant:
+  title: DivineMerchant (Victory Coupom)
+  title_en: DivineMerchant (Victory Coupon)
+  summary_en: The DivineMerchant NPC in Armia (X:2143 Y:2087) sells account-bound items for Victory Coupons dropped in LAN N, M and A, including Pedra da Imortalidade for Arch creation, mount Amagos and the Pedra Ideal (Limitada) for Celestial creation.
+  tags:
+  - npc
+  - shop
+  - victory-coupon
+  - armia
+npcs/9th-master:
+  title: 9th Master
+  title_en: 9th Master
+  summary_en: The 9th Master NPC in Armia (X:2136 Y:2115) provides the ninth skill book for each class; books are account-bound and purchases cannot be undone.
+  tags:
+  - npc
+  - skills
+  - skill-books
+  - armia
+npcs/jazeg:
+  title: Jazeg
+  title_en: Jazeg
+  summary_en: The Jazeg NPC (2117 2081) changes the bonus option on Amuleto Arcano (HP) and Amuleto Arcano (MP) items refined to +11 or +15, with no chance of failure.
+  tags:
+  - npc
+  - accessories
+  - amulet
+  - item-options
+npcs/dedekinto:
+  title: 'Dedekinto: Criação de Lac 100'
+  title_en: 'Dedekinto: Lac 100 Crafting'
+  summary_en: The Dedekinto NPC composes an account-bound Poeira de Lac 100 from 10 Poeira de Lac and 1 Shiny Laktorerium pieces; all materials are destroyed on failure.
+  tags:
+  - npc
+  - crafting
+  - lac
+  - refinement
+events/noatun-invasion-sand-lich:
+  title: Invasão a Noatun (Sand Lich)
+  title_en: Noatun Invasion (Sand Lich)
+  summary_en: Daily at 00:00 Noatun on the Novato channel is invaded by IceLich monsters for 30 minutes; defeating them summons the Sand Lich boss at Thor's Altar, which drops rare items and gives 25 Fame Guild to the guild landing the last hit.
+  tags:
+  - event
+  - boss
+  - noatun
+  - guild
+  - fame
+support/change-nickname:
+  title: Como trocar o seu nick
+  title_en: How to Change Your Nickname
+  summary_en: Step-by-step guide to changing a character's nickname by creating a new character with the desired name and using the Pedra da Troca Maior and Pedra da Troca Menor bought from NPC Neil.
+  tags:
+  - support
+  - nickname
+  - account
+  - how-to
+support/mac-login-fix:
+  title: Como corrigir problema de login pelo MAC
+  title_en: How to Fix Login Problems via MAC Address
+  summary_en: Explains that login failures can occur when a computer's MAC address matches another logged-in player's, and how to randomize it with the free Technitium MAC Address Changer.
+  tags:
+  - support
+  - login
+  - mac-address
+  - troubleshooting
+support/connection-drops-fix:
+  title: Correção de quedas de conexão no servidor
+  title_en: Fixing Server Connection Drops
+  summary_en: Addresses players being disconnected without reason due to IP conflicts and suggests switching network via a VPN such as Windscribe, with a tutorial video.
+  tags:
+  - support
+  - connection
+  - vpn
+  - troubleshooting

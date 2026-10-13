@@ -8,6 +8,9 @@ The project consists of:
 ```
 wyd/
 ├── Gemfile                          # Ruby dependencies (shared)
+├── llms.txt / llms-full.txt         # Knowledge base index and full text for AI agents
+├── wiki/                            # Curated knowledge base, one page per topic (built from sources/)
+├── scripts/kb/                      # build_wiki.rb, manifest.yml, metadata.yml
 ├── README.md                        # Main project documentation
 └── sources/                         # All scraped content organized by source
     ├── feedback_kersef/             # WYD FAQ scraping project
