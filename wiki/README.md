@@ -1,12 +1,12 @@
 # Base de conhecimento WYD
 
-84 páginas sobre With Your Destiny, organizadas por tema. Cada página começa com um cabeçalho YAML com título, resumo, tags, fontes e o nível de canon. As cópias originais de cada fonte ficam intactas em [`sources/`](../sources/), e o registro de fontes conhecidas está em [`sources/registry.yml`](../sources/registry.yml).
+88 páginas sobre With Your Destiny, organizadas por tema. Cada página começa com um cabeçalho YAML com título, resumo, tags, fontes e o nível de canon. As cópias originais de cada fonte ficam intactas em [`sources/`](../sources/), e o registro de fontes conhecidas está em [`sources/registry.yml`](../sources/registry.yml).
 
 ## Categorias
 
 - [Lore](lore/README.md) (1): Mitologia, deuses e a história do mundo de Kersef.
 - [História do jogo](historia/README.md) (1): Desenvolvedora, publicadoras, versões e linha do tempo do WYD no mundo real.
-- [Classes](classes/README.md) (7): As classes jogáveis e suas skills.
+- [Classes](classes/README.md) (11): As classes jogáveis e suas skills.
 - [Progressão](progressao/README.md) (9): Evolução do personagem: Mortal, Arch, Celestial e Sub-Celestial.
 - [Quests](quests/README.md) (19): Quests por faixa de level, com etapas, NPCs e recompensas.
 - [Mapas e dungeons](mapas/README.md) (10): Regiões, cidades e dungeons de Kersef.

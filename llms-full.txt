@@ -523,6 +523,682 @@ Entenda um pouco sobre o funcionamento das skills assistindo o vídeo abaixo!
 - [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
 
 
+<!-- wiki/classes/beastmaster.md -->
+
+---
+title: BeastMaster
+summary: Classe evocadora de WYD, capaz de invocar monstros mais fortes que ela mesma ou de se transformar num híbrido de homem e bicho. As criaturas que ela invoca entram no grupo. Suas linhagens são Elemental, Evocação e Natureza, ensinadas pelo Mestre Archi em Armia.
+category: classes
+tags:
+- classe
+- beastmaster
+- evocador
+- invocacao
+- transformacao
+- skills
+canon: official
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: PERSONAGENS E PRIMEIRAS IMPRESSÕES
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes
+  archive: sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Guia para novatos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos
+  archive: sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Grupo
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20394-grupo
+  archive: sources/feedback_kersef/data/articles/markdown/20394-grupo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills
+  archive: sources/feedback_kersef/data/articles/markdown/20366-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Nona Skill - (9th)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th
+  archive: sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 10th Skill
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill
+  archive: sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 11º Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills
+  archive: sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 12th skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills
+  archive: sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+updated: '2026-10-13'
+---
+
+# BeastMaster
+
+> Classe evocadora de WYD, capaz de invocar monstros mais fortes que ela mesma ou de se transformar num híbrido de homem e bicho. As criaturas que ela invoca entram no grupo. Suas linhagens são Elemental, Evocação e Natureza, ensinadas pelo Mestre Archi em Armia.
+
+O BeastMaster é uma das quatro classes jogáveis de With Your Destiny, ao lado de [TransKnight](transknight.md), [Foema](foema.md) e [Huntress](huntress.md).
+
+**Grafia do nome:** as fontes oficiais usam várias formas. "BeastMaster" aparece na [Nona Skill](nona-skill.md), na página [Grupo](../sistemas/grupo.md) e no mapa de [Armia](../mapas/armia.md); "Beastmaster", em [Personagens e Primeiras Impressões](personagens.md) e [Skills](skills.md); "Beast Master", na página [12ª Skills](decima-segunda-skill.md) e na tabela da página [Arch](../progressao/arch.md); e "BEAST MASTER", no [Guia para Novatos](../progressao/guia-para-novatos.md). As páginas de skills por tier abreviam a classe como "BM", e o drop do boss Kefra se chama "Sephirot de BM".
+
+## Identidade e estilo de luta
+
+As duas descrições oficiais da classe:
+
+> O Beastmaster pode ser criado de diversas formas através das diversas skills de natureza que possui, o Beastmaster pode evocar os monstros mais fortes que o si próprio ou ganhar um bônus no próprio físico se transformando num híbrido de homem e bicho.
+>
+> (Personagens e Primeiras Impressões)
+
+> BEAST MASTER: Evocador. Capaz de sumonar e se transformar em criaturas poderosas.
+>
+> (Guia para novatos)
+
+As fontes descrevem dois caminhos para a classe: **evocar** criaturas para lutar ao seu lado ou **se transformar** num híbrido de homem e bicho para ganhar bônus físicos. As linhagens de skill reforçam isso: Evocação cuida das invocações, Natureza aparece ligada a armas e defesa, e Elemental a fogo e anti-magia.
+
+## Papel em grupo e PvP
+
+- **Invocações no grupo:** segundo a página [Grupo](../sistemas/grupo.md), "os animais que o BeastMaster convoca também são incluidos no grupo".
+- **Mais e melhores invocações:** Unidade Mental (9ª) deixa as evocações mais poderosas, Invocação Final (10ª) invoca o monstro FinalVerid e Powerful Summon Book (11ª) aumenta em 1 unidade a quantidade de todas as evocações.
+- **Defesa:** várias skills deixam o BeastMaster mais resistente. Concha Resistente (9ª) reduz a chance de receber críticos, Espinhos Fortalecidos (10ª) pode refletir dano, Ice Armor (12ª) aumenta a defesa e deixa lento quem o ataca, e Last Resistance (12ª) aumenta HP e defesa por 32 segundos.
+- **Contra magos:** Anti-Magia (9ª) cria um escudo que permite esquivar de magias, Resi Decrease Book (11ª) reduz temporariamente a imunidade do alvo e Manaburn Master (12ª) aumenta a queima de mana da skill Chamas Etéreas.
+
+As fontes não dizem diretamente qual é o papel do BeastMaster no PvP.
+
+## Atributos e builds
+
+As fontes não trazem uma build oficial para o BeastMaster, mas dão estas pistas:
+
+- **MP alto por nível:** na tabela de evolução da página [Arch](../progressao/arch.md), o Beast Master ganha **1 de HP** e **4 de MP** por level, o maior ganho de MP entre as quatro classes.
+- **Duas armas iguais:** a 11ª skill Weapon Power Book (Natureza) aumenta o dano ao usar duas armas iguais.
+- **Várias formas de montar o personagem:** Personagens e Primeiras Impressões diz que o Beastmaster "pode ser criado de diversas formas", como evocador ou transformado.
+
+A página [Skills](skills.md) lembra que, se os pontos forem distribuídos de forma errada, eles podem ser reiniciados com o Círculo Divino, a Benção de Deus e a quest Balanço do Poder.
+
+## Mestre de skill e linhagens
+
+Segundo a página [Skills](skills.md), as skills do BeastMaster são aprendidas com o **Mestre Archi** em Armia. As fontes divergem sobre o nome: na tabela do mapa de [Armia](../mapas/armia.md), o NPC nº 10 aparece como "Ferreiro", com a descrição "Mestre de Skill do BeastMaster". No mesmo mapa, **Arnod** (nº 9) vende itens de defesa para BeastMaster.
+
+![Mestre Archi, mestre de skill dos Beastmaster](../../sources/feedback_kersef/data/images/20366-skills_img_1.png)
+
+O BeastMaster tem três linhagens de skill: **Elemental**, **Evocação** e **Natureza**.
+
+![Janela de skills do Beastmaster](../../sources/feedback_kersef/data/images/20366-skills_img_5.png)
+
+## Skills por tier
+
+A base de conhecimento ainda não tem uma página com as skills até a 8ª. Uma skill de tier anterior aparece nas descrições das skills mais altas: **Chamas Etéreas** (Elemental), citada pela 12ª Manaburn Master. A fonte não diz a que tier ela pertence.
+
+### Elemental
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Anti-Magia (Buff) | Cria um escudo ao redor do personagem que permite esquivar de magias. Quanto mais pontos na linhagem, maior a duração. |
+| 10ª | Chamas Resistentes | Cria uma proteção de fogo no personagem, com chance de invocar uma fera flamejante contra o oponente mais próximo. |
+| 11ª | Resi Decrease Book | Reduz temporariamente a imunidade do alvo. |
+| 12ª | Manaburn Master (Passiva) | Aumenta a queima de mana da skill Chamas Etéreas. |
+
+### Evocação
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Unidade Mental (Passiva) | Deixa as evocações mais poderosas. |
+| 10ª | Invocação Final | Invoca o monstro FinalVerid. |
+| 11ª | Powerful Summon Book | Aumenta em 1 unidade a quantidade de todas as evocações. |
+| 12ª | Ice Armor (Passiva) | Aumenta a defesa do personagem. Quem o atacar pode sofrer redução de movimento (lentidão) por 128 segundos. |
+
+### Natureza
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Concha Resistente (Passiva) | Reduz a chance de receber ataques críticos. |
+| 10ª | Espinhos Fortalecidos (Passiva) | Dá uma chance de refletir o dano do oponente. |
+| 11ª | Weapon Power Book | Aumenta o dano ao usar duas armas iguais. |
+| 12ª | Last Resistance (Ativa) | Aumenta o HP e a defesa do personagem por 32 segundos. |
+
+Requisitos de cada tier, conforme as páginas de skills:
+
+- **9ª:** livro do NPC 9thMaster em Armia; level 201 ou mais, só para Celestial ou Sub-Celestial; 255 pontos de skill; só da mesma linhagem da 8ª ([Nona Skill](nona-skill.md)).
+- **10ª:** todas as skills anteriores e 4000 pontos de fama ([10ª Skill](decima-skill.md)).
+- **11ª:** level 281 ou mais, 8.000 de fama e o livro da skill ([11ª Skills](decima-primeira-skill.md)).
+- **12ª:** Celestial acima do level 320, a 11ª da mesma linhagem e 12.000 de fama, no NPC Jazeg em Armia ([12ª Skills](decima-segunda-skill.md)).
+
+## Evolução
+
+- **Mortal:** como todas as classes, o BeastMaster começa em Armia e faz o [Campo de Treinamento](../quests/campo-de-treinamento.md).
+- **Arch:** o personagem Arch se parece com o da classe inicial, e o jogador pode escolher uma das quatro classes Arch. Na imagem da página [Arch](../progressao/arch.md), o "Beast Master" aparece em sua forma Arch, à direita. Por level, o Arch do Beast Master ganha 1 de HP e 4 de MP.
+- **Celestial:** a criação exige, entre outros itens, a Saphirot da classe atual ([Criação do Celestial](../progressao/criacao-do-celestial.md)).
+- **Sub-Celestial:** a criação exige a Sephirot da classe desejada ([Sub Celestial](../progressao/sub-celestial.md)). A 9ª skill é liberada para Celestial e Sub-Celestial, e a 12ª só para Celestial.
+
+![As quatro classes em forma Arch: Trans Knight, Hunter, Foema e Beast Master](../../sources/feedback_kersef/data/images/20384-arch_img_0.png)
+
+## Mudança de classe e de corpo
+
+Segundo [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md):
+
+- **Virar BeastMaster:** equipe a Sephirot de BeastMaster e fale com o NPC Wooreunammu em Kefra (X:3230 Y:1683), pagando 100kk, ou ative o item Sephiroth Blessing. Ao mudar de classe, todas as skills Sephira são desaprendidas.
+- **Mudança de corpo:** equipe a Sephiroth da classe desejada e ative o item Sephiroth Protection, sem nenhum equipamento no personagem.
+- **Onde conseguir a Sephirot:** o boss Kefra dropa a "Sephirot de BM" com 100% de chance para quem dá o último ataque ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+
+## Veja também
+
+- [TransKnight](transknight.md)
+- [Foema](foema.md)
+- [Huntress](huntress.md)
+- [Personagens e Primeiras Impressões](personagens.md)
+- [Skills](skills.md)
+- [Nona Skill (9th)](nona-skill.md)
+- [10ª Skill](decima-skill.md)
+- [11ª Skills](decima-primeira-skill.md)
+- [12ª Skills](decima-segunda-skill.md)
+- [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md)
+- [Grupo](../sistemas/grupo.md)
+- [Arch](../progressao/arch.md)
+
+## Fontes
+
+- [PERSONAGENS E PRIMEIRAS IMPRESSÕES](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20475-personagens-e-primeiras-impressoes.md](../../sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md)
+- [Guia para novatos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58185-guia-para-novatos.md](../../sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md)
+- [Grupo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20394-grupo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20394-grupo.md](../../sources/feedback_kersef/data/articles/markdown/20394-grupo.md)
+- [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Nona Skill - (9th)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [67187-nona-skill-9th.md](../../sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md)
+- [10th Skill](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [26951-10th-skill.md](../../sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md)
+- [11º Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46455-11o-skills.md](../../sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md)
+- [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+
+
+<!-- wiki/classes/foema.md -->
+
+---
+title: Foema
+summary: Classe feiticeira de WYD que usa ataques mágicos como principal força ofensiva e lança magias capazes de atingir várias criaturas de uma vez. No grupo, pode convocar os outros membros até onde ela está. Suas linhagens são Magia Branca, Magia Negra e Magia Especial, ensinadas pela Foema Anciã em Armia.
+category: classes
+tags:
+- classe
+- foema
+- feiticeira
+- magia
+- grupo
+- skills
+canon: official
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: PERSONAGENS E PRIMEIRAS IMPRESSÕES
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes
+  archive: sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Guia para novatos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos
+  archive: sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Grupo
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20394-grupo
+  archive: sources/feedback_kersef/data/articles/markdown/20394-grupo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills
+  archive: sources/feedback_kersef/data/articles/markdown/20366-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Nona Skill - (9th)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th
+  archive: sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 10th Skill
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill
+  archive: sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 11º Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills
+  archive: sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 12th skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills
+  archive: sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Campo de Treino
+  url: https://wydglobal.raidhut.com/#training-camp
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+updated: '2026-10-13'
+---
+
+# Foema
+
+> Classe feiticeira de WYD que usa ataques mágicos como principal força ofensiva e lança magias capazes de atingir várias criaturas de uma vez. No grupo, pode convocar os outros membros até onde ela está. Suas linhagens são Magia Branca, Magia Negra e Magia Especial, ensinadas pela Foema Anciã em Armia.
+
+A Foema é uma das quatro classes jogáveis de With Your Destiny, ao lado de [TransKnight](transknight.md), [BeastMaster](beastmaster.md) e [Huntress](huntress.md). As fontes se referem a ela no feminino ("a Foema", "Skillmaster das Foemas", "Feiticeira").
+
+**Grafia do nome:** "Foema" em todas as fontes. O [Guia para Novatos](../progressao/guia-para-novatos.md) usa "FOEMA", as páginas de skills por tier abreviam como "FM", e o drop do boss Kefra se chama "Sephirot de FM".
+
+## Identidade e estilo de luta
+
+As duas descrições oficiais da classe:
+
+> São os personagens que utiliza os ataques mágicos normalmente como sua principal força ofensiva, mas utilizando a combinação certa de armas e skills, poderá transformá-la numa guerreira do mesmo nível dos outros personagens.
+>
+> (Personagens e Primeiras Impressões)
+
+> FOEMA: Feiticeira. Esse personagem pode lançar poderosas magias capazes de atingir várias criaturas de uma só vez.
+>
+> (Guia para novatos)
+
+Ou seja, a Foema é a maga do jogo: ataca com magia, inclusive em área. Segundo Personagens e Primeiras Impressões, porém, com a combinação certa de armas e skills ela também pode lutar como "guerreira".
+
+## Papel em grupo e PvP
+
+- **Convocar o grupo:** segundo a página [Grupo](../sistemas/grupo.md), a Foema pode levar os membros do grupo até o local onde ela está, exceto em alguns locais específicos:
+
+> Ter uma Foema no grupo permitirá que a Foema convoque os membros do grupo para outros locais exceto em alguns locais específicos. Para ativar essa skill, clique com o botão direto no jogador que gostaria de convocar. Quando o jogador confirmar a convocação o mesmo irá para o mesmo local que a foema se encontra.
+>
+> (Grupo)
+
+- **Cura e suporte (Magia Branca e Magia Especial):** a 9ª skill Cenote pode aumentar a cura recebida pelos membros do grupo (crítico de cura); a 11ª Special Master Book potencializa os buffs de aumento de dano, defesa e skill; e a 10ª Proteção Absoluta deixa a Foema invulnerável por 64 segundos.
+- **Controle em PvP:** várias skills atrapalham o oponente. Remover Memória (9ª) pode impedir o alvo de se mover, Congelamento Proficiente (10ª) pode prendê-lo no lugar, Incapacitador (10ª) remove os buffs dele, Thunder Force Book (11ª) pode queimar parte da mana dele e Holy Power (12ª) dobra o debuff de evasão da skill Flash.
+
+## Atributos e builds
+
+As fontes não trazem uma build oficial para a Foema, mas dão estas pistas:
+
+- **MP alto por nível:** na tabela de evolução da página [Arch](../progressao/arch.md), a Foema ganha **1 de HP** e **3 de MP** por level.
+- **Dano mágico:** o guia do [Campo de Treinamento](../quests/campo-de-treinamento.md) recomenda que classes de dano mágico comprem do NPC Unicorn armas que dão Ataque Mágico. Segundo Personagens e Primeiras Impressões, a Foema usa ataques mágicos como principal força ofensiva.
+- **Magia Negra ofensiva:** Magia Misteriosa (9ª) aumenta o dano em troca de um custo de mana maior, e Thunder Lising (12ª) aumenta o poder de ataque mágico em 5%. As skills dessa linhagem usam os atributos gelo e relâmpago.
+- **Armas e skills:** Personagens e Primeiras Impressões diz que a combinação certa de armas e skills pode fazer dela uma "guerreira", mas não detalha qual combinação.
+
+A página [Skills](skills.md) lembra que, se os pontos forem distribuídos de forma errada, eles podem ser reiniciados com o Círculo Divino, a Benção de Deus e a quest Balanço do Poder.
+
+## Mestre de skill e linhagens
+
+As skills da Foema são aprendidas com a **Foema Anciã** em Armia (NPC nº 12 no mapa de [Armia](../mapas/armia.md)). No mesmo mapa, o **Ferreiro** (nº 8) vende itens de defesa para Transknight e Foema.
+
+![Foema Anciã, mestre de skill das Foemas](../../sources/feedback_kersef/data/images/20366-skills_img_2.png)
+
+A Foema tem três linhagens de skill: **Magia Branca**, **Magia Negra** e **Magia Especial**.
+
+![Janela de skills da Foema](../../sources/feedback_kersef/data/images/20366-skills_img_6.png)
+
+## Skills por tier
+
+A base de conhecimento ainda não tem uma página com as skills até a 8ª. Duas skills de tiers anteriores aparecem nas descrições das skills mais altas: **Cancelamento** (citada pela 9ª Remover Memória) e **Flash** (citada pela 12ª Holy Power). As fontes não dizem a que tier elas pertencem.
+
+### Magia Branca
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Cenote (Passiva) | Adiciona uma probabilidade de aumentar a cura recebida por membros do grupo (crítico de cura). |
+| 10ª | Proteção Absoluta | Cria um escudo mágico de gelo que deixa o personagem invulnerável por 64 segundos. Usar qualquer outra skill desativa o escudo. |
+| 11ª | Life Wave Book | Reduz em 25% o dano crítico recebido. |
+| 12ª | Holy Power (Passiva) | Dobra a duração do debuff causado pela skill Flash (-10% de evasão por 64 segundos). |
+
+### Magia Negra
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Magia Misteriosa (Buff) | Os ataques causam mais dano, e o custo de mana das skills aumenta. |
+| 10ª | Congelamento Proficiente (Passiva) | Ao usar habilidades do atributo gelo, há chance de o oponente ficar preso no lugar, sem poder se mover. |
+| 11ª | Thunder Force Book | Ao usar skills do atributo relâmpago, há chance de queimar parte da mana do alvo. |
+| 12ª | Thunder Lising (Passiva) | O poder de ataque mágico aumenta em 5%. |
+
+### Magia Especial
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Remover Memória | Ao usar a habilidade "Cancelamento", há chance de o alvo ficar sem poder se mover, embora ainda possa usar suas habilidades. |
+| 10ª | Incapacitador | Remove os efeitos positivos (buffs) do oponente, deixando-o mais fraco. |
+| 11ª | Special Master Book | Potencializa o efeito dos buffs de aumento de dano, defesa e skill. |
+| 12ª | Another Change (Ativa) | Substitui o HP por MP e recupera 2000 de HP por segundo. |
+
+Requisitos de cada tier, conforme as páginas de skills:
+
+- **9ª:** livro do NPC 9thMaster em Armia; level 201 ou mais, só para Celestial ou Sub-Celestial; 255 pontos de skill; só da mesma linhagem da 8ª ([Nona Skill](nona-skill.md)).
+- **10ª:** todas as skills anteriores e 4000 pontos de fama ([10ª Skill](decima-skill.md)).
+- **11ª:** level 281 ou mais, 8.000 de fama e o livro da skill ([11ª Skills](decima-primeira-skill.md)).
+- **12ª:** Celestial acima do level 320, a 11ª da mesma linhagem e 12.000 de fama, no NPC Jazeg em Armia ([12ª Skills](decima-segunda-skill.md)).
+
+## Evolução
+
+- **Mortal:** como todas as classes, a Foema começa em Armia e faz o [Campo de Treinamento](../quests/campo-de-treinamento.md), onde o NPC Unicorn entrega uma arma inicial.
+- **Arch:** o personagem Arch se parece com o da classe inicial, e o jogador pode escolher uma das quatro classes Arch. Na imagem da página [Arch](../progressao/arch.md), a Foema aparece em sua forma Arch, a terceira da esquerda para a direita. Por level, o Arch da Foema ganha 1 de HP e 3 de MP.
+- **Celestial:** a criação exige, entre outros itens, a Saphirot da classe atual ([Criação do Celestial](../progressao/criacao-do-celestial.md)).
+- **Sub-Celestial:** a criação exige a Sephirot da classe desejada ([Sub Celestial](../progressao/sub-celestial.md)). A 9ª skill é liberada para Celestial e Sub-Celestial, e a 12ª só para Celestial.
+
+![As quatro classes em forma Arch: Trans Knight, Hunter, Foema e Beast Master](../../sources/feedback_kersef/data/images/20384-arch_img_0.png)
+
+## Mudança de classe e de corpo
+
+Segundo [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md):
+
+- **Virar Foema:** equipe a Sephirot de Foema e fale com o NPC Wooreunammu em Kefra (X:3230 Y:1683), pagando 100kk, ou ative o item Sephiroth Blessing. Ao mudar de classe, todas as skills Sephira são desaprendidas.
+- **Mudança de corpo:** equipe a Sephiroth da classe desejada e ative o item Sephiroth Protection, sem nenhum equipamento no personagem.
+- **Onde conseguir a Sephirot:** o boss Kefra dropa a "Sephirot de FM" com 100% de chance para quem dá o último ataque ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+
+## Veja também
+
+- [TransKnight](transknight.md)
+- [BeastMaster](beastmaster.md)
+- [Huntress](huntress.md)
+- [Personagens e Primeiras Impressões](personagens.md)
+- [Skills](skills.md)
+- [Nona Skill (9th)](nona-skill.md)
+- [10ª Skill](decima-skill.md)
+- [11ª Skills](decima-primeira-skill.md)
+- [12ª Skills](decima-segunda-skill.md)
+- [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md)
+- [Grupo](../sistemas/grupo.md)
+- [Arch](../progressao/arch.md)
+
+## Fontes
+
+- [PERSONAGENS E PRIMEIRAS IMPRESSÕES](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20475-personagens-e-primeiras-impressoes.md](../../sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md)
+- [Guia para novatos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58185-guia-para-novatos.md](../../sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md)
+- [Grupo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20394-grupo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20394-grupo.md](../../sources/feedback_kersef/data/articles/markdown/20394-grupo.md)
+- [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Nona Skill - (9th)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [67187-nona-skill-9th.md](../../sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md)
+- [10th Skill](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [26951-10th-skill.md](../../sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md)
+- [11º Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46455-11o-skills.md](../../sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md)
+- [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+- [Campo de Treino](https://wydglobal.raidhut.com/#training-camp), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+
+
+<!-- wiki/classes/huntress.md -->
+
+---
+title: Huntress
+summary: Classe arqueira de WYD, ágil e especialista em armas de longa distância, útil no PvP e na caça de monstros, com a habilidade de acessar o banco. Suas linhagens são Sobrevivência, Troca e Captura, ensinadas pela ForeLearne em Armia. A Wikipedia e a imagem da página Arch chamam a classe de "Hunter".
+category: classes
+tags:
+- classe
+- huntress
+- arqueira
+- longa-distancia
+- pvp
+- skills
+canon:
+- official
+- community
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: PERSONAGENS E PRIMEIRAS IMPRESSÕES
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes
+  archive: sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Guia para novatos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos
+  archive: sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills
+  archive: sources/feedback_kersef/data/articles/markdown/20366-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Controles
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20393-controles
+  archive: sources/feedback_kersef/data/articles/markdown/20393-controles.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Guia: Evasão'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/24245-guia-evasao
+  archive: sources/feedback_kersef/data/articles/markdown/24245-guia-evasao.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Nona Skill - (9th)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th
+  archive: sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 10th Skill
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill
+  archive: sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 11º Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills
+  archive: sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 12th skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills
+  archive: sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+- name: 'Wikipedia: With Your Destiny'
+  title: With Your Destiny
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  archive: sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
+updated: '2026-10-13'
+---
+
+# Huntress
+
+> Classe arqueira de WYD, ágil e especialista em armas de longa distância, útil no PvP e na caça de monstros, com a habilidade de acessar o banco. Suas linhagens são Sobrevivência, Troca e Captura, ensinadas pela ForeLearne em Armia. A Wikipedia e a imagem da página Arch chamam a classe de "Hunter".
+
+A Huntress é uma das quatro classes jogáveis de With Your Destiny, ao lado de [TransKnight](transknight.md), [Foema](foema.md) e [BeastMaster](beastmaster.md).
+
+**Grafia do nome:** as fontes divergem.
+
+- O FAQ oficial usa "Huntress" em [Personagens e Primeiras Impressões](personagens.md), [Skills](skills.md), nas páginas de skills por tier e no mapa de [Armia](../mapas/armia.md).
+- O [Guia para Novatos](../progressao/guia-para-novatos.md) escreve "HUNTRES", sem o "s" final.
+- A imagem da página [Arch](../progressao/arch.md) traz a legenda "Hunter".
+- A página da Wikipedia ([With Your Destiny](../historia/with-your-destiny.md), fonte da comunidade) lista as classes como "Transknight, Hunter, Foema e Beastmaster".
+- As páginas de skills por tier abreviam a classe como "HT", e o drop do boss Kefra se chama "Sephirot de HT".
+
+Esta página usa "Huntress", a grafia da maior parte do FAQ oficial.
+
+## Identidade e estilo de luta
+
+As duas descrições oficiais da classe:
+
+> A agilidade da Huntress permite dominar os campos de batalha é muito útil, principalmente nos casos de PvP ou mesmo nas caças de monstros. A facilidade de utilizar as armas de longa distância e a habilidade de acessar o banco faz dela uma das caçadoras mais adaptadas ao combate.
+>
+> (Personagens e Primeiras Impressões)
+
+> HUNTRES: Arqueira. Consegue distribuir bastante dano a longa distância, porém o posicionamento é importante ao escolher o personagem.
+>
+> (Guia para novatos)
+
+A Huntress é, portanto, a atiradora ágil do jogo: causa muito dano à distância, mas depende de um bom posicionamento. As skills mostram outros recursos dela, como esquiva, invisibilidade, ataque com garras, veneno e alquimia.
+
+Para quem luta com arco ou arma de arremesso, o guia de [Controles](../sistemas/controles.md) ensina a clicar no alvo com Shift + botão esquerdo para atacar sem sair do lugar. O guia não cita nenhuma classe.
+
+## Papel em grupo e PvP
+
+- **PvP:** segundo Personagens e Primeiras Impressões, a agilidade dela é "muito útil, principalmente nos casos de PvP ou mesmo nas caças de monstros".
+- **Esquiva e contra-ataque:** Contra Ataque (9ª) aumenta o próximo ataque depois de uma esquiva, e Freezing (12ª) aumenta a precisão em 15% com a skill Encantar Gelo ativa.
+- **Emboscada:** Tiro Direto (9ª) dá dano extra no primeiro ataque após sair da invisibilidade, além de paralisar o alvo e reduzir a absorção da skill "controle de mana" dele. Ambush (12ª) faz a Lâmina das Sombras causar 128 segundos de lentidão, mesmo errando o golpe.
+- **Desgaste do alvo:** Absorção da Alma (10ª) diminui o HP do oponente e pode drenar parte dele para a Huntress, e Bleeding Book (11ª) envenena o alvo com dano progressivo.
+- **Banco e alquimia:** Personagens e Primeiras Impressões cita a "habilidade de acessar o banco", e a 9ª Ponto do Mestre (Troca) aumenta a chance de sucesso na composição de joias.
+
+As fontes não descrevem uma função de grupo específica da Huntress além disso.
+
+## Atributos e builds
+
+As fontes não trazem uma build oficial para a Huntress, mas dão estas pistas:
+
+- **HP e MP equilibrados:** na tabela de evolução da página [Arch](../progressao/arch.md), a Huntress ganha **2 de HP** e **2 de MP** por level.
+- **DES e garras:** a 10ª skill Garra Habilidosa (Captura) aumenta a DES do personagem e o dano crítico em 30% ao usar garras. Segundo o guia de [Evasão](../sistemas/evasao.md), quanto maior a destreza, maior a chance de evasão, mas o guia não cita nenhuma classe.
+- **Armas de longa distância:** Personagens e Primeiras Impressões e o Guia para novatos destacam o uso de armas de longa distância.
+- **Sobrevivência:** a 11ª skill Skill Master Book aumenta o limite de pontos de sobrevivência.
+- **Ouro:** a 11ª skill Plunder Book aumenta o custo em ouro e o dano da skill "Escudo Dourado".
+
+A página [Skills](skills.md) lembra que, se os pontos forem distribuídos de forma errada, eles podem ser reiniciados com o Círculo Divino, a Benção de Deus e a quest Balanço do Poder.
+
+## Mestre de skill e linhagens
+
+As skills da Huntress são aprendidas com o mestre de skill da classe em Armia. A página [Skills](skills.md) chama o NPC de **ForeLearne**, e o mapa de [Armia](../mapas/armia.md) (NPC nº 6), de **ForeLearner**. No mesmo mapa, **Rainy** (nº 5) vende itens de defesa para Huntress.
+
+![ForeLearne, mestre de skill das Huntress](../../sources/feedback_kersef/data/images/20366-skills_img_3.png)
+
+A Huntress tem três linhagens de skill: **Sobrevivência**, **Troca** e **Captura**.
+
+![Janela de skills da Huntress](../../sources/feedback_kersef/data/images/20366-skills_img_7.png)
+
+## Skills por tier
+
+A base de conhecimento ainda não tem uma página com as skills até a 8ª. Algumas skills de tiers anteriores aparecem nas descrições das skills mais altas: Tempestade de Raios e Encantar Gelo (Sobrevivência), Escudo Dourado (Troca) e Lâmina das Sombras (Captura). As fontes não dizem a que tier elas pertencem.
+
+### Sobrevivência
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Contra Ataque (Passiva) | Depois de esquivar de um ataque, o próximo ataque é aumentado. |
+| 10ª | Ataque rápido Proficiente (Passiva) | Aprimora a habilidade "Tempestade de Raios". |
+| 11ª | Skill Master Book | Aumenta o limite de pontos de sobrevivência. |
+| 12ª | Freezing (Passiva) | Aumenta a precisão em 15% se a skill Encantar Gelo estiver ativa. |
+
+### Troca
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Ponto do Mestre (Passiva) | Amplia o poder de Alquimia do personagem, aumentando a chance de sucesso na composição de joias. |
+| 10ª | Absorção da Alma | Diminui o HP do oponente, e parte desse HP pode ser drenada para o personagem. |
+| 11ª | Plunder Book | Aumenta o custo em ouro e o dano da skill "Escudo Dourado". |
+| 12ª | Reinforce Soul (Passiva) | Aumenta em 20% o bônus da skill Limite da Alma. Se a soul estiver configurada em dois atributos, aumenta 20% em cada um. |
+
+### Captura
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Tiro Direto (Passiva) | O primeiro ataque após sair da invisibilidade causa dano extra proporcional ao HP do alvo, paralisa o alvo e reduz por pouco tempo a absorção da skill "controle de mana" dele. |
+| 10ª | Garra Habilidosa (Passiva) | Aumenta a DES do personagem e o dano crítico em 30% ao usar garras. |
+| 11ª | Bleeding Book | Envenena o alvo com uma toxina poderosa que causa dano progressivamente. |
+| 12ª | Ambush (Passiva) | A skill Lâmina das Sombras causa 128 segundos de lentidão no inimigo, mesmo errando (miss), reduzindo o movimento dele para 1. |
+
+Requisitos de cada tier, conforme as páginas de skills:
+
+- **9ª:** livro do NPC 9thMaster em Armia; level 201 ou mais, só para Celestial ou Sub-Celestial; 255 pontos de skill; só da mesma linhagem da 8ª ([Nona Skill](nona-skill.md)).
+- **10ª:** todas as skills anteriores e 4000 pontos de fama ([10ª Skill](decima-skill.md)).
+- **11ª:** level 281 ou mais, 8.000 de fama e o livro da skill ([11ª Skills](decima-primeira-skill.md)).
+- **12ª:** Celestial acima do level 320, a 11ª da mesma linhagem e 12.000 de fama, no NPC Jazeg em Armia ([12ª Skills](decima-segunda-skill.md)).
+
+## Evolução
+
+- **Mortal:** como todas as classes, a Huntress começa em Armia e faz o [Campo de Treinamento](../quests/campo-de-treinamento.md).
+- **Arch:** o personagem Arch se parece com o da classe inicial, e o jogador pode escolher uma das quatro classes Arch. Na imagem da página [Arch](../progressao/arch.md), a Huntress aparece em sua forma Arch com a legenda "Hunter", a segunda da esquerda para a direita. Por level, o Arch da Huntress ganha 2 de HP e 2 de MP.
+- **Celestial:** a criação exige, entre outros itens, a Saphirot da classe atual. É também no Celestial que se aprende a skill Sephira Limite da Alma (Soul), configurada pelo NPC Ehre em Erion ([Criação do Celestial](../progressao/criacao-do-celestial.md)). A 12ª skill Reinforce Soul, da linhagem Troca, aumenta o bônus dessa skill.
+- **Sub-Celestial:** a criação exige a Sephirot da classe desejada ([Sub Celestial](../progressao/sub-celestial.md)). A 9ª skill é liberada para Celestial e Sub-Celestial, e a 12ª só para Celestial.
+
+![As quatro classes em forma Arch: Trans Knight, Hunter, Foema e Beast Master](../../sources/feedback_kersef/data/images/20384-arch_img_0.png)
+
+## Mudança de classe e de corpo
+
+Segundo [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md):
+
+- **Virar Huntress:** equipe a Sephirot de Huntress e fale com o NPC Wooreunammu em Kefra (X:3230 Y:1683), pagando 100kk, ou ative o item Sephiroth Blessing. Ao mudar de classe, todas as skills Sephira são desaprendidas.
+- **Mudança de corpo:** equipe a Sephiroth da classe desejada e ative o item Sephiroth Protection, sem nenhum equipamento no personagem.
+- **Onde conseguir a Sephirot:** o boss Kefra dropa a "Sephirot de HT" com 100% de chance para quem dá o último ataque ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+
+## Veja também
+
+- [TransKnight](transknight.md)
+- [Foema](foema.md)
+- [BeastMaster](beastmaster.md)
+- [Personagens e Primeiras Impressões](personagens.md)
+- [Skills](skills.md)
+- [Nona Skill (9th)](nona-skill.md)
+- [10ª Skill](decima-skill.md)
+- [11ª Skills](decima-primeira-skill.md)
+- [12ª Skills](decima-segunda-skill.md)
+- [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md)
+- [Evasão](../sistemas/evasao.md)
+- [Arch](../progressao/arch.md)
+- [With Your Destiny](../historia/with-your-destiny.md)
+
+## Fontes
+
+- [PERSONAGENS E PRIMEIRAS IMPRESSÕES](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20475-personagens-e-primeiras-impressoes.md](../../sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md)
+- [Guia para novatos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58185-guia-para-novatos.md](../../sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md)
+- [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Controles](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20393-controles), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20393-controles.md](../../sources/feedback_kersef/data/articles/markdown/20393-controles.md)
+- [Guia: Evasão](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/24245-guia-evasao), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [24245-guia-evasao.md](../../sources/feedback_kersef/data/articles/markdown/24245-guia-evasao.md)
+- [Nona Skill - (9th)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [67187-nona-skill-9th.md](../../sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md)
+- [10th Skill](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [26951-10th-skill.md](../../sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md)
+- [11º Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46455-11o-skills.md](../../sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md)
+- [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+- [With Your Destiny](https://en.wikipedia.org/wiki/With_Your_Destiny), Wikipedia: With Your Destiny. Cópia arquivada: [with_your_destiny.md](../../sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md)
+
+
 <!-- wiki/classes/mudanca-de-classe.md -->
 
 ---
@@ -865,6 +1541,223 @@ e adicionar uma nova skill.
 ## Fontes
 
 - [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+
+
+<!-- wiki/classes/transknight.md -->
+
+---
+title: TransKnight
+summary: Classe guerreira de WYD, especialista em ataques físicos a curta distância, com grande quantidade de vida e eficiente tanto na caça de monstros quanto no PvP. Suas linhagens de skill são Confiança, Trans e Espada Mágica, e ela é ensinada pelo Capitão Cavaleiros em Armia.
+category: classes
+tags:
+- classe
+- transknight
+- guerreiro
+- combate-corpo-a-corpo
+- pvp
+- skills
+canon: official
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: PERSONAGENS E PRIMEIRAS IMPRESSÕES
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes
+  archive: sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Guia para novatos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos
+  archive: sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills
+  archive: sources/feedback_kersef/data/articles/markdown/20366-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Nona Skill - (9th)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th
+  archive: sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 10th Skill
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill
+  archive: sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 11º Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills
+  archive: sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 12th skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills
+  archive: sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Campo de Treino
+  url: https://wydglobal.raidhut.com/#training-camp
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+updated: '2026-10-13'
+---
+
+# TransKnight
+
+> Classe guerreira de WYD, especialista em ataques físicos a curta distância, com grande quantidade de vida e eficiente tanto na caça de monstros quanto no PvP. Suas linhagens de skill são Confiança, Trans e Espada Mágica, e ela é ensinada pelo Capitão Cavaleiros em Armia.
+
+O TransKnight é uma das quatro classes jogáveis de With Your Destiny, ao lado de [Foema](foema.md), [BeastMaster](beastmaster.md) e [Huntress](huntress.md).
+
+**Grafia do nome:** as fontes oficiais usam várias formas. As páginas de [Skills](skills.md) e de [12ª Skills](decima-segunda-skill.md) escrevem "TransKnight"; [Personagens e Primeiras Impressões](personagens.md) e o mapa de [Armia](../mapas/armia.md) escrevem "Transknight"; o [Guia para Novatos](../progressao/guia-para-novatos.md) escreve "TRANS KNIGHT" e a tabela da página [Arch](../progressao/arch.md), "Trans Knight". As páginas de skills por tier abreviam a classe como "TK", e o drop do boss Kefra se chama "Sephirot de TK".
+
+## Identidade e estilo de luta
+
+As duas descrições oficiais da classe:
+
+> Transknight que utiliza os ataques físicos e tem uma grande quantidade de vida. Muito eficiente não somente na função de caçar os monstros, mas também nos PvPs.
+>
+> (Personagens e Primeiras Impressões)
+
+> TRANS KNIGHT: Guerreiro. Um corajoso cavaleiro perito em ataques a curta distância que consegue bloquear bastante dano.
+>
+> (Guia para novatos)
+
+Em resumo, as fontes apresentam o TransKnight como o guerreiro corpo a corpo do jogo: ataca fisicamente, de perto, e aguenta muito dano graças ao HP alto.
+
+## Papel em grupo e PvP
+
+- **PvP:** a página Personagens e Primeiras Impressões diz que ele é "muito eficiente" não só na caça de monstros, mas também nos PvPs.
+- **Linha de frente:** o Guia para novatos o descreve como perito em curta distância e capaz de "bloquear bastante dano".
+- **Sobrevivência:** várias skills da linhagem Confiança giram em torno de invulnerabilidade e cura própria (Proteção Divina, Benção Divina e Aura de Cura; veja abaixo).
+
+As fontes não descrevem uma função de grupo específica do TransKnight além disso.
+
+## Atributos e builds
+
+As fontes não trazem uma build oficial para o TransKnight, mas dão estas pistas:
+
+- **HP alto por nível:** na tabela de evolução da página [Arch](../progressao/arch.md), o Trans Knight ganha **4 de HP** e **1 de MP** por level, o maior ganho de HP entre as quatro classes.
+- **Dano físico:** o guia do [Campo de Treinamento](../quests/campo-de-treinamento.md) recomenda que classes de dano físico comprem do NPC Unicorn armas que dão Aumento de Dano. Segundo Personagens e Primeiras Impressões, o TransKnight usa ataques físicos.
+- **Duas armas de uma mão:** a 9ª skill Mãos Sangrentas (Trans) só funciona "ao usar duas armas de uma mão".
+- **Crítico:** a linhagem Trans aumenta o crítico (Mestre das Armas, 10ª) e o dano crítico (Fencing Master Book, 11ª).
+- **INT na linhagem Confiança:** a 9ª skill Proteção Divina amplifica a cura da skill "Aura de Cura" em "10% dos pontos em INT".
+- **Gelo e magia na Espada Mágica:** essa linhagem tem skills de ataque mágico e de congelamento (Espelho Mágico, Conexão de Gelo, Freezing Counter Book, Seal Master).
+
+A página [Skills](skills.md) lembra que, se os pontos forem distribuídos de forma errada, eles podem ser reiniciados com o Círculo Divino, a Benção de Deus e a quest Balanço do Poder.
+
+## Mestre de skill e linhagens
+
+As skills do TransKnight são aprendidas com o **Capitão Cavaleiros** em Armia (no mapa de [Armia](../mapas/armia.md), "Cap. Cavaleiros", NPC nº 7). No mesmo mapa, o **Ferreiro** (nº 8) vende itens de defesa para Transknight e Foema.
+
+![Capitão Cavaleiros, mestre de skill dos TransKnight](../../sources/feedback_kersef/data/images/20366-skills_img_0.png)
+
+Como toda classe, o TransKnight tem três linhagens de skill: **Confiança**, **Trans** e **Espada Mágica**. Também existe a aba **Sephira**, comum a todas as classes.
+
+![Janela de skills do TransKnight com as linhagens Confiança, Trans e Espada Mágica](../../sources/feedback_kersef/data/images/20366-skills_img_4.png)
+
+## Skills por tier
+
+A base de conhecimento ainda não tem uma página com as skills até a 8ª. Algumas skills de tiers anteriores aparecem nas descrições das skills mais altas: Aura de Cura, Giro da Fúria, Destino (Confiança), Assalto (Trans), Lâmina Congelada e Tempestade de Gelo (Espada Mágica). A [10ª Skill](decima-skill.md) diz que Tempestade de Gelo é a **8ª skill** da linhagem Espada Mágica.
+
+### Confiança
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Proteção Divina (Buff) | O personagem fica invulnerável por certo período, e a cura da skill "Aura de Cura" é amplificada (10% dos pontos em INT). |
+| 10ª | Benção Divina (Passiva) | O HP é regenerado em 100% ao usar a 9ª skill "Proteção Divina". |
+| 11ª | Blaze Launcher | Reduz uma certa quantidade de armadura do alvo ao acertar a skill "Giro da Fúria". |
+| 12ª | Clod Attack (Passiva) | Ao acertar a skill Destino, há uma probabilidade de reduzir a evasão do oponente em 10% por 64 segundos. |
+
+### Trans
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Mãos Sangrentas (Passiva) | Ao usar duas armas de uma mão e acertar um crítico, há chance de regenerar uma pequena quantidade de HP. |
+| 10ª | Mestre das Armas (Passiva) | Aumenta o crítico do personagem. |
+| 11ª | Fencing Master Book | Aumenta o dano crítico do personagem. |
+| 12ª | WindStorm (Passiva) | Elimina a penalidade de redução de HP e maximiza o ataque ao buffar a skill Assalto. |
+
+### Espada Mágica
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 8ª | Tempestade de Gelo | Citada na 10ª e na 12ª skill; sem descrição própria nas fontes. |
+| 9ª | Espelho Mágico (Passiva) | Aumenta a chance de acertar um ataque mágico no oponente. |
+| 10ª | Conexão de Gelo (Passiva) | Ao usar Tempestade de Gelo, há probabilidade de congelar o oponente, impedindo-o de se mover por certo tempo. |
+| 11ª | Freezing Counter Book | Aumenta em 5% o dano da skill "Lâmina Congelada". |
+| 12ª | Seal Master (Passiva) | Aprimora a lentidão após congelar o inimigo com a skill Tempestade de Gelo. |
+
+Requisitos de cada tier, conforme as páginas de skills:
+
+- **9ª:** livro do NPC 9thMaster em Armia; level 201 ou mais, só para Celestial ou Sub-Celestial; 255 pontos de skill; só da mesma linhagem da 8ª ([Nona Skill](nona-skill.md)).
+- **10ª:** todas as skills anteriores e 4000 pontos de fama ([10ª Skill](decima-skill.md)).
+- **11ª:** level 281 ou mais, 8.000 de fama e o livro da skill ([11ª Skills](decima-primeira-skill.md)).
+- **12ª:** Celestial acima do level 320, a 11ª da mesma linhagem e 12.000 de fama, no NPC Jazeg em Armia ([12ª Skills](decima-segunda-skill.md)).
+
+## Evolução
+
+- **Mortal:** como todas as classes, o TransKnight começa em Armia e faz o [Campo de Treinamento](../quests/campo-de-treinamento.md), onde o NPC Unicorn entrega uma arma inicial.
+- **Arch:** o personagem Arch se parece com o da classe inicial, e o jogador pode escolher uma das quatro classes Arch. Na imagem da página [Arch](../progressao/arch.md), o "Trans Knight" aparece em sua forma Arch, à esquerda. Por level, o Arch do Trans Knight ganha 4 de HP e 1 de MP.
+- **Celestial:** a criação exige, entre outros itens, a Saphirot da classe atual ([Criação do Celestial](../progressao/criacao-do-celestial.md)).
+- **Sub-Celestial:** a criação exige a Sephirot da classe desejada ([Sub Celestial](../progressao/sub-celestial.md)). A 9ª skill é liberada para Celestial e Sub-Celestial, e a 12ª só para Celestial.
+
+![As quatro classes em forma Arch: Trans Knight, Hunter, Foema e Beast Master](../../sources/feedback_kersef/data/images/20384-arch_img_0.png)
+
+## Mudança de classe e de corpo
+
+Segundo [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md):
+
+- **Virar TransKnight:** equipe a Sephirot de TransKnight e fale com o NPC Wooreunammu em Kefra (X:3230 Y:1683), pagando 100kk, ou ative o item Sephiroth Blessing. Ao mudar de classe, todas as skills Sephira são desaprendidas.
+- **Mudança de corpo:** equipe a Sephiroth da classe desejada e ative o item Sephiroth Protection, sem nenhum equipamento no personagem.
+- **Onde conseguir a Sephirot:** o boss Kefra dropa a "Sephirot de TK" com 100% de chance para quem dá o último ataque ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+
+## Veja também
+
+- [Foema](foema.md)
+- [BeastMaster](beastmaster.md)
+- [Huntress](huntress.md)
+- [Personagens e Primeiras Impressões](personagens.md)
+- [Skills](skills.md)
+- [Nona Skill (9th)](nona-skill.md)
+- [10ª Skill](decima-skill.md)
+- [11ª Skills](decima-primeira-skill.md)
+- [12ª Skills](decima-segunda-skill.md)
+- [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md)
+- [Ataque Crítico x4](../sistemas/critico-x4.md)
+- [Arch](../progressao/arch.md)
+
+## Fontes
+
+- [PERSONAGENS E PRIMEIRAS IMPRESSÕES](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20475-personagens-e-primeiras-impressoes.md](../../sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md)
+- [Guia para novatos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58185-guia-para-novatos.md](../../sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md)
+- [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Nona Skill - (9th)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [67187-nona-skill-9th.md](../../sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md)
+- [10th Skill](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [26951-10th-skill.md](../../sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md)
+- [11º Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46455-11o-skills.md](../../sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md)
+- [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+- [Campo de Treino](https://wydglobal.raidhut.com/#training-camp), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
 
 
 <!-- wiki/progressao/arch.md -->
