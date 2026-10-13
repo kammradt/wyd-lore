@@ -46,10 +46,11 @@ We've deliberately chosen **Markdown as our documentation format** for a powerfu
 
 ## 📚 Knowledge Base
 
-The curated knowledge base lives in [`wiki/`](wiki/README.md): **84 pages in Brazilian Portuguese**, organized by topic (lore, história, classes, progressão, quests, mapas, itens, sistemas, PvP, NPCs, eventos). Game content is Portuguese only; code, scripts and repo docs are in English.
+The curated knowledge base lives in [`wiki/`](wiki/README.md): **95 pages in Brazilian Portuguese**, organized by topic (lore, história, classes, progressão, quests, mapas, itens, sistemas, PvP, NPCs, eventos). Game content is Portuguese only; code, scripts and repo docs are in English.
 
 - **For humans**: start at [`wiki/README.md`](wiki/README.md). Each category folder has a README index with a one-line summary per page.
 - **For AI agents**: [`llms.txt`](llms.txt) lists every page with its summary, and [`llms-full.txt`](llms-full.txt) has the whole knowledge base in one file.
+- **Structured data**: [`data/`](data/README.md) has quests, maps and NPCs as YAML, extracted from the pages, for agents that need fields instead of prose.
 - **Every page has a YAML header**: `title`, `summary`, `category`, `tags`, `canon`, `language`, `sources` (original URL plus the archived copy) and `updated`. The `canon` label is one of:
   - `official`: published by the developer or a publisher (JoyImpact, HanbitSoft, Raid Hut), or text from the game client
   - `community`: third-party writing such as Wikipedia, fan blogs, forums and videos
@@ -167,6 +168,7 @@ wyd/
 ├── wiki/                            # Curated knowledge base ⭐
 │   ├── README.md                    # Categories and canon labels
 │   └── <category>/<page>.md         # lore, classes, quests, maps, items...
+├── data/                            # quests.yml, maps.yml, npcs.yml (structured data from wiki/)
 ├── scripts/kb/                      # Builds indexes and validates wiki/
 ├── scripts/pipeline/                # Weekly fetch + AI update prompts
 ├── scripts/site/ + site/            # Wiki site (MkDocs Material)
