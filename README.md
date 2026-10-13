@@ -72,7 +72,7 @@ After the migration the pages in `wiki/` are the source of truth: edit them dire
 
 ## 🌐 Wiki Site
 
-The same `wiki/` pages are published as a searchable website built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/): Portuguese search, light and dark themes, tag pages, and a canon/sources line under each title. It is planned for **https://kammradt.github.io/wyd-lore/**.
+The same `wiki/` pages are published as a searchable website built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/): Portuguese search, light and dark themes, tag pages, and a canon/sources line under each title. It is live at **https://kammradt.github.io/wyd-lore/** and redeploys on every merge to `main` that touches the wiki or the site.
 
 - [`.github/workflows/site.yml`](.github/workflows/site.yml) checks the knowledge base, builds the site on every push to `main`, and deploys it to GitHub Pages. Pull requests only build it.
 - One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**. A private repository needs a paid GitHub plan for Pages.
