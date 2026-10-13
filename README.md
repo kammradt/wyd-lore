@@ -25,7 +25,7 @@ We've deliberately chosen **Markdown as our documentation format** for a powerfu
 
 ## 📋 TODO
 
-- [ ] Verify if all images are correctly linked in markdown files
+- [x] Verify if all images are correctly linked in markdown files (`ruby scripts/kb/check.rb`)
 
 
 ## 🎮 About With Your Destiny (WYD)
@@ -79,6 +79,33 @@ The same `wiki/` pages are published as a searchable website built with [MkDocs 
 ```bash
 pip install -r site/requirements.txt
 ruby scripts/site/build.rb --serve   # preview at http://127.0.0.1:8000
+```
+
+## 🔄 Sources and Update Pipeline
+
+### Source registry
+
+[`sources/registry.yml`](sources/registry.yml) lists **90 known sources**, ranked by trust (5 = official primary source, 1 = speculation) and labeled with the canon their pages must carry. It covers official sites and FAQs, archived official sites on the Wayback Machine, fan blogs, Fandom wikis, forums, videos, private servers, server lists, and open-source emulators that contain the game's own text. A readable version is generated at [`wiki/fontes.md`](wiki/fontes.md).
+
+**Game text or blogs?** Both, for different jobs. Text from the game client (NPC dialogue, item names, quest messages) is the authoritative source for names and quotes. It is sparse, though: short lines, no continuous story. The official FAQ articles and fan blogs carry the narrative, the history and the player memory. Pages cite the game text to verify names and quotes, and use blogs for story and context, labeled `community`. Private-server news is kept as a separate post-canon layer in `wiki/servidores/`. Game files belong to JoyImpact, so the wiki quotes short excerpts and the repo never stores the files themselves.
+
+### Weekly pipeline
+
+[`.github/workflows/update.yml`](.github/workflows/update.yml) runs every Monday, and on demand from the Actions tab:
+
+1. **Fetch** ([`scripts/pipeline/fetch.rb`](scripts/pipeline/fetch.rb)). For every source with an enabled `fetch` block, a driver lists its items and archives the new or changed ones under `sources/<id>/`. Drivers cover RSS/Atom feeds (Blogger, WordPress, Raid Hut news), listing pages (the Kersef FAQ), MediaWiki (Fandom), Wayback Machine snapshots and fixed URL lists. Each source has an `index.yml` with content hashes, so unchanged items are skipped.
+2. **Update.** Claude reads the new items and folds them into `wiki/` following [`scripts/pipeline/prompts/update.md`](scripts/pipeline/prompts/update.md): it updates existing pages or creates new ones, cites every source and keeps the canon labels honest. It then rebuilds the indexes and runs `check.rb`.
+3. **Discover.** Claude searches the web for new blogs, wikis, videos and private servers following [`scripts/pipeline/prompts/discover.md`](scripts/pipeline/prompts/discover.md), and adds them to the registry.
+
+Each run opens a pull request (`pipeline/weekly-update` and `pipeline/source-discovery`), so nothing reaches `main` without review.
+
+**One-time setup:**
+- Add the repository secret `ANTHROPIC_API_KEY` (Settings → Secrets and variables → Actions). Without it the fetch still runs, and the PR carries only the archived sources.
+- Enable **Settings → Actions → General → Allow GitHub Actions to create and approve pull requests**.
+
+```bash
+gem install nokogiri reverse_markdown
+ruby scripts/pipeline/fetch.rb --source raidhut_wydglobal_rss --limit 5   # try one source locally
 ```
 
 ## 🗄️ Archived Sources
@@ -140,9 +167,11 @@ wyd/
 ├── wiki/                            # Curated knowledge base ⭐
 │   ├── README.md                    # Categories and canon labels
 │   └── <category>/<page>.md         # lore, classes, quests, maps, items...
-├── scripts/kb/                      # Builds wiki/ from sources/
+├── scripts/kb/                      # Builds indexes and validates wiki/
+├── scripts/pipeline/                # Weekly fetch + AI update prompts
+├── scripts/site/ + site/            # Wiki site (MkDocs Material)
 ├── Gemfile                          # Ruby dependencies
-└── sources/                         # All scraped content
+└── sources/                         # All scraped content + registry.yml
     ├── feedback_kersef/             # WYD FAQ (feedback.kersef.com)
     │   ├── scripts/                 # Ruby automation scripts
     │   │   ├── *.rb                 # Scripts in ruyby
@@ -212,7 +241,7 @@ This is an archival and documentation project. If you have additional WYD resour
 
 ## 📅 Last Updated
 
-November 2025
+October 2026
 
 ---
 

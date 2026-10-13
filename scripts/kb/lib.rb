@@ -9,8 +9,9 @@ require 'fileutils'
 Encoding.default_external = Encoding::UTF_8
 
 module KB
-  ROOT = File.expand_path('../..', __dir__)
-  DIR = File.join(ROOT, 'scripts/kb')
+  # WYD_LORE_ROOT lets tests point the scripts at a scratch copy of the repo.
+  ROOT = ENV.fetch('WYD_LORE_ROOT', File.expand_path('../..', __dir__))
+  DIR = __dir__
   WIKI = File.join(ROOT, 'wiki')
 
   # Fields every page header must carry, in the order they are written.

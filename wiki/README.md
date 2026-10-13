@@ -1,6 +1,6 @@
 # Base de conhecimento WYD
 
-84 páginas sobre With Your Destiny, organizadas por tema. Cada página começa com um cabeçalho YAML com título, resumo, tags, fontes e o nível de canon. As cópias originais de cada fonte ficam intactas em [`sources/`](../sources/).
+84 páginas sobre With Your Destiny, organizadas por tema. Cada página começa com um cabeçalho YAML com título, resumo, tags, fontes e o nível de canon. As cópias originais de cada fonte ficam intactas em [`sources/`](../sources/), e o registro de fontes conhecidas está em [`sources/registry.yml`](../sources/registry.yml).
 
 ## Categorias
 
@@ -17,6 +17,8 @@
 - [Eventos](eventos/README.md) (1): Invasões e eventos do servidor.
 - [Suporte](suporte/README.md) (3): Ajuda técnica e de conta. Não é conteúdo do jogo.
 - [Servidores privados](servidores/README.md) (0): Conteúdo criado por servidores privados, separado do canon oficial.
+
+Veja também a lista de [fontes](fontes.md) conhecidas e o que cada uma cobre.
 
 ## Canon
 

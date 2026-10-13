@@ -1,0 +1,145 @@
+# Weekly knowledge base update.
+#
+# 1. fetch: archives new and changed articles from every enabled source in sources/registry.yml.
+# 2. update: Claude folds them into wiki/ (scripts/pipeline/prompts/update.md) and opens a PR.
+# 3. discover: Claude searches the web for new sources and servers (prompts/discover.md) and
+#    opens a separate PR that adds them to the registry.
+#
+# Needs the repository secret ANTHROPIC_API_KEY for the Claude steps. Without it the fetch still
+# runs and the PR carries only the archived sources. Also enable
+# Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+name: Update knowledge base
+
+on:
+  schedule:
+    - cron: '0 9 * * 1' # Mondays, 06:00 in Brasília
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Only fetch this registry id (empty = every enabled source)
+        required: false
+      limit:
+        description: Max new or changed items per source
+        required: false
+        default: '30'
+      discover:
+        description: Also run source discovery
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+concurrency:
+  group: update-knowledge-base
+  cancel-in-progress: false
+
+env:
+  HAS_ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+      - run: gem install --no-document nokogiri reverse_markdown
+
+      - name: Fetch sources
+        run: |
+          args="--limit ${{ inputs.limit || '30' }}"
+          if [ -n "${{ inputs.source }}" ]; then args="$args --source ${{ inputs.source }}"; fi
+          ruby scripts/pipeline/fetch.rb $args
+          echo "CHANGES=$(ruby -ryaml -e 'puts YAML.load_file("build/pipeline/changes.yml").size')" >> "$GITHUB_ENV"
+
+      - name: Update wiki with Claude
+        if: env.CHANGES != '0' && env.HAS_ANTHROPIC_KEY == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Follow the instructions in scripts/pipeline/prompts/update.md.
+            There are ${{ env.CHANGES }} new or changed items in build/pipeline/changes.yml.
+          claude_args: >-
+            --model claude-opus-5-5
+            --max-turns 250
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(ruby scripts/kb/build_indexes.rb),Bash(ruby scripts/kb/check.rb),Bash(grep:*),Bash(ls:*),Bash(head:*),Bash(wc:*)"
+
+      - name: Rebuild indexes and check
+        run: |
+          ruby scripts/kb/build_indexes.rb
+          ruby scripts/kb/check.rb > build/pipeline/check.txt 2>&1 || echo "CHECK_FAILED=1" >> "$GITHUB_ENV"
+          cat build/pipeline/check.txt
+
+      - name: Write PR body
+        run: |
+          {
+            echo "Weekly run of the knowledge base pipeline: ${CHANGES} new or changed source items."
+            echo
+            if [ -f build/pipeline/summary.md ]; then cat build/pipeline/summary.md
+            elif [ "$HAS_ANTHROPIC_KEY" != "true" ]; then echo "The ANTHROPIC_API_KEY secret is not set, so this PR only archives the fetched sources. The wiki was not updated."
+            fi
+            if [ "$CHECK_FAILED" = "1" ]; then echo; echo "**scripts/kb/check.rb found problems; fix them before merging:**"; echo; echo "```"; cat build/pipeline/check.txt; echo "```"; fi
+            echo
+            echo "<details><summary>Fetched items</summary>"
+            echo
+            echo '```yaml'
+            cat build/pipeline/changes.yml
+            echo '```'
+            echo "</details>"
+          } > build/pipeline/pr-body.md
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: pipeline/weekly-update
+          title: 'Knowledge base update: ${{ env.CHANGES }} new or changed sources'
+          body-path: build/pipeline/pr-body.md
+          commit-message: 'Archive new sources and update wiki'
+          add-paths: |
+            sources/**
+            wiki/**
+            llms.txt
+            llms-full.txt
+          labels: pipeline
+
+  discover:
+    if: github.event_name == 'schedule' || inputs.discover
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+      - run: mkdir -p build/pipeline
+
+      - name: Discover sources with Claude
+        if: env.HAS_ANTHROPIC_KEY == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: Follow the instructions in scripts/pipeline/prompts/discover.md.
+          claude_args: >-
+            --model claude-opus-5-5
+            --max-turns 120
+            --allowedTools "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(ruby -ryaml:*)"
+
+      - run: test -f build/pipeline/summary.md || echo "Discovery run with no summary written." > build/pipeline/summary.md
+        if: env.HAS_ANTHROPIC_KEY == 'true'
+
+      - uses: peter-evans/create-pull-request@v7
+        if: env.HAS_ANTHROPIC_KEY == 'true'
+        with:
+          branch: pipeline/source-discovery
+          title: 'New sources found by the discovery job'
+          body-path: build/pipeline/summary.md
+          commit-message: 'Add newly discovered sources to the registry'
+          add-paths: sources/registry.yml
+          labels: pipeline

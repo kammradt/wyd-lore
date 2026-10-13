@@ -1,0 +1,1559 @@
+# Registry of known sources about With Your Destiny.
+#
+# Every source the knowledge base uses or could use, ranked by trust (5 = official primary
+# source, 1 = speculation). `canon` is the label pages built from it must carry.
+# `fetch` tells scripts/pipeline/fetch.rb how to collect it; sources without an enabled
+# `fetch` are tracked for reference and for the discovery job to revisit.
+#
+# Research done on 2026-10-13 from web search results. Most sites could not be opened from
+# the research environment, so `verified` says what was actually checked. The first
+# pipeline run in GitHub Actions is the real test of each fetch config.
+#
+# Game files (client text, item lists) belong to JoyImpact/HanbitSoft: cite them and quote
+# short excerpts in wiki pages, but do not copy whole files into this repository.
+updated: '2026-10-13'
+sources:
+- id: feedback_kersef
+  name: FAQ WYD Global, Guias do Jogo (PT-BR), first scrape
+  url: >-
+    https://feedback.kersef.com/pt-br/knowledge-bases/21-faq-wyd-global/categories/19-guias-do-jogo-pt-br/articles
+  kind: official-faq
+  canon: official
+  language: pt-BR
+  status: archived
+  trust: 5
+  archive: sources/feedback_kersef
+  covers: >-
+    78 articles scraped in 2025 with HTML, Markdown and 423 images. Fully migrated into wiki/. New fetches
+    of the same category go to kersef_faq_kb.
+- id: kersef_faq_kb
+  name: FAQ WYD Global / WYD Raid Hut (knowledge base 21, feedback.kersef.com)
+  url: https://feedback.kersef.com/en/knowledge-bases/21-faq-wyd-global
+  kind: official-faq
+  canon: official
+  language:
+  - pt-BR
+  - en
+  status: active
+  trust: 5
+  covers: >-
+    Raid Hut's official help center (branded "WYD Raid Hut", team page /team/). Knowledge base 21 has
+    at least four categories: 18 "Game Guides (EN)" (~47 articles: basic commands, skills usage, party,
+    guild, mounts, refining, sieges, class change, beginner's guide, Royal Arena), 19 "Guias do Jogo (PT-BR)"
+    (~77-78 articles), and "Doubts and troubleshooting (EN)" and "Duvidas e solucao de problemas (PT-BR)"
+    (~8-9 articles each). Lore-bearing articles: Historia (20364-historia: celestial war, kingdoms 400
+    years later), Sistema de Reinos (20462: Hekalotia vs Akelonia split over belief), PERSONAGENS E PRIMEIRAS
+    IMPRESSOES (20475: class descriptions TransKnight/Foema/BeastMaster/Huntress). Game-system articles:
+    Arch (20384), Replation (20455), Skills (20366), Interface (20365), Controles (20393), 9th Skill (59032),
+    10th Skill (58873), Guia para novatos (58185), Beginner's Guide (58186), Capas (57768), Fadas (58182),
+    Fragmentos da Alma (58184), Montaria (24236), Barra de Mithril (24025), Arena Real (24218), Guerra
+    de Reinos (21552), Guild System (67186), Royal Arena EN (58468), Introduction to CM Initiative (20014),
+    Basic Commands (20039), Skills Usage (20050), Outras Perguntas Frequentes (64302), Problemas tecnicos
+    (64304).
+  fetch:
+    enabled: true
+    driver: listing
+    url: >-
+      https://feedback.kersef.com/pt-br/knowledge-bases/21-faq-wyd-global/categories/19-guias-do-jogo-pt-br/articles
+    pages: 10
+    link_selector: h3 a
+    link_pattern: "/articles/\\d+"
+    baseline_first_run: true
+    images: true
+  notes: >-
+    Answers the brief's question: yes, an English category (18 Game Guides EN) exists besides category
+    19, plus troubleshooting categories in both languages. Spelling "Akelonia" (not Akeronia) is used
+    here. A search summary called these "fan-maintained", but the portal is branded WYD Raid Hut and linked
+    from the official site's support flow, so treat as official. Platform looks like a Hey/UserEcho-style
+    helpdesk.
+  verified: >-
+    Category and article URLs/titles/snippets seen in WebSearch results; direct WebFetch failed (ENOTFOUND
+    feedback.kersef.com). Article counts come from search snippets and differ slightly between pages.
+- id: raidhut_ask_the_dev_team
+  name: Ask the Dev Team 01 - Full Interview (JoyImpact Q&A)
+  url: https://wydglobal.raidhut.com/en/noticias/news/510-ask-the-dev-team-01-full-interview
+  kind: official-news
+  canon: official
+  language: en
+  status: active
+  trust: 5
+  covers: >-
+    Top 10 community questions answered by JoyImpact director "Taisun" (2019): remaster planned, mobile
+    version to start development, 5th class planned for remaster, focus on Global audience, statement
+    that servers run by anyone but Raid Hut/JoyImpact (incl. Vibrant Games) are illegal.
+  notes: >-
+    Only issue 01 surfaced in search; no pt-BR edition or later issues were found. Primary developer statement
+    on WYD's future (mobile, 5th class) predating WYD M.
+  verified: Seen in WebSearch results (title, URL, snippet summary); not fetched.
+  research_notes: >-
+    Single HTML page; look for later issues by iterating news ids or searching "Ask the Dev Team" on the
+    site.
+- id: raidhut_global_exclusivity_announcement
+  name: WYD is back! Raid Hut x JoyImpact global exclusivity announcement
+  url: https://wydglobal.raidhut.com/en/226
+  kind: official-news
+  canon: official
+  language:
+  - en
+  - pt-BR
+  status: active
+  trust: 5
+  covers: >-
+    2019 announcement of the global exclusivity deal and Global server launch; class roster (TransKnight,
+    Foema, BeastMaster, Huntress), setting on the continent of Kersef. pt-BR copies at https://wydglobal.raidhut.com/pt-br/224
+    and https://wydglobal.raidhut.com.br/pt-br/noticias/news/224-global-exclusivity-pt; also on the BR
+    site as https://wyd.raidhut.com/noticias/noticias/224-acordo-de-exclusividade-global-raidhut-joyimpact.
+    Related: launch date news /pt-br/noticias/news/255-wyd-global-lancamento-oficial-15-05 and launch
+    page https://wydglobal.raidhut.com/en/wydlaunch.
+  notes: >-
+    Key publishing-history source for the knowledge base (Feb 2019 licence change, end of Vibrant Games
+    contract).
+  verified: URLs seen in WebSearch results; not fetched.
+  research_notes: Single HTML pages.
+- id: raidhut_quests
+  name: Guia Quest Mortal (Raid Hut)
+  url: https://wydglobal.raidhut.com/
+  kind: official-site
+  canon: official
+  language: pt-BR
+  status: archived
+  trust: 5
+  archive: sources/raidhut_quests
+  covers: 14 mortal quests (levels 1-400) with steps, NPCs and rewards. Fully migrated into wiki/quests/.
+- id: raidhut_wyd_brasil_site
+  name: WYD Brasil (Raid Hut, servers Asgard and Origem)
+  url: https://wyd.raidhut.com.br/noticias/386
+  kind: official-site
+  canon: official
+  language: pt-BR
+  status: active
+  trust: 5
+  covers: >-
+    Raid Hut's Brazilian-server site (old client versions, servers Asgard and Origem, also Event Server
+    II Loki /noticias/935). Patchlists (/noticias/atualizacoes/286-patchlist-asgard-e-origem-3, 830-patchlist080721,
+    997-patchlist12042022), events (Artefatos de Muspelheim /noticias/893, Ferias WYD 2022 /noticias/947,
+    Fim de Semana Iniciante), guides (/guias/asgard/sistemas/192-asgard-guia-de-interface), Guia Acessorios
+    Bahamut (/3390). Shutdown notice: Asgard and Origem closed 2025-08-04 with NP balance conversion to
+    Global (05/06-08/04/2025).
+  notes: >-
+    Old-version content (pre-Global systems) and the Nordic-themed event lore (Muspelheim, Loki) live
+    here. Highest risk of disappearing; prioritise archiving.
+  verified: URLs and snippets seen in WebSearch results; WebFetch to wyd.raidhut.com.br failed (ENOTFOUND).
+  research_notes: >-
+    HTML; hosts wyd.raidhut.com.br and wyd.raidhut.com; paths /noticias/{id}, /noticias/{atualizacoes|noticias}/{id}-{slug},
+    /guias/asgard/... Archive soon via Wayback since servers are closed.
+- id: raidhut_wydglobal_patchlists
+  name: WYD Global patchlists (pt-BR and EN)
+  url: https://wydglobal.raidhut.com/pt-br/noticias/updates/2096-patchlist-16-10-2023
+  kind: official-news
+  canon: official
+  language:
+  - pt-BR
+  - en
+  status: active
+  trust: 5
+  covers: >-
+    Patch notes from launch (Patchlist 30/05/2019 /en/301, 25/06/2019 /en/376, 19/09/2019 /en/476, 31/10/2019
+    /en/523) through 2020 (/en/610, /en/noticias/updates/730-patchlist-07-30-2020, /en/noticias/updates/746-patchlist-13-08-2020,
+    Episode V Ascension to Valhalla /pt-br/763), 2021 (/en/998, /pt-br/1085), 2022 (/en/1466, /en/1678),
+    2023 (/pt-br/.../2096-patchlist-16-10-2023), 2024 (/en/2407, pt-br 2564-patchlist-08-08-2024), 2025
+    (/en/noticias/updates/2839-patchlist-02-20-2025, /en/2777). Items, refinement rules, quests, NPCs,
+    systems (Power Rating, Royal Arena seasons, Bahamut/Amunra/God2 items, SandLich schedule).
+  notes: >-
+    Patchlists name "Episodes" (e.g. Episode V Ascension to Valhalla, 2020) which mark content/lore arcs;
+    useful for a timeline. Date formats mix dd/mm and mm/dd in English titles.
+  verified: Specific URLs seen in WebSearch results; not fetched.
+  research_notes: >-
+    HTML by numeric id or /{lang}/noticias/updates/{id}-patchlist-{dd-mm-yyyy}; listing pagination ?start=N;
+    RSS for new items.
+- id: raidhut_wydglobal_rss
+  name: WYD Global updates RSS feed
+  url: https://wydglobal.raidhut.com/pt-br/noticias/updates?format=feed&type=rss
+  kind: official-news
+  canon: official
+  language: pt-BR
+  status: active
+  trust: 5
+  covers: >-
+    Feed of the "Atualizacoes" (updates/patchlist) category. Search summary reported latest entry a patchlist
+    dated 01/10/2026 (Royal Arena payouts, Ascension Pass, Ancient accessory refining +9 to +13, Auto-Sell
+    confirmations), feed updated 2026-10-07.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wydglobal.raidhut.com/pt-br/noticias/updates?format=feed&type=rss
+    full_page: true
+    content_selector: ".item-page, article"
+    images: true
+    max_items_per_run: 30
+  notes: >-
+    Easiest incremental collector for new patch notes; only returns the most recent items, so backfill
+    needs the ?start=N listing pagination.
+  verified: URL seen in WebSearch results; not fetched (DNS failure in this environment).
+- id: raidhut_wydglobal_site
+  name: WYD Global (Raid Hut official site)
+  url: https://wydglobal.raidhut.com/en/
+  kind: official-site
+  canon: official
+  language:
+  - pt-BR
+  - en
+  status: active
+  trust: 5
+  covers: >-
+    Official home of the global server (2019-present). Joomla site with news, patchlists, event pages,
+    guides, rules of conduct, terms, about page, download page. Many event pages carry original lore text
+    written by Raid Hut (e.g. A Lenda do Hollow Knight /pt-br/1589 about Sir Ronan of Hekalotia; Os 7
+    Talismas da Sorte /pt-br/2336 about the luck goddess Lyra; Festival de Musica de Kersef /pt-br/2548;
+    Kersef Summer Party /pt-br/1718; A Marcha dos Templarios /pt-br/2059; A Maldicao da Noite de Halloween
+    /pt-br/2646; Nordic Summer Festival /en/913 with Odin and Loki; Em busca da imortalidade /pt-br/noticias/news/325-em-busca-da-imortalidade).
+    Guides index /pt-br/2410 and /en/2411; guides such as Guia do Sistema de Guilds e Guerras /pt-br/2119
+    (/en/2120), Guia da Royal Arena /pt-br/2306, Guia Quest Mortal /pt-br/2402, Check-in diario /pt-br/2162,
+    Guerra de Torres /pt-br/2035. Also Roadmap /en/1867, Rules of Conduct /en/274 and /pt-br/273, About
+    /en/support/about.
+  notes: >-
+    Page titles are prefixed "WYD Global is back! Play with your friends!" / "WYD Global esta de volta!",
+    which a scraper should strip. Content is mostly pt-BR; English copies exist for many patchlists and
+    guides but not all lore event pages. Some lore events are only in pt-br. About page says Raid Hut
+    was founded 2015 in Recife, holds global exclusivity for WYD and the Brazilian license for Myth of
+    Creation, and is part of a group with Manifesto Games.
+  verified: >-
+    Seen in WebSearch results (titles, URLs, snippets) on 2026-10-13; direct WebFetch failed with DNS
+    error (getaddrinfo ENOTFOUND), so page bodies were not opened.
+  research_notes: >-
+    HTML. Two URL styles coexist: short numeric article ids https://wydglobal.raidhut.com/{pt-br|en}/{id}
+    (ids seen from 224 to ~2839, roughly sequential, so a script can iterate ids per language) and category
+    paths /{lang}/noticias/{news|updates}/{id}-{slug}. Category listings paginate with ?start=N (seen
+    /pt-br/noticias/updates?start=30). Mirror host wydglobal.raidhut.com.br serves the same paths. Joomla
+    RSS also available (see raidhut_wydglobal_rss).
+- id: joyimpact_site
+  name: JoyImpact developer site
+  url: http://www.joyimpact.com/
+  kind: official-site
+  canon: official
+  language:
+  - ko
+  - en
+  status: offline
+  trust: 4
+  covers: >-
+    Developer homepage (company, games list). Wikipedia cites joyimpact.co.kr instead; Giant Bomb lists
+    www.joyimpact.com.
+  notes: >-
+    Status unknown (could not resolve); marked offline provisionally. JoyImpact also made Aika Online
+    and Crush Online; HanbitSoft acquired it, and in 2019 JoyImpact took WYD back from HanbitSoft.
+  verified: URL seen in Giant Bomb result snippet only; site and Wayback both unverified.
+  research_notes: >-
+    Wayback CDX: http://web.archive.org/cdx/search/cdx?url=joyimpact.com/*&output=json&limit=200&fl=timestamp,original&filter=statuscode:200&collapse=urlkey
+    (repeat for joyimpact.co.kr). Look for /game/wyd story or world pages.
+- id: kersef_download
+  name: kersef.com download page (WYD Global launcher)
+  url: https://kersef.com/download
+  kind: official-site
+  canon: official
+  language: pt-BR
+  status: active
+  trust: 4
+  covers: >-
+    Client/launcher download for WYD Global; same title prefix as the Raid Hut site, so kersef.com is
+    a Raid Hut-owned domain.
+  notes: Do not confuse with legendsofkersef.com (a separate private-server portal, not official).
+  verified: Seen in WebSearch results; not fetched.
+  research_notes: Single HTML page; low lore value.
+- id: w2pp_openwyd
+  name: w2pp-OpenWYD (Jean1dev) - Go rewrite plus legacy C++ W2PP and Release game files
+  url: https://github.com/Jean1dev/w2pp-OpenWYD
+  kind: emulator-repo
+  canon: official
+  language: pt-BR (README, docs, Language.txt, item names) + en
+  status: active
+  trust: 4
+  covers: >
+    Release/TMsrv/run/Language.txt = server message table, about 547 tab-separated entries (index, key
+    like _NN_/_SN_/_DN_, text) in Brazilian Portuguese, including NPC quest dialogue and lore lines: Soldier
+    Leader of Azran and the settler army, blessings invoking Sephira's light, a warrior of King Harbalade
+    asked to restore the Hekalotia kingdom, "path of eternal life" (Arch/Celestial quests), Orc's Cape
+    quest. Release/Common/ItemList.csv = full item list with Portuguese item names (e.g. Elmo_de_Couro,
+    Pocao_de_Cura, Chapeu_de_Midas) plus effects. Also SkillData.csv, NPCGener.txt (spawns), npc/ and
+    boss/ folders, QuestDiaria.txt, Regions.txt. docs/migration/*.md documents NPC quest handlers (Arch
+    256 chain: Coveiro, Jardineiro, Kaizen, Hidra, Elfos; Zakum, Kibita, Amu Mistico/Terra Mistica, Uxmal,
+    Sobrevivente).
+  notes: >
+    GPL-2.0 for code; game data originates from a leaked official server release (Polly's server / W2PP
+    decompilation), so data is canonical but not licensed. The README links an unofficial client download
+    and warns to scan for malware; do not use it. Language.txt is the best single source of in-game lore
+    text found.
+  verified: >
+    Opened repo page, Release/, Release/Common, Release/TMsrv/run, docs/, docs/client.md and docs/migration/handlers/_MSG_Quest-npcs.md
+    via WebFetch; fetched raw Language.txt and ItemList.csv and inspected content and language.
+  research_notes: >
+    raw.githubusercontent.com/Jean1dev/w2pp-OpenWYD/main/Release/TMsrv/run/Language.txt and raw.githubusercontent.com/Jean1dev/w2pp-OpenWYD/main/Release/Common/ItemList.csv;
+    decode as Windows-1252 (accents appear as mojibake if read as UTF-8). GitHub API commits endpoint
+    to detect changes. Git clone for the full tree.
+- id: wyd_m_app_store
+  name: WYD M (mobile) - App Store listing
+  url: https://apps.apple.com/app/id6587560436
+  kind: official-site
+  canon: official
+  language:
+  - ko
+  - en
+  status: active
+  trust: 4
+  covers: >-
+    Store listing for WYD M (also shown as "WYD Moblie"), seller joyimpact inc, free with IAP, ~946 MB,
+    updated March 2026. Description text and screenshots.
+  notes: >-
+    Published by JoyImpact itself, not Raid Hut. No Google Play listing found. Wikipedia only says WYD
+    M was released in 2025.
+  verified: Seen in WebSearch results; not fetched.
+  research_notes: >-
+    HTML store page or iTunes lookup API (https://itunes.apple.com/lookup?id=6587560436) for description/version
+    history.
+- id: wydglobal_com_archive
+  name: wydglobal.com (HanbitSoft/T3-era global site, archived)
+  url: http://wydglobal.com
+  kind: archive
+  canon: official
+  language: en
+  status: archived-only
+  trust: 4
+  covers: >-
+    Pre-2019 global English service. A 2008 MMORPG.com forum guide (https://forums.mmorpg.com/discussion/144536/wyd-global-game-guide-to-be-the-one)
+    points to wydglobal.com for system requirements and guides; a related blog https://wydglobal.wordpress.com/2008/07/28/wyd-global-new-beginning/
+    used the wydglobal.com mail domain. Expect English game guide, class and story pages from 2007-2018.
+  fetch:
+    enabled: true
+    driver: wayback
+    url: wydglobal.com/*
+    cdx_limit: 400
+    max_items_per_run: 25
+  notes: >-
+    The bare domain wydglobal.com itself never appeared as a result URL, only as a reference in other
+    pages.
+  verified: >-
+    Unverified - archive.org was unreachable (WebFetch ENOTFOUND; WebSearch refuses web.archive.org).
+    Existence inferred from 2008 forum and blog references.
+- id: youtube_wydglobalraidhut
+  name: WYD Global YouTube channel (@wydglobalraidhut)
+  url: https://www.youtube.com/@wydglobalraidhut
+  kind: official-social
+  canon: official
+  language: pt-BR
+  status: active
+  trust: 4
+  covers: >-
+    Official channel with weekly tips, tutorials, update videos, lives (e.g. Dicas para Iniciantes live
+    23-05-19, Guerra Torre, Como Fazer Gold, Dragon Field short).
+  notes: >-
+    A second channel "WYD RaidHut"/"WYD Global" exists at https://www.youtube.com/channel/UClGON3edsciMQXYDpaCob0Q
+    (search showed it with a redirect notice; it may be the same channel by id).
+  verified: Seen in WebSearch results; not fetched.
+  research_notes: >-
+    YouTube channel RSS (https://www.youtube.com/feeds/videos.xml?channel_id=...) once the channel id
+    of this handle is resolved, or yt-dlp --flat-playlist for titles/descriptions.
+- id: destinyserver_seitbnao
+  name: DestinyServer (seitbnao) - "Arquivos e servidor, wyd BR"
+  url: https://github.com/seitbnao/DestinyServer
+  kind: game-data
+  canon: official
+  language: en + ko (CP949 names) + pt-BR
+  status: archived-only
+  trust: 3
+  covers: >
+    TMSRV/run contains ItemList.bin, itemlist.csv, itemname.bin, itemname.csv (index, Global_Name, Name),
+    itemicon.bin, mobname.csv/mobname.txt (Korean name -> MatchCode, e.g. Aberes, Agatha, Aileen, Amon_Chief,
+    Ancient_Ent), AllExportNpcFile.txt, NPCGener.txt, Quest/, npc/, npc_base/, boss/, hellgate/, NewMission.txt
+    (mechanics only), quiz*.txt, SkillData.csv, KhepraDropItem.txt, many Core*.rar archives. WYD_DB has
+    SQL/Lua tooling.
+  notes: >
+    No license file. Files are leaked official server data with private-server edits. Mission and quest
+    files contain only item IDs/conditions, no story text.
+  verified: >-
+    Opened repo, TMSRV/run and WYD_DB listings; fetched raw itemname.csv, mobname.txt and NewMission.txt.
+  research_notes: >
+    raw.githubusercontent.com/seitbnao/DestinyServer/main/TMSRV/run/<file>; Korean names need CP949 decoding.
+    Good for the Korean original names of monsters/NPCs (etymology of lore names).
+- id: discord_raidhut_wyd
+  name: Raid Hut - WYD Discord server (Discord Oficial do WYD Global)
+  url: https://discord.com/servers/raid-hut-wyd-163398583637245952
+  kind: official-social
+  canon: official
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Official community/support server (~17k members per search snippet); channels such as daily-global
+    used for event winners per the site's activity schedules (/pt-br/1107, /en/1672).
+  notes: Server id 163398583637245952.
+  verified: Discord discovery page seen in WebSearch results; not fetched.
+  research_notes: Not scrapable without joining; announcements are usually mirrored on the site.
+- id: facebook_globalwyd
+  name: WYD Global Facebook page
+  url: https://www.facebook.com/GlobalWYD/
+  kind: official-social
+  canon: official
+  language:
+  - en
+  - pt-BR
+  status: active
+  trust: 3
+  covers: Announcements, launch images; links to wydglobal.raidhut.com/en.
+  notes: >-
+    Related official pages seen - https://www.facebook.com/WYDRaidHut/ (videos WYD Global Launch, WYD
+    NEWS, HalloWYD live) and https://www.facebook.com/RaidHut/ (publisher). https://www.facebook.com/WYD.Global.T3/
+    "With Your Destiny Global Official Fan Page" is likely the old T3/HanbitSoft-era global page.
+  verified: Seen in WebSearch results; not fetched.
+  research_notes: Not scrapable without login; use only for spot checks.
+- id: facebook_wyd_global_t3
+  name: With Your Destiny Global Official Fan Page (T3/HanbitSoft era)
+  url: https://www.facebook.com/WYD.Global.T3/
+  kind: official-social
+  canon: official
+  language: en
+  status: active
+  trust: 3
+  covers: Pre-2019 global service announcements (T3 Entertainment owned HanbitSoft from 2008).
+  notes: Ownership inferred from page name; contents unverified.
+  verified: Seen in WebSearch results (title only); not fetched.
+  research_notes: Manual only (login wall).
+- id: instagram_x_raidhutgames
+  name: Raid Hut Games on Instagram and X
+  url: https://www.instagram.com/raidhutgames/
+  kind: official-social
+  canon: official
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Publisher announcements and event art; X account at https://x.com/raidhutgames describes itself as
+    WYD Global publisher.
+  notes: Instagram bio references a separate @wydraidhut account that was not seen directly.
+  verified: Seen in WebSearch results; not fetched.
+  research_notes: Manual only (login walls).
+- id: kersef_feedback_communities
+  name: Raid Hut feedback communities (Global, Asgard, Origem forums)
+  url: https://feedback.kersef.com/communities/19-origem/topics
+  kind: official-faq
+  canon: official
+  language:
+  - pt-BR
+  - en
+  status: active
+  trust: 3
+  covers: >-
+    Player forums on the official feedback portal: community 6 Asgard (/communities/6-asgard/topics),
+    19 Origem, 22 Global (/en/communities/22/topics/20009-introduction-to-cm-initiative). Mostly player
+    suggestions and complaints; includes "# GM RESPONDE!" staff answer thread (/communities/19/topics/15966-gm-responde)
+    and player progression guides (e.g. /communities/6/topics/9255).
+  notes: >-
+    Some pages are branded "SD Asgard" instead of "WYD Raid Hut". Only staff posts are official; player
+    posts are community content. Asgard/Origem servers closed 2025-08-04 so these boards are historical.
+  verified: URLs seen in WebSearch results; not fetched.
+  research_notes: >-
+    HTML; /communities/{id}-{slug}/topics?page=N (page=26 seen for Asgard) and /communities/{id}/topics/{topic_id}-{slug}.
+- id: newworld_babyloves
+  name: NewWorld (BabyLoves) - modified W2PP with full Portuguese client folder
+  url: https://github.com/BabyLoves/NewWorld
+  kind: emulator-repo
+  canon: official
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >
+    Cliente/ folder holds an entire game client: ItemList.bin, ItemName.bin, itemhelp.dat (item description
+    text), Mixhelp.dat and Mixlist.bin (crafting help text), SkillData.bin, InitItem.bin, extraitem.bin,
+    curse.bin, UI/ (where strdef.bin lives per TMPaths.h), plus Server/ and Source/ (TMSrv _MSG_Quest.cpp,
+    Language.h).
+  notes: >
+    GPL-3.0 code, but redistributes copyrighted client binaries; may be modified by the server owner ("adds
+    visual changes and new features"), so treat text as possibly altered. Legal caution.
+  verified: Opened repo page and Cliente/ listing via WebFetch; did not decode the .bin/.dat files.
+  research_notes: >
+    Git clone or raw.githubusercontent.com/BabyLoves/NewWorld/main/Cliente/<file>; binary files must be
+    decoded with the struct layouts from the client source (see tm_project_client_source) or the editors
+    below.
+- id: wikipedia_wyd_external_links
+  name: Wikipedia - With Your Destiny (publisher history and official links)
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  kind: archive
+  canon: official
+  language: en
+  status: active
+  trust: 3
+  covers: >-
+    Publisher timeline (HanbitSoft 2003, Ongame BR 2005-2015, Vibrant Communications 2008-2019, Raid Hut
+    Feb 2019), Supreme Destiny naming, WYD M 2025, story premise (Yetzirah and Tzfah, Kersef, Hekalotia
+    vs Akeronia). External links cite joyimpact.co.kr and wydglobal.raidhut.com news.
+  notes: >-
+    Secondary source, kept here only as a map to official URLs; canon value "official" refers to the links
+    it points to, not the article.
+  verified: Seen repeatedly in WebSearch results; WebFetch failed (ENOTFOUND).
+  research_notes: MediaWiki API (action=parse&page=With_Your_Destiny) for references and external links.
+- id: wyd_com_br_archive
+  name: wyd.com.br (old Brazilian domain)
+  url: http://wyd.com.br
+  kind: archive
+  canon: official
+  language: pt-BR
+  status: archived-only
+  trust: 3
+  covers: >-
+    Expected Ongame-era (2005-2015) Brazilian official site with historia, classes, guias, noticias. Current
+    status unclear: siteconfiavel.com.br reports the domain registered ~7 years before June 2025 (i.e.
+    re-registered ~2018) without valid HTTPS, so the live domain is probably not the original official
+    site.
+  fetch:
+    enabled: true
+    driver: wayback
+    url: wyd.com.br/*
+    cdx_limit: 400
+    max_items_per_run: 25
+  notes: >-
+    The Ongame-era official URL itself was not found in any search result; confirm whether the Ongame
+    service was at wyd.com.br or under an ongame.com.br path before trusting snapshots. Unofficial look-alikes
+    exist (wydbr.com, portalwyd.com, WydOnline.com.br) - do not treat as official.
+  verified: >-
+    Unverified - archive.org unreachable from this environment; only third-party mention (siteconfiavel.com.br/site/wyd-com-br)
+    seen in search.
+- id: wyd_jp_archive
+  name: WYD Episode II Japan official sites (wyd.jp, wyd.hanbitstation.jp)
+  url: https://www.4gamer.net/games/025/G002503/
+  kind: archive
+  canon: official
+  language: ja
+  status: archived-only
+  trust: 3
+  covers: >-
+    4Gamer database entry for WYD: EPISODE II (Japan, HUE, launched 2006-02-03, service ended) listing
+    official sites wyd.jp and wyd.hanbitstation.jp. Japanese official site likely had full story/world
+    and class pages. 4Gamer and game.watch.impress.co.jp (e.g. https://game.watch.impress.co.jp/docs/20060120/wyd.htm,
+    /docs/20051031/wyd.htm, /docs/20090209/wyd.htm) have launch and event coverage quoting official text.
+  notes: >-
+    Good candidate for an authoritative world-setting text in another language; the domains themselves
+    were not seen as result URLs, only cited by 4Gamer.
+  verified: >-
+    4Gamer and Game Watch URLs seen in WebSearch results; Japanese official domains and Wayback unverified.
+  research_notes: Wayback CDX for wyd.jp/* and wyd.hanbitstation.jp/*; 4Gamer news list under /games/025/G002503/.
+- id: wydglobal_wordpress_blog
+  name: WYD Global blog (wydglobal.wordpress.com, 2008)
+  url: https://wydglobal.wordpress.com/2008/07/28/wyd-global-new-beginning/
+  kind: official-news
+  canon: official
+  language: en
+  status: active
+  trust: 3
+  covers: 2008 "WYD Global New Beginning" post; likely staff blog of the T3/HanbitSoft global service.
+  notes: Official status not confirmed; a search summary said it uses the wydglobal.com email domain.
+  verified: Seen in WebSearch results; not fetched.
+  research_notes: >-
+    WordPress.com - RSS at /feed/ and REST API public-api.wordpress.com/rest/v1.1/sites/wydglobal.wordpress.com/posts
+    (standard WordPress.com endpoints, not tested).
+- id: hanbitsoft
+  name: HanbitSoft (original worldwide publisher, 2003)
+  url: https://en.wikipedia.org/wiki/HanbitSoft
+  kind: archive
+  canon: official
+  language: en
+  status: active
+  trust: 2
+  covers: >-
+    Corporate history - published WYD May 2003, acquired by T3 Entertainment July 2008; HanbitSoft dropped
+    Supreme Destiny PH support end of 2008.
+  notes: >-
+    No HanbitSoft-hosted WYD page URL surfaced in search. Japanese arm was Hanbit Ubiquitous Entertainment
+    (HUE).
+  verified: Wikipedia URL seen in WebSearch results; not fetched.
+  research_notes: >-
+    MediaWiki API; HanbitSoft's own historical WYD pages would need Wayback (domain not seen in results).
+- id: raidhut_signup
+  name: Raid Hut account signup
+  url: https://signup.raidhut.com/en
+  kind: official-site
+  canon: official
+  language:
+  - en
+  - pt-BR
+  status: active
+  trust: 2
+  covers: Account creation only; no lore.
+  notes: Listed only to identify Raid Hut infrastructure domains.
+  verified: Seen in WebSearch results; not fetched.
+  research_notes: Not worth scraping.
+- id: supreme_destiny_ph
+  name: Supreme Destiny (Philippines, e-Games, 2006-2008)
+  url: https://www.gameindustry.ph/article/supreme-destiny
+  kind: archive
+  canon: official
+  language: en
+  status: archived-only
+  trust: 2
+  covers: >-
+    GameIndustry.ph wiki page on the PH release (e-Games/IPVG, shut down 2008-12-31, players moved to
+    ZX Online; Supreme Destiny World Championship League 2008 at /article/supreme-destiny-world-championship-league-2008).
+    Philstar 2006 launch article: https://www.philstar.com/business/technology/2006/09/21/359183/supreme-destiny-next-evolution-fantasy-mmorpgs/amp/
+  notes: Malaysian Supreme Destiny site not found at all.
+  verified: URLs seen in WebSearch results; not fetched. Official PH/MY sites unverified.
+  research_notes: HTML of these articles; the official PH site domain was not found, so no CDX query can
+    be given yet.
+- id: tm_project_client_source
+  name: tm-project (EricSantos00) - decompiled WYD client (TMProject)
+  url: https://github.com/EricSantos00/tm-project
+  kind: tool
+  canon: community
+  language: pt-BR README, C++
+  status: archived-only
+  trust: 4
+  covers: >
+    Client source; Projects/TMProject/TMPaths.h lists every client data path (Strdef.bin, ItemName.bin,
+    itemhelp.dat...). Loader code gives exact struct layouts/decryption needed to read client text files.
+    Related forks found by code search: R3DIANCE/TMProject-SeiTbNao, lorransouza/TMProject-Free, devMaikel/Projeto-Novo-Client-TM,
+    RodrigoWayand/WYD3.0.
+  notes: GPL-3.0; README says rights belong to Hanbitsoft. Format reference, no game data.
+  verified: Opened repo page via WebFetch; code search for "Strdef.bin" and "itemhelp.dat".
+  research_notes: raw.githubusercontent.com/EricSantos00/tm-project/<branch>/Projects/TMProject/TMPaths.h
+    and loaders.
+- id: w2pp_erickalcan
+  name: W2PP (ErickAlcan) - "The last W2 remaining stronghold"
+  url: https://github.com/ErickAlcan/W2PP
+  kind: emulator-repo
+  canon: community
+  language: en + pt-BR comments
+  status: archived-only
+  trust: 4
+  covers: >
+    Reference decompilation of the official server (TMSrv, DBSrv, NPC/mob/drop editors). Code/TMSrv/Language.h
+    defines message keys (_NN_Cure_animals, _SN_BRINGITEM...) used by _MSG_Quest.cpp; Code/Basedef.cpp
+    loads ItemList/Strdef. Shows which message is said by which NPC, i.e. the glue to attribute Language.txt
+    lines to NPCs. Quest names in Portuguese ("Formatura Aprendiz", "o Sephirot da classe escolhida").
+  notes: >-
+    GPL-3.0 code; ancestor of most forks (seitbnao/W2PP, news12/WyDEmulator, NewWorld, OpenWYD). No data
+    files at root.
+  verified: Opened repo page; fetched raw _MSG_Quest.cpp; code search located Language.h.
+  research_notes: raw.githubusercontent.com/ErickAlcan/W2PP/master/Code/TMSrv/_MSG_Quest.cpp etc.
+- id: blog_viciados_wyd
+  name: Blog Viciados WYD
+  url: http://blogviciadoswyd.blogspot.com/2010/06/reinos-hekalotia-e-akelonia.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Lore post 'Reinos - Hekalotia e Akelonia': Hekalotia ('País do Céu') founded by children of a divine
+    being; split from Akelonia over beliefs.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://blogviciadoswyd.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Direct lore source on the two kingdoms (the game's faction split). High priority.
+  verified: WebSearch result title+snippet; not fetched.
+- id: fanwyd_fandom
+  name: Wiki Tudo sobre W.Y.D (fanwyd)
+  url: https://fanwyd.fandom.com/pt-br/wiki/Wiki_Tudo_sobre_W.Y.D
+  kind: wiki
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Home says it is meant to help the Brazilian WYD community: quests, strong weapons/armor, video tutorials.
+    Pages seen: "De Arch para Celestial", "Criando Guild", "Criando Sephirot", "Sobre as cidades e palavras
+    usadas no jogo" (cities + slang glossary), "WYD Brazuca" (private server since 2006).
+  fetch:
+    enabled: true
+    driver: mediawiki
+    api: https://fanwyd.fandom.com/pt-br/api.php
+    page_base: https://fanwyd.fandom.com/pt-br/wiki/
+    content_selector: ".mw-parser-output"
+    images: true
+    max_items_per_run: 40
+  notes: >-
+    Best wiki lead for lore-adjacent material (city names, Arch/Celestial progression). Some pages describe
+    outdated rules.
+  verified: >-
+    WebSearch results (fandom.com filter) showed home page and 5 subpage URLs with snippets; WebFetch
+    failed (DNS).
+- id: github_wyd_search
+  name: GitHub search for new WYD emulators/servers
+  url: https://github.com
+  kind: server-list
+  canon: community
+  language: pt-BR + en
+  status: active
+  trust: 3
+  covers: >
+    New WYD repos keep appearing (e.g. 2026: wyd748, FreeYD, allau-lab/wyd-748-ports, rogeriofbi10/Server
+    "WYD AVATAR 7.59", Jean1dev/w2pp-OpenWyd-WebClient). Code search for "_NN_Cure_animals" finds every
+    W2PP-family fork with Language.h; "Strdef.bin" finds client sources.
+  notes: Discovery channel for game-text sources, not for player-facing news.
+  verified: Ran GitHub repository and code searches via the GitHub MCP tool.
+  research_notes: >-
+    GitHub REST API /search/repositories?q=wyd+server and /search/code?q=%22_NN_Cure_animals%22, sorted
+    by updated.
+- id: guiadowyd_blog
+  name: Guia Nº 1 do W.Y.D, WITH YOUR DESTINY
+  url: http://guiadowyd.blogspot.com/2009/09/quests-mortais.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: "'Quests Mortais' (2009-09): mortal-stage quests."
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://guiadowyd.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: ''
+  verified: WebSearch result; not fetched.
+- id: ongamewyd_fandom
+  name: Wiki WYD (ongamewyd)
+  url: https://ongamewyd.fandom.com/pt-br/wiki/Wiki_WYD
+  kind: wiki
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Small wiki from the Ongame era. Pages seen: 'UP: Mortal, Arch e Celestial' (leveling), 'Drops' (item
+    and soul drops).
+  fetch:
+    enabled: true
+    driver: mediawiki
+    api: https://ongamewyd.fandom.com/pt-br/api.php
+    page_base: https://ongamewyd.fandom.com/pt-br/wiki/
+    content_selector: ".mw-parser-output"
+    images: true
+    max_items_per_run: 40
+  notes: Named after Ongame, the Brazilian publisher 2005-2016; likely frozen Ongame-era content.
+  verified: WebSearch results showed home + 2 subpage URLs; not fetched.
+- id: phaeton_ninja30_blog
+  name: Phaeton e o Wyd (ninja30)
+  url: http://ninja30.blogspot.com/2009/09/primeira-historia-do-wyd.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    'Primeira História do WYD' (2009): Yetzirah and Tzfah as the supreme beings, Hekalote as the continent
+    where Yetzirah placed humans, Tzfah's jealousy leading to the celestial war.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://ninja30.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: >-
+    Creation-myth retelling; compare against official FAQ 'História' (feedback.kersef.com, official, not
+    listed here).
+  verified: WebSearch result title+snippet; not fetched.
+- id: snalmir
+  name: snalmir (venantivs) - open-source WYD server for client 7.54
+  url: https://github.com/venantivs/snalmir
+  kind: emulator-repo
+  canon: community
+  language: en
+  status: active
+  trust: 3
+  covers: C server code (bin/, src/); data stored in "DB" files at runtime, none visible at repo root.
+  notes: GPL-3.0. Useful for packet/struct definitions, not text.
+  verified: Opened repo page via WebFetch.
+  research_notes: GitHub API.
+- id: theplayerbrasil_review
+  name: 'The Player Brasil: Análise/Crítica WYD'
+  url: https://theplayerbrasil.blogspot.com/2016/04/analisecritica-wyd-with-your-destiny.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    2016-04 review/retrospective of WYD, written around the Ongame shutdown announcement (servers closed
+    2016-07-25).
+  fetch:
+    enabled: true
+    driver: urls
+    urls:
+    - https://theplayerbrasil.blogspot.com/2016/04/analisecritica-wyd-with-your-destiny.html
+    images: true
+  notes: Nostalgia/history angle.
+  verified: WebSearch result; not fetched.
+- id: tutorialwyd_blog
+  name: WYD Tutorial (tutorialwyd)
+  url: http://tutorialwyd.blogspot.com/
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Lore: gods led by Armia and Kafma moving against Tzfah; Daleth building the Sephira bridge to Hekalote,
+    with mortals who cross called Arch. Quest guide 'Quest molar do Gargula' (2011-12).
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://tutorialwyd.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Lore plus quests; Arch/Sephira explanation matches the official FAQ per search summary.
+  verified: WebSearch results (2 queries); not fetched.
+- id: w2_rust_editors
+  name: W2.Rust (Rechdan) - server, sniffer and client editors in Rust
+  url: https://github.com/Rechdan/W2.Rust
+  kind: tool
+  canon: community
+  language: en
+  status: archived-only
+  trust: 3
+  covers: >
+    apps/editors/src/consts.rs documents strdef.bin (STRDEF_MESSAGES_LEN = 2000 strings, Lang folder),
+    sn.bin, serverlist.bin with its 63-byte XOR key. Editors for client files.
+  notes: No license shown.
+  verified: Opened repo page and consts.rs via WebFetch.
+  research_notes: raw files in apps/editors/src/ (struct definitions usable to write a strdef.bin decoder).
+- id: warlokos_blog
+  name: WarLokos... Tudo sobre WYD Para Você
+  url: http://warlokos.blogspot.com/2010/01/lista-de-drop-full.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    'Drop WYD (Lista Full)' (2010-01, full drop list incl. desert zone); 'Quest Molar do Gárgula' (2009-12,
+    http://warlokos.blogspot.com/2009/12/molar-do-gargula-quest-wyd.html).
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://warlokos.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Good item/drop + quest reference for the Ongame era.
+  verified: Two WebSearch results; not fetched.
+- id: wikipedia_with_your_destiny
+  name: 'Wikipedia: With Your Destiny'
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  kind: wiki
+  canon: community
+  language: en
+  status: archived
+  trust: 3
+  archive: sources/wikipedia_with_your_destiny
+  covers: >-
+    Game overview, publishers, release history, plot summary, references to archived official sites. Translated
+    into wiki/historia/with-your-destiny.md.
+- id: wyd748_go
+  name: wyd748 (felipeletsgo) - WYD 7.48 Go server + C++ client port
+  url: https://github.com/felipeletsgo/wyd748
+  kind: emulator-repo
+  canon: community
+  language: en
+  status: active
+  trust: 3
+  covers: >
+    wydgo748/data: Itemname.csv (mostly English, some romanized Korean and Portuguese costume names),
+    itemlist.csv, SkillData.csv, NPCGener.txt, quests.json, quest_zones.json, teleports.ini, npcs/, boss/,
+    maps/. DOCS/client/resource-compatibility-matrix.md maps every client file (ui/strdef.bin, itemname.bin,
+    itemlist.bin, itemhelp.dat, extraitem.bin, inititem.bin, curse.bin) to its native loader function;
+    .agents/research/client748/ has extensive reverse-engineering notes.
+  notes: >
+    GPL-3.0. CAUTION: quests.json NPC "dialogue" lines are English flavor text that appears newly written
+    by the project (not found in official files), so do not treat them as canon.
+  verified: >-
+    Opened repo, wydgo748/ and wydgo748/data listings; fetched raw Itemname.csv, quests.json and the compatibility-matrix
+    doc.
+  research_notes: GitHub raw files under wydgo748/data/ and DOCS/; commits API (updated daily in Oct 2026).
+- id: wyd_forever_blog
+  name: WyD - FoReVeR
+  url: https://wyd-forever-s2.blogspot.com/
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Lore: Hekalote as 'Morada dos Deuses' built by Yetzirah; the five gods Kafma, Armia, Daleth, Samech,
+    Haden; Tzfah imprisoning the gods and the celestial battle.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wyd-forever-s2.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Appeared in two separate lore searches; among the fuller creation-myth texts.
+  verified: WebSearch results (2 queries) title+snippet; not fetched.
+- id: wydbyviking_blog
+  name: WYD by Viking
+  url: https://wydbyviking.blogspot.com/2019/06/quests-secundarias.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: "'QUEST's SECUNDÁRIAS' (2019-06): side quests, Raid Hut era."
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wydbyviking.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: One of the few post-2019 fan blogs found.
+  verified: WebSearch result; not fetched.
+- id: wydconexion_blog
+  name: WYD Conexion
+  url: http://wydconexion.blogspot.com/p/mega-tutorial-tk-bm-fm-ht.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    'Mega Tutorial TK / BM / FM / HT': class guide; Transknight lineages Confiança (mage), Trans (physical),
+    Espada Mágica.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wydconexion.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Best class-overview hit.
+  verified: WebSearch result + snippet; not fetched.
+- id: wydemulator_news12
+  name: WyDEmulator (news12) - W2PP-based, configs converted to JSON
+  url: https://github.com/news12/WyDEmulator
+  kind: emulator-repo
+  canon: community
+  language: pt-BR
+  status: archived-only
+  trust: 3
+  covers: >-
+    Portuguese changelog README; quizzes, events, bosses, refining, NPCs moved to JSON; Language.h, Basedef.cpp.
+  notes: No license file shown. JSON quiz files may hold in-game quiz text in Portuguese (not opened).
+  verified: Opened repo page via WebFetch; code search hits for Language.h and Basedef.cpp.
+  research_notes: Git clone; search Code/ for *.json data.
+- id: wydetonado_br_blog
+  name: "..:: WyDetonado BR ::.."
+  url: http://wydetonadobr.blogspot.com/2012/07/quest-molar-do-gargula.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Quest guide 'Quest molar do Gargula' (2012-07): NPC Patrulha on Dungeon floor 2 (X:787 Y:4058), boss
+    'Gargula Inf', reward sets armor to +6.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wydetonadobr.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Gives concrete coordinates and NPC names.
+  verified: WebSearch result + snippet; not fetched.
+- id: wydtutoriais_wordpress
+  name: WYD Tutoriais (wordpress)
+  url: https://wydtutoriais.wordpress.com/molar-do-gargula-201-ao-205/
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: Quest page 'Molar do Gárgula 201 ao 205' (level range 201-205).
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wydtutoriais.wordpress.com/feed/
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Organized as pages per quest; likely has more quest pages.
+  verified: WebSearch result; not fetched.
+- id: freeyd
+  name: FreeYD (n0bode) - Zig + Lua WYD emulator
+  url: https://github.com/n0bode/FreeYD
+  kind: emulator-repo
+  canon: community
+  language: en
+  status: active
+  trust: 2
+  covers: Server logic in Lua (created July 2026).
+  notes: Not inspected beyond search metadata.
+  verified: Seen in GitHub repository search results only.
+  research_notes: GitHub API.
+- id: games_ultimate_wyd
+  name: 'Games Ultimate: wyd'
+  url: http://gamesultmat.blogspot.com/2010/05/wyd.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: 2010 post on WYD that matched the Yetzirah/Tzfah lore query (game overview + backstory).
+  notes: General gaming blog, one WYD post.
+  verified: WebSearch result only; not fetched.
+  research_notes: Single post; or Blogger feed http://gamesultmat.blogspot.com/feeds/posts/default?alt=rss
+- id: natashas2wyd_wordpress
+  name: WYD-CONHECENDO (natashas2wyd)
+  url: https://natashas2wyd.wordpress.com/wyd-guia-iniciante/
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: Beginner guide (guia iniciante); matched the lore query, so likely includes backstory.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://natashas2wyd.wordpress.com/feed/
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: ''
+  verified: WebSearch result only; not fetched.
+- id: ragezone_wyd
+  name: RaGEZONE - WYD threads
+  url: https://forum.ragezone.com/threads/the-rise-of-the-international-wyd-community.1232209/
+  kind: forum
+  canon: community
+  language: en
+  status: active
+  trust: 2
+  covers: >-
+    Private-server development and community threads 2007-2025: 'The rise of the International WYD Community',
+    '[Guide]How to create a wyd server!' (threads/...335587), '[Release] Collection of WYD files' (334021),
+    'Wich WYD you like most?' (717535, versions nostalgia), 'WYD BRAZUKAS OPEN BETA 7.0r' (687078), WYD
+    International beta 2024 / speed server 2025.
+  notes: >-
+    Version history (6.56, 7.0r, 7.54, 8.4) and emulator knowledge; client files can hint at item/NPC
+    names. One commenter warned of a trojan in shared server files.
+  verified: WebSearch with ragezone.com domain filter returned 10 thread URLs; not fetched.
+  research_notes: >-
+    XenForo: /threads/<slug>.<id>/ with /page-N ; forum search; Wayback CDX for forum.ragezone.com/threads/*wyd*
+- id: strdef_convert_file
+  name: strdef-convert-file (N4KIUS)
+  url: https://github.com/N4KIUS/strdef-convert-file
+  kind: tool
+  canon: community
+  language: pt-BR
+  status: archived-only
+  trust: 2
+  covers: C# tool to decrypt/encrypt the client message table strdef.bin (2 commits, 2017).
+  notes: GPL-3.0. Format details only in source; README is one line.
+  verified: Opened repo page via WebFetch; source folder not opened.
+  research_notes: Read source in strdef-project/ for the decryption routine.
+- id: w2_server_node
+  name: W2.Server.Node (Rechdan) - WYD private server in Node.js/TypeScript
+  url: https://github.com/Rechdan/W2.Server.Node
+  kind: emulator-repo
+  canon: community
+  language: en
+  status: archived-only
+  trust: 2
+  covers: Study server; no game data visible.
+  notes: No license shown; 23 stars, 17 forks.
+  verified: Opened repo page via WebFetch.
+  research_notes: GitHub API.
+- id: w2_strdef_skilldata_editors
+  name: W2-StrdefEditor / W2-SkillDataEditor / W2-MeshRegister (CarlosHMoura, seitbnao)
+  url: https://github.com/CarlosHMoura/W2-StrdefEditor
+  kind: tool
+  canon: community
+  language: pt-BR
+  status: archived-only
+  trust: 2
+  covers: >
+    Editors for Strdef.bin and SkillData (client 759). Mirrors: https://github.com/seitbnao/W2-SkillDataEditor,
+    https://github.com/CarlosHMoura/W2-SkillDataEditor, https://github.com/seitbnao/W2-MeshRegister.
+  notes: CarlosHMoura copies appear empty (no language detected); seitbnao versions are C#.
+  verified: Seen in GitHub repository search results only (not opened).
+  research_notes: GitHub API repo contents.
+- id: webcheats_wyd
+  name: WebCheats - WYD sections
+  url: https://www.webcheats.com.br/forum/215-wyd-servidores-privados/
+  kind: forum
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: >-
+    Largest current Brazilian forum with WYD sections: private servers (forum 215), beta/projects, dúvidas,
+    Bate Papo. Thread seen: 'Lista de itens WYD' https://www.webcheats.com.br/topic/2288992-lista-de-itens-wyd/
+    (item level and STR/DEX/class requirements).
+  notes: Mostly private-server and cheat content; item list thread is the useful bit.
+  verified: WebSearch results showed forum 215 (pages 1 and 2) and topic 2288992; not fetched.
+  research_notes: >-
+    Invision forum: paginate /forum/215-wyd-servidores-privados/page/N/ ; topics /topic/<id>-<slug>/ ;
+    Invision forums usually expose RSS but not confirmed.
+- id: whityourdestiny_blog
+  name: Tudo sobre with your destiny
+  url: http://whityourdestiny.blogspot.com/2011/04/tutorial-completo-sobre-wyd.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: "'Tutorial completo sobre wyd' (2011-04): general complete tutorial."
+  notes: Note misspelled subdomain (whit-).
+  verified: WebSearch result; not fetched.
+  research_notes: Blogger feed http://whityourdestiny.blogspot.com/feeds/posts/default?alt=rss
+- id: wyd_ancient_destiny_databook
+  name: WYD Ancient Destiny DATABOOK
+  url: https://databook.wydancientdestiny.com
+  kind: database
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: 'Structured databook: Sub-Celestial gear, new items, special skills.'
+  notes: >-
+    Belongs to a private server (Ancient Destiny), so custom items mix with original ones. Flag per item.
+  verified: Seen in one WebSearch result; a direct domain search returned nothing; not fetched.
+  research_notes: Unknown structure; crawl from root. Probably dynamic.
+- id: wyd_build_blogs_cluster
+  name: Build blogs cluster (blogwydtutoriais, abcdowyd, wyd-minhavida, fofocowyd, wydlives, wydguiabyz)
+  url: http://blogwydtutoriais.blogspot.com/2009/05/guia-de-builds-de-wyd-754.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: >-
+    Stat/build guides from 2009-2010 tied to client versions (e.g. 7.54). Other URLs seen: http://abcdowyd.blogspot.com/2010/06/builds-atualizada-versao-novaxd.html
+    , https://wyd-minhavida.blogspot.com/2009/09/builds-wyd.html , http://fofocowyd.blogspot.com/2010/06/transknight-trans-fisico-build-full.html
+    , https://wydlives.blogspot.com/2009/09/build-wyd.html , http://wydguiabyz.blogspot.com/
+  notes: Useful for dating game versions/patches; low lore value. Grouped to avoid noise.
+  verified: All URLs seen in one WebSearch result set; none fetched.
+  research_notes: 'Blogger feed per host: <host>/feeds/posts/default?alt=rss&max-results=500'
+- id: wyd_gg_historia
+  name: WYD GG - História (Glow Games server)
+  url: https://wyd.glowgames.com.br/historia.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: Lore page 'HISTÓRIA' on a private server site; retells the Yetzirah/Tzfah creation story.
+  notes: >-
+    Private server, not official. Likely copied from the Ongame-era official text, which is useful for
+    cross-checking wording. A related YouTube video advertises the 'WYD 2025 (GG)' server.
+  verified: WebSearch result; not fetched.
+  research_notes: Single static page.
+- id: wyd_private_editors_web
+  name: wyd-private-editors (Rechdan) - browser-based editors
+  url: https://github.com/Rechdan/wyd-private-editors
+  kind: tool
+  canon: community
+  language: en
+  status: archived-only
+  trust: 2
+  covers: Next.js web editors for WYD private-server files; demo listed as wyd-private-editors.rechdan.dev.
+  notes: No license shown.
+  verified: Opened repo page via WebFetch.
+  research_notes: Source in src/; supported formats not documented in README.
+- id: wyd_pro_top_fandom
+  name: Wiki WYD-PRO-TOP
+  url: https://wyd-pro-top.fandom.com/pt-br/wiki/DROP_LIST
+  kind: wiki
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: Drop list organized by map (Deserto, Kefra areas).
+  notes: Name suggests it may be tied to a private server; drop data may not match official servers.
+  verified: Seen in two WebSearch results; not fetched.
+  research_notes: MediaWiki API https://wyd-pro-top.fandom.com/pt-br/api.php (allpages + parse).
+- id: wyd_tools_davirs
+  name: WYD-Tools (davirs)
+  url: https://github.com/davirs/WYD-Tools
+  kind: tool
+  canon: community
+  language: pt-BR
+  status: archived-only
+  trust: 2
+  covers: '"Uma serie de editores de arquivos WYD em apenas um projeto" (TypeScript, 2020).'
+  notes: MIT license. Formats handled not stated in README.
+  verified: Opened repo page via WebFetch.
+  research_notes: src/ folder.
+- id: wyd_tutorial_quests_blog
+  name: Tutorial de como fazer algumas quest no WYD
+  url: https://wyd-tutorial.blogspot.com/
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: Quest walkthroughs (Molar do Gárgula and others).
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wyd-tutorial.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: ''
+  verified: WebSearch result; not fetched.
+- id: wydbr_withyourdestiny_blog
+  name: WYD - With Your Destiny (wydbr-withyourdestiny)
+  url: https://wydbr-withyourdestiny.blogspot.com/
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: Matched an item-list query; general WYD BR info/items.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wydbr-withyourdestiny.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: ''
+  verified: WebSearch result; not fetched.
+- id: wydgeral_blog
+  name: WYD (wydgeral)
+  url: http://wydgeral.blogspot.com/
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: Returned for a Yetzirah/Tzfah lore query; game backstory text.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wydgeral.blogspot.com/feeds/posts/default?alt=rss&max-results=500
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Content scope not confirmed beyond the lore-query match.
+  verified: WebSearch result only; not fetched.
+- id: wydglobal_w2pp_patch
+  name: WYDGlobal_W2ppPatch (tiagosucci) - "Patch para wyd global 763"
+  url: https://github.com/tiagosucci/WYDGlobal_W2ppPatch
+  kind: emulator-repo
+  canon: community
+  language: pt-BR
+  status: archived-only
+  trust: 2
+  covers: >-
+    W2PP adapted to the WYD Global 7.63 client (the Raid Hut era); folders Global, Release W2pp@Global,
+    Source W2pp@Global with Language.h and _MSG_Quest.cpp.
+  notes: >-
+    No license shown; 14 forks. Global/ contents not inspected. Relevant because it targets the current
+    official client version.
+  verified: Opened repo page (partial listing); code search hits.
+  research_notes: Git clone; inspect Global/ for client data of the 763 build.
+- id: wydparameninas_wordpress
+  name: WYD para Meninas
+  url: https://wydparameninas.wordpress.com/category/entrevistas/
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: Category 'Entrevistas' (interviews, likely with players or guilds); matched a lore/legend query.
+  fetch:
+    enabled: true
+    driver: feed
+    url: https://wydparameninas.wordpress.com/feed/
+    full_page: false
+    images: true
+    max_items_per_run: 40
+  notes: Possibly useful for community history (interviews). A direct search for the name returned nothing.
+  verified: Seen once in WebSearch results; not fetched.
+- id: wydpvptatics_blog
+  name: Wyd pvp tatics
+  url: http://wydpvptatics.blogspot.com/2010/06/guia-de-estrategias-para-transknight_20.html
+  kind: fan-blog
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: 'Strategy guide for Transknight Mágico (2010): gear, matchups against Foema.'
+  notes: PvP meta, low lore value.
+  verified: WebSearch result; not fetched.
+  research_notes: Blogger feed http://wydpvptatics.blogspot.com/feeds/posts/default?alt=rss
+- id: yt_playlist_wyd_br_2007_2011
+  name: YouTube playlist 'WYD BR [2007-2011]'
+  url: https://www.youtube.com/playlist?list=PL5581BCA39A3FF57B
+  kind: video
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: Period footage from the Ongame Brazil era, 2007-2011.
+  notes: Visual record of the old maps and events; channel name unknown.
+  verified: WebSearch result; not fetched.
+  research_notes: RSS https://www.youtube.com/feeds/videos.xml?playlist_id=PL5581BCA39A3FF57B
+- id: yt_playlist_wyd_with_your_destiny
+  name: YouTube playlist 'WYD - With Your Destiny'
+  url: https://www.youtube.com/playlist?list=PLE3FDC49A1EBD384F
+  kind: video
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: >-
+    Tutorial playlist; description says WYD launched in Brazil on 2005-03-10 as the country's first free
+    MMORPG. Channel name not shown in results.
+  notes: ''
+  verified: WebSearch result (youtube.com filter); not fetched.
+  research_notes: >-
+    RSS https://www.youtube.com/feeds/videos.xml?playlist_id=PLE3FDC49A1EBD384F ; or yt-dlp --flat-playlist
+- id: yt_wyd_misc_videos
+  name: YouTube WYD nostalgia/impressions videos
+  url: https://www.youtube.com/watch?v=DPS-ZFZJE9w
+  kind: video
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: >-
+    'WYD - Minha homenagem ao jogo' (tribute, DPS-ZFZJE9w); 'WYD - With Your Destiny - Pista de Runas
+    - Parte-1' (q7X7zJEoFAU, Rune Track quest); 'VOLTANDO NO TEMPO! ... PRIMEIRAS IMPRESSÕES de WYD GLOBAL'
+    (3dcW88L3O3E); 'WYD GLOBAL - Impressões Gerais' (jEEHyxos5lE); 'With Your Destiny in 2022' (_9M8CHdczsw,
+    EN); 'Você Jogou WYD ONLINE Na LAN HOUSE?...' (w22_jbDRVYg); live playlist PLrNKN5-d7IzB3OMppq7T5Zhc6lnS5bad9.
+  notes: >-
+    Channel names were not shown in search results; resolve with yt-dlp. No dedicated WYD lore or cinematic
+    channel was found.
+  verified: WebSearch results (youtube.com filter); not fetched.
+  research_notes: >-
+    yt-dlp --dump-json https://www.youtube.com/watch?v=<id> to get channel_id, then https://www.youtube.com/feeds/videos.xml?channel_id=<id>
+- id: desciclopedia_wyd
+  name: Desciclopédia - With Your Destiny
+  url: https://desciclopedia.org/wiki/With_Your_Destiny
+  kind: wiki
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 1
+  covers: Satirical article (Brazilian Uncyclopedia); captures community memes and in-jokes.
+  notes: Humor, not fact. Cultural/nostalgia value only.
+  verified: WebSearch result; not fetched.
+  research_notes: 'MediaWiki: https://desciclopedia.org/api.php?action=parse&page=With_Your_Destiny&format=json'
+- id: elitepvpers_wyd
+  name: elitepvpers - WYD threads
+  url: https://www.elitepvpers.com/forum/general-gaming-discussion/337955-your-destiny-ii.html
+  kind: forum
+  canon: community
+  language: en
+  status: active
+  trust: 1
+  covers: >-
+    2007-2013 threads: 'With Your Destiny II', 'WYD 2 Auto Attack (Only for WYD 2 or Supreme Destiny knower's)'
+    (351756), 'WYD Global Hack' (375434), private server ads (1279812, 2139169).
+  notes: Mostly bots/hacks; marginal. Useful only for international naming (Supreme Destiny, WYD 2).
+  verified: WebSearch with elitepvpers.com domain filter; not fetched.
+  research_notes: vBulletin thread URLs /forum/<section>/<id>-<slug>.html
+- id: forumeiros_wyd_private
+  name: WYD Private / The Answer (forumeiros)
+  url: https://wydprivate.forumeiros.com/
+  kind: forum
+  canon: community
+  language: pt-BR
+  status: offline
+  trust: 1
+  covers: >-
+    Old Brazilian private-server forums; also https://theanswer.forumeiros.com/f13-divulgacao-de-servidores-privados-wyd
+    . Last posts around 2014-2016 per search summary.
+  notes: Inactive; status 'offline' means inactive, the site may still respond.
+  verified: WebSearch result; not fetched.
+  research_notes: 'Forumeiros (phpBB-like): /fNN-slug pages, /tNNN-slug threads; Wayback CDX for both
+    hosts.'
+- id: wyd_brazuca_server
+  name: WYD Brazuca
+  url: https://wydbrazuca.com.br/
+  kind: social
+  canon: community
+  language: pt-BR
+  status: active
+  trust: 1
+  covers: >-
+    Long-running Brazilian private server (says it has been online since 2006); news, PvP. The fanwyd
+    wiki has a page on it.
+  notes: Private-server community history only. Raid Hut takes down illegal servers, so it may disappear.
+  verified: WebSearch result; not fetched.
+  research_notes: Site news pages; not inspected.
+- id: raidhut_wyd_discord
+  name: Raid Hut - WYD official Discord (for context and takedown watch)
+  url: https://discord.com/servers/raid-hut-wyd-163398583637245952
+  kind: server-list
+  canon: private-server
+  language: pt-BR
+  status: active
+  trust: 4
+  covers: >-
+    Official WYD Global Discord (about 17,000 members); official temporary servers such as Loki 7 (June
+    2026) are announced here and on wydglobal.raidhut.com.
+  notes: Official, listed only so official seasonal servers (Loki) are not mistaken for private servers.
+  verified: Search-result snippet only.
+  research_notes: Not scrapable without a bot; use the official site news instead.
+- id: webcheats_wyd_servidores
+  name: WebCheats forum - WYD Servidores Privados
+  url: https://www.webcheats.com.br/forum/215-wyd-servidores-privados/
+  kind: server-list
+  canon: private-server
+  language: pt-BR
+  status: active
+  trust: 3
+  covers: >-
+    Main Brazilian forum board where new WYD private servers are announced (threads usually include site,
+    Discord, features).
+  notes: Largest source for discovery. Also hosts leaked files; link only to announcement threads.
+  verified: Search-result title only; WebFetch failed (DNS).
+  research_notes: >-
+    Invision Community board; forum boards typically expose an RSS feed and paginated /page/N/ listings
+    (verify before use).
+- id: wyd_brazuca
+  name: WYD Brazuca
+  url: https://wyd.net.br/updates/
+  kind: private-server
+  canon: private-server
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: >-
+    Updates page announcing original content such as a "Rainha Beriel" quest and a Colosseum with mystic
+    prizes (entry dated 24/10, year not shown).
+  fetch:
+    enabled: true
+    driver: urls
+    urls:
+    - https://wyd.net.br/updates/
+    max_items_per_run: 5
+  notes: >-
+    Unofficial server; Raid Hut holds the license, so it can disappear without notice. Post-canon content.
+  verified: Search-result snippet only; WebFetch failed (DNS ENOTFOUND from this environment).
+- id: wyd_international
+  name: WYD International
+  url: https://wyd-international.com/
+  kind: private-server
+  canon: private-server
+  language: en
+  status: active
+  trust: 2
+  covers: >-
+    English-language private server; announced a Speed Server launching 1 November and October blessing
+    events.
+  notes: Unofficial.
+  verified: Search-result snippet only; WebFetch failed (DNS).
+  research_notes: Scrape homepage news.
+- id: wydbr_browser
+  name: WYD BR - jogue pelo navegador
+  url: https://www.wydbr.com/
+  kind: private-server
+  canon: private-server
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: >-
+    Claims to be the first WYD server playable in the browser; post "Novo Update Importante" (https://wydbr.com/novo-update-1/)
+    with graphical changes (about 1,200 days old per search).
+  notes: Unofficial; legal caution as above.
+  verified: Search-result snippets only; WebFetch failed (DNS).
+  research_notes: Scrape homepage and post slugs like /novo-update-1/; likely WordPress (unverified).
+- id: wydserver_com
+  name: wydserver.com - WYD server list
+  url: https://www.wydserver.com/servidor/wyd-fenix
+  kind: server-list
+  canon: private-server
+  language: pt-BR
+  status: active
+  trust: 2
+  covers: >
+    Per-server pages at /servidor/<slug>; example WYD Fenix (client 7.62, new server from scratch, opening
+    09/10/2026). Search also surfaced WYD Obsidian (launch 25 July 2026), probably from the same list.
+  notes: Best candidate for automated discovery of new servers.
+  verified: Search-result snippet only; WebFetch failed (DNS).
+  research_notes: Crawl /servidor/<slug> pages; look for a sitemap.xml (unverified) for automated discovery.
+- id: portalwyd
+  name: Portal WYD (WYD BR)
+  url: https://portalwyd.com/
+  kind: private-server
+  canon: private-server
+  language: pt-BR
+  status: active
+  trust: 1
+  covers: Appeared as "WYD BR" in a search for new 2026 servers; content unknown.
+  notes: Unofficial; unclear whether server or portal.
+  verified: Search-result title only; WebFetch failed (DNS).
+  research_notes: Scrape homepage.
+- id: wyd2_com_br
+  name: Servidor de wyd (wyd2.com.br)
+  url: https://www.wyd2.com.br/
+  kind: private-server
+  canon: private-server
+  language: pt-BR
+  status: active
+  trust: 1
+  covers: Private server site found in 2026 server search; details unknown.
+  notes: Unofficial.
+  verified: Search-result title only; WebFetch failed (DNS).
+  research_notes: Scrape homepage.
+- id: wyd_dark_destiny
+  name: WYD Dark Destiny
+  url: https://www.youtube.com/watch?v=UuoI5Gb1iaM
+  kind: private-server
+  canon: private-server
+  language: pt-BR
+  status: active
+  trust: 1
+  covers: >-
+    YouTube video promoting the server's open beta as "the best server of 2026"; official site/Discord
+    not found.
+  notes: Unofficial. Beware fake invite links.
+  verified: Search-result title only.
+  research_notes: YouTube video description (oEmbed / YouTube Data API) to find the server links.
+- id: wyd_legacy_site_repo
+  name: WYD LEGACY - server website source
+  url: https://github.com/WYD-LEGACY/WYD-LEGACY
+  kind: private-server
+  canon: private-server
+  language: pt-BR
+  status: archived-only
+  trust: 1
+  covers: Static site source (index, cadastro, download, Doacoes pages); no news or patch notes.
+  notes: No content beyond landing pages.
+  verified: Opened repo page via WebFetch.
+  research_notes: GitHub raw HTML.
+- id: wyd_zodiac
+  name: WyD ZodiaC
+  url: https://wydzodiac.webnode.com.br/
+  kind: private-server
+  canon: private-server
+  language: pt-BR
+  status: offline
+  trust: 1
+  covers: Old Brazilian private-server project site (Webnode) using Hamachi rooms.
+  notes: Likely abandoned; historical interest only.
+  verified: Search-result snippet only.
+  research_notes: Scrape Webnode pages; check Wayback Machine.
+- id: wydhub_repo
+  name: WydHub (devlucasmattos) - server visibility site source
+  url: https://github.com/devlucasmattos/oficial-wydhub
+  kind: server-list
+  canon: private-server
+  language: pt-BR
+  status: archived-only
+  trust: 1
+  covers: >-
+    Web page source meant to list WYD game servers (Feb 2025); WydHub folder not inspected; no homepage
+    given.
+  notes: Has a LICENSE file (type not shown).
+  verified: Opened repo page via WebFetch.
+  research_notes: GitHub raw files in WydHub/.
