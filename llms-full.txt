@@ -1,6 +1,504 @@
 # WYD Lore: texto completo
 
 
+<!-- wiki/lore/batalha-celestial.md -->
+
+---
+title: Batalha Celestial
+summary: A guerra dos deuses contra Tzfah, liderada por Armia e Kafma com a ajuda de Yetzirah e dos humanos Arch. A página cobre a ponte Sephira, criada por Daleth e quebrada por Tzfah, o banimento incompleto de Tzfah, a Guerra Continental do mago Nershess e os vestígios da batalha no mundo atual.
+category: lore
+tags:
+- lore
+- batalha-celestial
+- sephira
+- arch
+- guerra-continental
+canon:
+- official
+- community
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: História
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia
+  archive: sources/feedback_kersef/data/articles/markdown/20364-historia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Nippleheim"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim
+  archive: sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(Quests Especiais) A procura dos rastros do mundo celestial"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Jardim de Deus
+  url: https://wydglobal.raidhut.com/#gods-garden
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: 'Wikipedia: With Your Destiny'
+  title: With Your Destiny
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  archive: sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
+updated: '2026-10-13'
+---
+
+# Batalha Celestial
+
+> A guerra dos deuses contra Tzfah, liderada por Armia e Kafma com a ajuda de Yetzirah e dos humanos Arch. A página cobre a ponte Sephira, criada por Daleth e quebrada por Tzfah, o banimento incompleto de Tzfah, a Guerra Continental do mago Nershess e os vestígios da batalha no mundo atual.
+
+A **Batalha Celestial** é o conflito central da mitologia de WYD. A fonte principal é o texto [História](historia-de-kersef.md) do FAQ oficial, que também a chama de "guerra celestial". O mapa [Nippleheim](../mapas/nippleheim.md) e a quest [À Procura dos Rastros do Mundo Celestial](../quests/rastros-do-mundo-celestial.md) usam o nome **Guerra Celestial**.
+
+## Lados
+
+| Lado | Participantes |
+| --- | --- |
+| Deuses | [Kafma e Armia](deuses.md) (líderes), Daleth, Samech, Haden e [Yetzirah](yetzirah-e-tzfah.md), que ajuda os filhos |
+| Humanos | Os **Arch**, humanos "tocados pela essência divina" que chegaram a Hekalote pela ponte Sephira |
+| Tzfah | [Tzfah](yetzirah-e-tzfah.md) e "um exército tocado pela mácula do ódio", além das hordas de monstros que ele soltou sobre a Terra |
+
+## Antecedentes
+
+- Tzfah, com ciúme do amor de Yetzirah pelos humanos, trancou os cinco deuses "num campo de êxtase".
+- Ele castigou a humanidade com desastres e monstros e chegou a escravizar "quase toda a população humana".
+- Mesmo presos, os deuses fortaleciam em segredo alguns humanos, enquanto Yetzirah "enfraquecia cada vez mais a prisão dos filhos".
+
+## A batalha
+
+> No instante em que os deuses finalmente conseguiram se libertar, a batalha começou. Liderados por Armia e Kafma e tendo a ajuda de Yetzirah, os deuses investiram com uma fúria jamais vista para finalmente livrar o mundo do maligno Tzfah.
+
+Humanos e monstros sentiram o impacto, "mas apenas os escolhidos sabiam que a hora tinha chegado e que eles precisavam ajudar os deuses".
+
+Enquanto isso, Tzfah mandou suas tropas destruírem todos os humanos, aproveitando que os deuses e Yetzirah estavam ocupados. "Rios de sangue corriam, irrigando a terra e gerando ainda mais monstros".
+
+## A ponte Sephira
+
+> Para que os humanos pudessem chegar até Hekalote, Daleth criou a ponte Sephira, que ligava o mundo mortal ao reino divino; assim, aqueles que tinha sido tocados pela essência divina conseguiriam chegar a Morada dos Deuses para batalhar pelo destino de toda a humanidade. Esses humanos receberam o nome de Arch.
+
+- **Criador:** o deus Daleth.
+- **Função:** ligar o mundo mortal a Hekalote, a Morada dos Deuses.
+- **Quem a atravessou:** os Arch.
+- **Destruição:** Tzfah a quebrou ao ser arremessado à Terra.
+- **Consequência:** "Os deuses não podem mais escutar nossos cânticos de louvor porque a ponte Sephira foi destruída."
+- **Estilhaços:** os humanos estudaram "a fonte de poder dos estilhaços da ponte Sephira" para criar encantamentos. O poder que se desprendeu da ponte também passou a influenciar os humanos, criando "mortais capazes de se defenderem dos monstros de Tzfah", o "ultimo presente dos deuses".
+
+No jogo, os Celestiais aprendem as **skills Sephira**, e a troca de classe usa o item **Sephirot** (ver [Glossário](glossario.md)). As fontes não ligam esses nomes à ponte de forma explícita.
+
+## O banimento de Tzfah
+
+> A única maneira encontrada pelos deuses para acabar com essa loucura era banindo Tzfah do reino divino e o aprisionando no centro da Terra, de onde ele nunca poderia escapar, e foi isso que os deuses fizeram.
+
+> Quando Tzfah foi arremessado a Terra, numa atitude desesperada ele quebrou a ponte Sephira, impedindo os deuses de completar o encantamento.
+
+Por isso Tzfah ficou "num estado de semiconsciência, mas ainda livre para influenciar sua legião maligna". O mapa Nippleheim conta outra versão: Tzfah e seu braço direito **Neses** foram expulsos para Nippleheim, ao norte de Azran, e, como o encantamento não foi completado, comandam os monstros de lá (ver [Yetzirah e Tzfah](yetzirah-e-tzfah.md#divergencias-entre-as-fontes)).
+
+## Consequências
+
+- **O conhecimento caiu na Terra.** "Graças a batalha celestial, as informações sobre a criação do mundo e sobre o segredo dos deuses caíram aqui na Terra, e é por isso que alguns de nós conseguimos fazer magias e manipular a energia dos espíritos."
+- **Os deuses viraram objeto de estudo.** Os humanos passaram a analisar os deuses "como qualquer outro elemento da natureza".
+- **Os deuses se afastaram.** Sem a ponte, só podem ajudar "cedendo um pouco de poder para aqueles que realmente acreditam".
+
+## A Guerra Continental
+
+A guerra não ficou restrita ao mundo celestial. Um dos magos que estudavam os poderes da Sephira, **Nershess, da cidade de Koren**, "foi tomado por uma arrogância sem precedentes, se considerando mais poderoso que os próprios deuses". Tzfah viu a mácula na alma dele e o convocou:
+
+> juntos eles invadiram Armia, o centro sagrado do continente.
+
+O exército de Tzfah se espalhou pelas cidades humanas. As que escaparam dos monstros sofreram com a magia de Nershess. Contra eles se ergueram os mortais fortalecidos pelo poder da ponte quebrada.
+
+## Vestígios no mundo atual
+
+- **400 anos depois**, "o mundo não se recuperou totalmente da guerra celestial", e o poder dos Arch é "apenas uma lenda" ([História](historia-de-kersef.md)).
+- **Cicatrizes.** "As cicatrizes deixadas pela Guerra Celestial marcam ate hoje os humanos e deuses [...] mesmo seculos depois do acontecido" ([Nippleheim](../mapas/nippleheim.md)).
+- **Esquecimento.** "Apos centenas de anos desde o momento em que Tzfah provocou a batalha Celestial, as pessoas comecaram aos poucos a esquecer sobre o fato" (Nippleheim).
+- **Os sete cristais.** Cristais "utilizados de diversas formas pelo mundo celestial para combater na Guerra Celestial" ficaram espalhados pelo mundo e hoje aparecem nos arredores de Armia ([À Procura dos Rastros do Mundo Celestial](../quests/rastros-do-mundo-celestial.md)).
+- **Jardim de Deus.** Ao sul de Azran, "um pedaço do paraíso na Terra onde os deuses encontraram repouso após uma batalha celestial" ([Jardim de Deus](../quests/jardim-de-deus.md)). O texto diz "uma batalha celestial", sem confirmar que é esta.
+- **Armia reconstruída.** Armia é "o local onde os humanos começaram a se reunir novamente no mundo devastado pela guerra contra as criaturas malignas" ([Armia](../mapas/armia.md)).
+
+## Divergências entre as fontes
+
+- **Onde Tzfah foi preso:** no centro da Terra, segundo "História", ou em Nippleheim, segundo o mapa Nippleheim.
+- **Quem lutou:** a Wikipedia (comunidade) fala de "um confronto entre as divindades" que "ameaçou aniquilar toda Kersef" e da "fúria de dois deuses supremos", sem citar a ponte Sephira nem os cinco deuses.
+
+## Veja também
+
+- [História](historia-de-kersef.md)
+- [Deuses](deuses.md)
+- [Yetzirah e Tzfah](yetzirah-e-tzfah.md)
+- [Linha do tempo](linha-do-tempo.md)
+- [Arch](../progressao/arch.md)
+
+## Fontes
+
+- [História](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20364-historia.md](../../sources/feedback_kersef/data/articles/markdown/20364-historia.md)
+- [(MAPA) Nippleheim](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20376-mapa-nippleheim.md](../../sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md)
+- [(Quests Especiais) A procura dos rastros do mundo celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial.md](../../sources/feedback_kersef/data/articles/markdown/20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial.md)
+- [Jardim de Deus](https://wydglobal.raidhut.com/#gods-garden), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [With Your Destiny](https://en.wikipedia.org/wiki/With_Your_Destiny), Wikipedia: With Your Destiny. Cópia arquivada: [with_your_destiny.md](../../sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md)
+
+
+<!-- wiki/lore/deuses.md -->
+
+---
+title: Deuses
+summary: Os cinco deuses nascidos das uniões de Yetzirah e Tzfah, Kafma, Armia, Daleth, Samech e Haden. A página reúne o que as fontes dizem de cada um, como a liderança de Armia e Kafma na Batalha Celestial, a ponte Sephira criada por Daleth e o "poder sombrio de Haden" das quests da Raid Hut, além de outras menções a divindades.
+category: lore
+tags:
+- lore
+- deuses
+- kafma
+- armia
+- daleth
+- samech
+- haden
+canon: official
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: História
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia
+  archive: sources/feedback_kersef/data/articles/markdown/20364-historia.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Hidra Imortal
+  url: https://wydglobal.raidhut.com/#immortality-of-hydra
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Início da Infelicidade
+  url: https://wydglobal.raidhut.com/#beginning-of-unhappiness
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Novo Mapa: Dragon Field'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/49455-novo-mapa-dragon-field
+  archive: sources/feedback_kersef/data/articles/markdown/49455-novo-mapa-dragon-field.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Jardim de Deus
+  url: https://wydglobal.raidhut.com/#gods-garden
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Desbloqueio de capa 355
+  url: https://wydglobal.raidhut.com/#mantle-unlock-355
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Benção de Deus
+  url: https://wydglobal.raidhut.com/#bless-of-the-god
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Quest: Irmãos Nórdicos'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57784-quest-irmaos-nordicos
+  archive: sources/feedback_kersef/data/articles/markdown/57784-quest-irmaos-nordicos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Submundo"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo
+  archive: sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md
+updated: '2026-10-13'
+---
+
+# Deuses
+
+> Os cinco deuses nascidos das uniões de Yetzirah e Tzfah, Kafma, Armia, Daleth, Samech e Haden. A página reúne o que as fontes dizem de cada um, como a liderança de Armia e Kafma na Batalha Celestial, a ponte Sephira criada por Daleth e o "poder sombrio de Haden" das quests da Raid Hut, além de outras menções a divindades.
+
+Segundo o texto [História](historia-de-kersef.md) do FAQ oficial, depois da criação dos humanos os seres supremos [Yetzirah e Tzfah](yetzirah-e-tzfah.md) "se uniram mais 5 vezes, e de cada união foi criado um deus: Kafma, Armia, Daleth, Samech e Haden". Os nomes aparecem nessa ordem, mas o texto não diz se ela é a ordem de nascimento.
+
+As fontes falam pouco de cada deus em particular. Nenhuma atribui a eles domínios, elementos ou classes de personagem. O que existe está reunido abaixo, sem acréscimos.
+
+## Resumo
+
+| Deus | O que as fontes dizem |
+| --- | --- |
+| [Kafma](#kafma) | Liderou os deuses na Batalha Celestial, junto com Armia |
+| [Armia](#armia) | Liderou os deuses na Batalha Celestial, junto com Kafma. Uma cidade tem o mesmo nome |
+| [Daleth](#daleth) | Criou a ponte Sephira, que ligava o mundo mortal a Hekalote |
+| [Samech](#samech) | Só aparece na lista dos cinco deuses |
+| [Haden](#haden) | Aparece na lista dos cinco deuses. As quests da Raid Hut falam do "poder sombrio" e do "antigo e esquecido mal" de Haden, e existe um boss com esse nome |
+
+## O que os cinco têm em comum
+
+- **Filhos dos seres supremos.** Nasceram das cinco uniões de Yetzirah e Tzfah que vieram depois da criação dos humanos.
+- **Presos por Tzfah.** Tzfah percebeu que os filhos se uniriam para matá-lo "em nome de sua mãe e por amor aos humanos". Como não podia matá-los, "os trancou num campo de êxtase".
+- **Amor pelos humanos.** Os deuses "compartilhavam o amor de sua mãe pelos humanos". Mesmo presos, começaram a "moldar a energia de alguns humanos", levando-os "ao ápice do poder que seus corpos poderiam aguentar". Desses humanos vieram os [Arch](../progressao/arch.md) da lenda.
+- **A Batalha Celestial.** Quando se libertaram, os deuses atacaram Tzfah "com uma fúria jamais vista", baniram-no do reino divino e tentaram aprisioná-lo no centro da Terra (ver [Batalha Celestial](batalha-celestial.md)).
+- **Separados dos humanos.** Desde que Tzfah quebrou a ponte Sephira, os deuses "não podem mais escutar nossos cânticos de louvor". Só podem interferir "cedendo um pouco de poder para aqueles que realmente acreditam".
+- **Estudados pelos humanos.** Depois da guerra, os humanos começaram a analisar os deuses em vez de louvá-los: "eles tornaram-se cobaias de estudos como qualquer outro elemento da natureza".
+- **À espera da volta.** 400 anos depois, os humanos estão "rezando para a volta dos deuses", e "não se sabe ao certo quando ou se os deuses voltarão".
+
+## Kafma
+
+> Liderados por Armia e Kafma e tendo a ajuda de Yetzirah, os deuses investiram com uma fúria jamais vista para finalmente livrar o mundo do maligno Tzfah.
+
+É tudo o que as fontes arquivadas dizem de Kafma em particular: ele aparece na lista dos cinco deuses e como um dos dois líderes na Batalha Celestial.
+
+## Armia
+
+Como Kafma, Armia é um dos dois deuses que lideraram a Batalha Celestial (citação acima).
+
+**Armia** também é o nome da [cidade](../mapas/armia.md) onde todo personagem começa o jogo. O mesmo texto "História" chama Armia de "o centro sagrado do continente", invadido por Tzfah e Nershess na Guerra Continental. As fontes não explicam se a cidade recebeu o nome do deus.
+
+## Daleth
+
+> Para que os humanos pudessem chegar até Hekalote, Daleth criou a ponte Sephira, que ligava o mundo mortal ao reino divino; assim, aqueles que tinha sido tocados pela essência divina conseguiriam chegar a Morada dos Deuses para batalhar pelo destino de toda a humanidade. Esses humanos receberam o nome de Arch.
+
+Daleth é, portanto, o criador da ponte Sephira. A ponte foi quebrada por Tzfah, e os estilhaços dela foram depois estudados pelos humanos (ver [Batalha Celestial](batalha-celestial.md#a-ponte-sephira)).
+
+## Samech
+
+Samech só aparece na lista dos cinco deuses do texto "História". Nenhuma outra fonte arquivada cita esse nome.
+
+## Haden
+
+No texto "História", Haden é um dos cinco filhos de Yetzirah e Tzfah, sem mais nenhum detalhe. Outras fontes oficiais ligam o nome **Haden** ao mal:
+
+- **Início da Infelicidade** (Raid Hut): "Transformados pela vingança e pelo poder sombrio de Haden, os Elfos Negros são uma lembrança dolorosa das consequências do ódio e do medo." Ver [Início da Infelicidade](../quests/inicio-da-infelicidade.md).
+- **Hidra Imortal** (Raid Hut): o artefato Olho de Sangue transformou as Hidras e "as vinculou ao antigo e esquecido mal de Haden". Ver [Hidra Imortal](../quests/hidra-imortal.md).
+- **Dragon Field** (FAQ): a segunda parte do mapa é protegida pelos bosses "Nesses" e "Haden". Ver [Dragon Field](../mapas/dragon-field.md).
+
+**Divergência.** O texto "História" põe Haden entre os deuses que amam os humanos e lutam contra Tzfah. As quests da Raid Hut e o mapa Dragon Field associam o nome a um poder sombrio e a um inimigo. Nenhuma fonte explica a contradição, nem diz se o Haden dessas quests é o mesmo deus.
+
+## Outras menções a deuses e divindades
+
+Estas fontes falam de "deuses" ou "divindades" sem dizer quais:
+
+- **Jardim de Deus**, ao sul de Azran: "um pedaço do paraíso na Terra onde os deuses encontraram repouso após uma batalha celestial". Ver [Jardim de Deus](../quests/jardim-de-deus.md).
+- **Selo do Guerreiro**: "Este artefato antigo, forjado pelas divindades de Erion". Ver [Desbloqueio de Capa 355](../quests/desbloqueio-de-capa-355.md).
+- **Pedaço da Salvação**: relíquia que simboliza "a proteção e o poder divino sobre as terras de Erion", guardada nas catedrais de Armia e Azran. Ver [Benção de Deus](../quests/bencao-de-deus.md).
+- **Hoder, o artesão**: "os deuses concederam a ele o poder de incrementar as suas cytheras", com a maldição de só poder negociar com humanos. Ver [Irmãos Nórdicos](../quests/irmaos-nordicos.md).
+- **Minério Temuh**: "verdadeiramente um dos presentes dos deuses para a humanidade". Ver [Submundo](../mapas/submundo.md).
+- **Os caídos**: o Submundo é "a moradia dos caidos, aqueles que possuem um odio profundo pelos deuses e humanos tão queridos por eles".
+
+## Veja também
+
+- [Yetzirah e Tzfah](yetzirah-e-tzfah.md)
+- [Batalha Celestial](batalha-celestial.md)
+- [História](historia-de-kersef.md)
+- [Glossário](glossario.md)
+
+## Fontes
+
+- [História](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20364-historia.md](../../sources/feedback_kersef/data/articles/markdown/20364-historia.md)
+- [Hidra Imortal](https://wydglobal.raidhut.com/#immortality-of-hydra), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Início da Infelicidade](https://wydglobal.raidhut.com/#beginning-of-unhappiness), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Novo Mapa: Dragon Field](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/49455-novo-mapa-dragon-field), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [49455-novo-mapa-dragon-field.md](../../sources/feedback_kersef/data/articles/markdown/49455-novo-mapa-dragon-field.md)
+- [Jardim de Deus](https://wydglobal.raidhut.com/#gods-garden), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Desbloqueio de capa 355](https://wydglobal.raidhut.com/#mantle-unlock-355), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Benção de Deus](https://wydglobal.raidhut.com/#bless-of-the-god), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Quest: Irmãos Nórdicos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57784-quest-irmaos-nordicos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [57784-quest-irmaos-nordicos.md](../../sources/feedback_kersef/data/articles/markdown/57784-quest-irmaos-nordicos.md)
+- [(MAPA) Submundo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20377-mapa-submundo.md](../../sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md)
+
+
+<!-- wiki/lore/glossario.md -->
+
+---
+title: Glossário
+summary: Glossário dos termos do mundo de WYD, de Akelonia a Yetzirah, com uma linha por termo e o link para a página da wiki que trata de cada um. Inclui seres e deuses, lugares, eventos da lore e os termos de progressão Arch, Celestial, Sub-Celestial e Sephirot.
+category: lore
+tags:
+- lore
+- glossario
+- termos
+- referencia
+canon:
+- official
+- community
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: História
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia
+  archive: sources/feedback_kersef/data/articles/markdown/20364-historia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Sub Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20383-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/20383-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: CYTHERA (A)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/24106-cythera-a
+  archive: sources/feedback_kersef/data/articles/markdown/24106-cythera-a.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Dungeon kefra"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20378-mapa-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/20378-mapa-dungeon-kefra.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Submundo"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo
+  archive: sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Nippleheim"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim
+  archive: sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Sistema de Reinos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20462-sistema-de-reinos
+  archive: sources/feedback_kersef/data/articles/markdown/20462-sistema-de-reinos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Guerra de Reinos'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21552-guia-guerra-de-reinos
+  archive: sources/feedback_kersef/data/articles/markdown/21552-guia-guerra-de-reinos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Guia: Guild'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57606-guia-guild
+  archive: sources/feedback_kersef/data/articles/markdown/57606-guia-guild.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Guia: Capas'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57768-guia-capas
+  archive: sources/feedback_kersef/data/articles/markdown/57768-guia-capas.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(Quests Especiais) A procura dos rastros do mundo celestial"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Benção de Deus
+  url: https://wydglobal.raidhut.com/#bless-of-the-god
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Jardim de Deus
+  url: https://wydglobal.raidhut.com/#gods-garden
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Equilibrio da Força
+  url: https://wydglobal.raidhut.com/#balance-of-power
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Cavaleiro do Reino
+  url: https://wydglobal.raidhut.com/#knight-of-the-kingdom
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Início da Infelicidade
+  url: https://wydglobal.raidhut.com/#beginning-of-unhappiness
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Desbloqueio de capa 355
+  url: https://wydglobal.raidhut.com/#mantle-unlock-355
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: 'Wikipedia: With Your Destiny'
+  title: With Your Destiny
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  archive: sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
+updated: '2026-10-13'
+---
+
+# Glossário
+
+> Glossário dos termos do mundo de WYD, de Akelonia a Yetzirah, com uma linha por termo e o link para a página da wiki que trata de cada um. Inclui seres e deuses, lugares, eventos da lore e os termos de progressão Arch, Celestial, Sub-Celestial e Sephirot.
+
+Cada definição resume o que as fontes arquivadas dizem. Quando um termo tem um sentido na lore e outro no jogo, a linha dá os dois.
+
+| Termo | Definição | Página |
+| --- | --- | --- |
+| Achro | Catedral que "por gerações" serviu de elo de paz entre Akelonia e Hekalotia, guardada pela sacerdotisa Amelia. | [Equilíbrio da Força](../quests/equilibrio-da-forca.md) |
+| Akelonia (Akeronia) | Um dos dois reinos rivais de Kersef, ligado à cor vermelha nas quests da Raid Hut. "Akeronia" é a grafia do guia "Guerra de Reinos" e da Wikipedia. | [Reinos](reinos.md) |
+| Altar de Thor | Altar do castelo de Noatun que o líder da guild tem de ocupar na Guerra de Noatun. | [Guild](../sistemas/guild.md) |
+| Arch | Na lore, os humanos "tocados pela essência divina" que subiram a Hekalote pela ponte Sephira para lutar na Batalha Celestial; hoje "apenas uma lenda". No jogo, a classe liberada pelas quests "A procura da vida eterna" e "Um novo começo", que cria um segundo personagem com o mesmo nome. | [Arch](../progressao/arch.md) |
+| Armia (cidade) | Cidade murada onde todo personagem começa e onde os humanos "começaram a se reunir novamente"; na lore, "o centro sagrado do continente". | [Armia](../mapas/armia.md) |
+| Armia (deus) | Um dos cinco deuses; liderou a Batalha Celestial junto com Kafma. | [Deuses](deuses.md#armia) |
+| Azran | Cidade de Kersef, com catedral, perto do Jardim de Deus, das Terras Místicas e do acesso ao Dragon Field. | [Kersef](kersef.md#azran) |
+| Batalha Celestial | A guerra dos deuses e dos Arch contra Tzfah, que terminou com a quebra da ponte Sephira. Também chamada de Guerra Celestial. | [Batalha Celestial](batalha-celestial.md) |
+| Caídos | Habitantes do Submundo, "aqueles que possuem um odio profundo pelos deuses e humanos". | [Submundo](../mapas/submundo.md) |
+| Campo de êxtase | Prisão em que Tzfah trancou os cinco deuses logo depois que eles nasceram. | [Deuses](deuses.md) |
+| Celestial | O "3º personagem liberado após o começo de uma saga", criado com um mortal nível 400 e um Arch nível 356 ou mais. A Wikipedia fala em evoluir "de um mortal a um ser celestial supremo". | [Criação do Celestial](../progressao/criacao-do-celestial.md) |
+| Comando Karden | Base avançada que a expedição dos dois reinos construiu no caminho para Nippleheim, para curar os feridos e abrigar os cavaleiros. | [Nippleheim](../mapas/nippleheim.md) |
+| Continente Desconhecido | Lugar aberto por um portal quando Kefra é derrotado, onde fica a cidade de Kefra; também chamado de "Continente Perdido". | [Dungeon Kefra](../mapas/dungeon-kefra.md) |
+| Coroa de Athila | Objeto da "violenta disputa" entre Hekalotia e Akelonia que levou à exploração do Deserto de Kult. | [Dungeon Kefra](../mapas/dungeon-kefra.md) |
+| Cristais do mundo celestial | Sete cristais usados na Guerra Celestial que hoje aparecem nos arredores de Armia. | [À Procura dos Rastros do Mundo Celestial](../quests/rastros-do-mundo-celestial.md) |
+| Cythera | Tiara do personagem Celestial, que pode ser prateada, dourada ou mística; a Cythera Arcana é a de nível mais alto. | [Cythera Arcana](../progressao/cythera-arcana.md) |
+| Daleth | Um dos cinco deuses; criou a ponte Sephira. | [Deuses](deuses.md#daleth) |
+| DarkKnightKing | Inimigos da quest Cavaleiro do Reino, "uma vez cavaleiros valorosos que caíram nas trevas". | [Cavaleiro do Reino](../quests/cavaleiro-do-reino.md) |
+| Deserto de Kult | Deserto explorado pelos dois reinos; no fim dele fica a Dungeon Kefra. | [Dungeon Kefra](../mapas/dungeon-kefra.md) |
+| Elfos Negros | Elfos que se tornaram negros "pelo poder sombrio de Haden" segundo a Raid Hut; inimigos da expedição a Nippleheim segundo o FAQ. | [Início da Infelicidade](../quests/inicio-da-infelicidade.md) |
+| Erion | Cidade de Kersef; a Guerra de Torres acontece nos arredores, e o Selo do Guerreiro foi "forjado pelas divindades de Erion". | [Kersef](kersef.md#erion) |
+| Guerra Continental | Guerra que veio depois da Batalha Celestial, em que Tzfah e o mago Nershess invadiram Armia. | [Batalha Celestial](batalha-celestial.md#a-guerra-continental) |
+| Haden | Um dos cinco deuses. Nas quests da Raid Hut, o nome aparece ligado a um "poder sombrio"; também é o nome de um boss do Dragon Field. | [Deuses](deuses.md#haden) |
+| Hekalote | A Morada dos Deuses, construída por Yetzirah e ligada ao mundo mortal pela ponte Sephira. | [Kersef](kersef.md#hekalote) |
+| Hekalotia | Um dos dois reinos rivais de Kersef, ligado à cor azul nas quests da Raid Hut. | [Reinos](reinos.md) |
+| Jardim de Deus | Lugar ao sul de Azran "onde os deuses encontraram repouso após uma batalha celestial". | [Jardim de Deus](../quests/jardim-de-deus.md) |
+| Kafma | Um dos cinco deuses; liderou a Batalha Celestial junto com Armia. | [Deuses](deuses.md#kafma) |
+| Kefra | Colosso que vive na Dungeon Kefra, no fim do Deserto de Kult, e dá nome à dungeon e à cidade perdida do Continente Desconhecido. | [Dungeon Kefra](../mapas/dungeon-kefra.md) |
+| Kersef | O continente onde se passa o jogo, disputado por Hekalotia e Akelonia. | [Kersef](kersef.md) |
+| Koren | Cidade natal do mago Nershess; não há outra informação. | [Kersef](kersef.md#koren) |
+| Limite da Alma (Soul) | Skill Sephira que o Celestial aprende e que distribui pontos de atributo conforme uma combinação de joias. | [Criação do Celestial](../progressao/criacao-do-celestial.md) |
+| Mortal | O personagem comum, antes de virar Arch ou Celestial. Na lore, "mundo mortal" é a Terra dos humanos. | [Criação do Celestial](../progressao/criacao-do-celestial.md) |
+| Nação da Classe superior | Como os antepassados dos humanos eram chamados, segundo as relíquias que os levaram à divisão dos reinos. | [Reinos](reinos.md#origem-da-divisao) |
+| Nershess | Mago da cidade de Koren que estudou a Sephira, se aliou a Tzfah e invadiu Armia. | [Batalha Celestial](batalha-celestial.md#a-guerra-continental) |
+| Neses (Nesses) | "Braço direito" de Tzfah, exilado com ele em Nippleheim; "Nesses" é um boss do Dragon Field. As fontes não confirmam que é o mesmo Nershess. | [Yetzirah e Tzfah](yetzirah-e-tzfah.md) |
+| Nikirr | Montanha e dungeon onde o Temuh foi achado; é o primeiro subsolo do Submundo. | [Submundo](../mapas/submundo.md) |
+| Nippleheim | Terra gelada ao norte de Azran, para onde Tzfah e Neses foram expulsos; também grafada Nipplheim, Nipleheim e Niflheim. | [Nippleheim](../mapas/nippleheim.md) |
+| Noatun | Cidade com o castelo disputado pelas guilds e o portal da Guerra de Reinos. | [Kersef](kersef.md#noatun) |
+| Pedaço da Salvação | Relíquia que simboliza "a proteção e o poder divino sobre as terras de Erion" e passa entre as catedrais de Armia e Azran. | [Benção de Deus](../quests/bencao-de-deus.md) |
+| Pedra da Imortalidade | Item necessário para criar o Celestial; dropa de Kefra. | [Criação do Celestial](../progressao/criacao-do-celestial.md) |
+| Pedra Ideal | Pedra criada pelo Rei do reino a partir dos itens de criação do Celestial; também é usada para criar o Sub-Celestial. | [Sub Celestial](../progressao/sub-celestial.md) |
+| Ponte Sephira | Ponte criada por Daleth entre o mundo mortal e Hekalote, quebrada por Tzfah. Desde então os deuses não ouvem as preces dos humanos. | [Batalha Celestial](batalha-celestial.md#a-ponte-sephira) |
+| Rio da Morte | Rio que marca a fronteira entre a Dungeon Nikirr e o Submundo. | [Submundo](../mapas/submundo.md) |
+| Samech | Um dos cinco deuses; as fontes só citam o nome. | [Deuses](deuses.md#samech) |
+| Selo do Guerreiro | "Artefato antigo, forjado pelas divindades de Erion"; a partir do nível 355, dá à capa a borda grossa e o manto Elite do reino. | [Desbloqueio de Capa 355](../quests/desbloqueio-de-capa-355.md) |
+| Seres supremos | Yetzirah e Tzfah, mais antigos que a criação; os humanos não rezavam para eles. | [Yetzirah e Tzfah](yetzirah-e-tzfah.md) |
+| Sephirot (Saphirot, Sephiroth) | Item de cada classe (TK, FM, BM, HT), dropado por Kefra, usado para criar o Celestial e o Sub-Celestial e para trocar de classe. | [Mudança de Classe](../classes/mudanca-de-classe.md) |
+| Skills Sephira | Skills dos personagens Celestiais, como o Limite da Alma; o Sub-Celestial tem de aprendê-las de novo. | [Sub Celestial](../progressao/sub-celestial.md) |
+| Sub-Celestial | Personagem "que divide seu corpo com o celestial", criado a partir de um Celestial nível 120 ou mais. | [Sub Celestial](../progressao/sub-celestial.md) |
+| Submundo | Profundezas abertas pela guerra do Temuh, "a moradia dos caidos". | [Submundo](../mapas/submundo.md) |
+| Temuh | Minério celestial, "um dos presentes dos deuses para a humanidade", que provocou uma guerra entre os reinos. | [Submundo](../mapas/submundo.md) |
+| Tzfah | Ser supremo que odeia a humanidade, aprisionou os deuses e foi banido na Batalha Celestial; continua semiconsciente e influenciando os monstros. | [Yetzirah e Tzfah](yetzirah-e-tzfah.md#tzfah) |
+| Yetzirah | Ser supremo que ama a humanidade, mãe dos deuses e construtora de Hekalote. | [Yetzirah e Tzfah](yetzirah-e-tzfah.md#yetzirah) |
+| Zona Neutra | Área entre o Reino Azul e o Reino Vermelho. | [Capas](../itens/capas.md) |
+
+## Veja também
+
+- [História](historia-de-kersef.md)
+- [Kersef](kersef.md)
+- [Linha do tempo](linha-do-tempo.md)
+
+## Fontes
+
+- [História](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20364-historia.md](../../sources/feedback_kersef/data/articles/markdown/20364-historia.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Sub Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20383-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20383-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/20383-sub-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [CYTHERA (A)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/24106-cythera-a), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [24106-cythera-a.md](../../sources/feedback_kersef/data/articles/markdown/24106-cythera-a.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [(MAPA) Dungeon kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20378-mapa-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20378-mapa-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/20378-mapa-dungeon-kefra.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+- [(MAPA) Submundo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20377-mapa-submundo.md](../../sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md)
+- [(MAPA) Nippleheim](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20376-mapa-nippleheim.md](../../sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Sistema de Reinos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20462-sistema-de-reinos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20462-sistema-de-reinos.md](../../sources/feedback_kersef/data/articles/markdown/20462-sistema-de-reinos.md)
+- [GUIA: Guerra de Reinos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21552-guia-guerra-de-reinos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21552-guia-guerra-de-reinos.md](../../sources/feedback_kersef/data/articles/markdown/21552-guia-guerra-de-reinos.md)
+- [Guia: Guild](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57606-guia-guild), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [57606-guia-guild.md](../../sources/feedback_kersef/data/articles/markdown/57606-guia-guild.md)
+- [Guia: Capas](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57768-guia-capas), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [57768-guia-capas.md](../../sources/feedback_kersef/data/articles/markdown/57768-guia-capas.md)
+- [(Quests Especiais) A procura dos rastros do mundo celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial.md](../../sources/feedback_kersef/data/articles/markdown/20372-quests-especiais-a-procura-dos-rastros-do-mundo-celestial.md)
+- [Benção de Deus](https://wydglobal.raidhut.com/#bless-of-the-god), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Jardim de Deus](https://wydglobal.raidhut.com/#gods-garden), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Equilibrio da Força](https://wydglobal.raidhut.com/#balance-of-power), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Cavaleiro do Reino](https://wydglobal.raidhut.com/#knight-of-the-kingdom), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Início da Infelicidade](https://wydglobal.raidhut.com/#beginning-of-unhappiness), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Desbloqueio de capa 355](https://wydglobal.raidhut.com/#mantle-unlock-355), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [With Your Destiny](https://en.wikipedia.org/wiki/With_Your_Destiny), Wikipedia: With Your Destiny. Cópia arquivada: [with_your_destiny.md](../../sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md)
+
+
 <!-- wiki/lore/historia-de-kersef.md -->
 
 ---
@@ -121,6 +619,682 @@ Não se sabe ao certo quando ou se os deuses voltarão, até lá os humanos tem 
 ## Fontes
 
 - [História](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20364-historia.md](../../sources/feedback_kersef/data/articles/markdown/20364-historia.md)
+
+
+<!-- wiki/lore/kersef.md -->
+
+---
+title: Kersef
+summary: Kersef é o continente onde se passa WYD. A página reúne o que as fontes dizem das suas regiões e cidades (Armia, Noatun, Azran, Erion, Nippleheim e Karden, os Reinos, o Deserto de Kult com a Dungeon Kefra, o Submundo) e de lugares que só aparecem na lore, como Koren e Hekalote, a Morada dos Deuses.
+category: lore
+tags:
+- lore
+- kersef
+- mapas
+- cidades
+- regioes
+canon:
+- official
+- community
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: História
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia
+  archive: sources/feedback_kersef/data/articles/markdown/20364-historia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Nippleheim"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim
+  archive: sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Submundo"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo
+  archive: sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Dungeon kefra"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20378-mapa-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/20378-mapa-dungeon-kefra.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Guia: Guild'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57606-guia-guild
+  archive: sources/feedback_kersef/data/articles/markdown/57606-guia-guild.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Guerra de Reinos'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21552-guia-guerra-de-reinos
+  archive: sources/feedback_kersef/data/articles/markdown/21552-guia-guerra-de-reinos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Guia: Capas'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57768-guia-capas
+  archive: sources/feedback_kersef/data/articles/markdown/57768-guia-capas.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Arena Real'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/24218-guia-arena-real
+  archive: sources/feedback_kersef/data/articles/markdown/24218-guia-arena-real.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: INVASÃO À NOATUM (SAND LICH)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46458-invasao-a-noatum-sand-lich
+  archive: sources/feedback_kersef/data/articles/markdown/46458-invasao-a-noatum-sand-lich.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Novo Mapa: Deserto Desconhecido'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/49456-novo-mapa-deserto-desconhecido
+  archive: sources/feedback_kersef/data/articles/markdown/49456-novo-mapa-deserto-desconhecido.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Novo Mapa: Dragon Field'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/49455-novo-mapa-dragon-field
+  archive: sources/feedback_kersef/data/articles/markdown/49455-novo-mapa-dragon-field.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Quest Rainha Valquíria
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/25266-quest-rainha-valquiria
+  archive: sources/feedback_kersef/data/articles/markdown/25266-quest-rainha-valquiria.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Fadas'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58182-guia-fadas
+  archive: sources/feedback_kersef/data/articles/markdown/58182-guia-fadas.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Passando adicional para arma Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22809-passando-adicional-para-arma-arch
+  archive: sources/feedback_kersef/data/articles/markdown/22809-passando-adicional-para-arma-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Criação e refinação de armaduras celestiais/ Uso de pedra Luna e joia da Escuridão'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/37570-guia-criacao-e-refinacao-de-armaduras-celestiais-uso-de-pedra-luna-e-joia-da-escuridao
+  archive: sources/feedback_kersef/data/articles/markdown/37570-guia-criacao-e-refinacao-de-armaduras-celestiais-uso-de-pedra-luna-e-joia-da-escuridao.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Pesadelo A
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22544-pesadelo-a
+  archive: sources/feedback_kersef/data/articles/markdown/22544-pesadelo-a.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Coliseu
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22855-coliseu
+  archive: sources/feedback_kersef/data/articles/markdown/22855-coliseu.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Pergaminhos da Água
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22545-pergaminhos-da-agua
+  archive: sources/feedback_kersef/data/articles/markdown/22545-pergaminhos-da-agua.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Campo de Treino
+  url: https://wydglobal.raidhut.com/#training-camp
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Conquista do Castelo Orc
+  url: https://wydglobal.raidhut.com/#conquering-orc-castle
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Defensor da Alma
+  url: https://wydglobal.raidhut.com/#spirit-guardian
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Ressureição do Cavaleiro Negro
+  url: https://wydglobal.raidhut.com/#revival-of-the-dark-knight
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Benção de Deus
+  url: https://wydglobal.raidhut.com/#bless-of-the-god
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Jardim de Deus
+  url: https://wydglobal.raidhut.com/#gods-garden
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Defensor da Terra Mística
+  url: https://wydglobal.raidhut.com/#defending-mystic-land
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Formatura de Cavaleiros Aprendizes
+  url: https://wydglobal.raidhut.com/#ceremony-to-apprentice
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Cavaleiro do Reino
+  url: https://wydglobal.raidhut.com/#knight-of-the-kingdom
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Desbloqueio de capa 355
+  url: https://wydglobal.raidhut.com/#mantle-unlock-355
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: 'Wikipedia: With Your Destiny'
+  title: With Your Destiny
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  archive: sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
+updated: '2026-10-13'
+---
+
+# Kersef
+
+> Kersef é o continente onde se passa WYD. A página reúne o que as fontes dizem das suas regiões e cidades (Armia, Noatun, Azran, Erion, Nippleheim e Karden, os Reinos, o Deserto de Kult com a Dungeon Kefra, o Submundo) e de lugares que só aparecem na lore, como Koren e Hekalote, a Morada dos Deuses.
+
+## O nome
+
+O verbete da Wikipedia (comunidade) chama Kersef de continente: "dois grandes reinos rivais disputavam o domínio do continente de Kersef". As fontes oficiais usam o nome em expressões como "os cavaleiros de Kersef" ([Arena Real](../pvp/arena-real.md)), "os equipamentos mais poderosos de Kersef" ([Armaduras Celestiais](../itens/armaduras-celestiais.md)) e "o ferreiro real mais habilidoso de Kersef" ([Guild](../sistemas/guild.md)). O mapa Submundo escreve "continente de Kerserf". O texto [História](historia-de-kersef.md) não usa o nome Kersef: chama o mundo dos humanos de "a Terra" e Armia de "o centro sagrado do continente".
+
+As fontes não descrevem a geografia do continente como um todo. O que existe são posições relativas: o campo de treinamento a leste de Armia, Nippleheim ao norte de Azran, o Jardim de Deus ao sul de Azran e assim por diante.
+
+## Resumo dos lugares
+
+| Lugar | Tipo | Em uma linha |
+| --- | --- | --- |
+| [Armia](#armia) | Cidade | Cidade murada onde todo personagem começa; "centro sagrado do continente" |
+| [Noatun](#noatun) | Cidade e castelo | Castelo disputado pelas guilds, com o altar de Thor; portal da Guerra de Reinos |
+| [Azran](#azran) | Cidade | Cidade com catedral, ponto de partida para o Jardim de Deus, as Terras Místicas e o Dragon Field |
+| [Erion](#erion) | Cidade | Terras protegidas pelo Pedaço da Salvação; a Guerra de Torres acontece nos arredores |
+| [Nippleheim e Karden](#nippleheim-e-karden) | Terra gelada e cidade | Exílio de Tzfah e Neses; base do Comando Karden contra os elfos negros |
+| [Os Reinos](#os-reinos) | Territórios | Sedes de Hekalotia e Akelonia, separadas por uma Zona Neutra |
+| [Deserto de Kult e Kefra](#deserto-de-kult-e-kefra) | Deserto, dungeon e cidade perdida | A Dungeon Kefra e o Continente Desconhecido |
+| [Submundo](#submundo) | Subterrâneo | Dungeon de Nikirr, Rio da Morte e a morada dos caídos |
+| [Koren](#koren) | Cidade (só na lore) | Cidade natal do mago Nershess |
+| [Hekalote](#hekalote) | Reino divino | A Morada dos Deuses, construída por Yetzirah |
+
+## Armia
+
+- **Cidade inicial.** "A cidade natal de todos os iniciantes do WYD. Ao criar um personagem, o jogo será iniciado dentro da cidade de Armia" ([Armia](../mapas/armia.md)).
+- **Origem.** "Este e o local onde os humanos começaram a se reunir novamente no mundo devastado pela guerra contra as criaturas malignas." Os moradores ergueram uma grande muralha, "defendida 24 horas por dia pela cavalaria real".
+- **Na lore antiga.** Na Guerra Continental, Tzfah e Nershess "invadiram Armia, o centro sagrado do continente" ([História](historia-de-kersef.md)). Armia também é o nome de um dos [deuses](deuses.md).
+- **Arredores.** O [Campo de Treinamento](../quests/campo-de-treinamento.md) fica a leste da cidade. O [Castelo Orc](../quests/conquista-do-castelo-orc.md) fica ao norte. O [cemitério de Armia](../quests/defensor-da-alma.md) guarda "os restos de heróis e famílias ancestrais". Cristais da Guerra Celestial aparecem nos arredores ([À Procura dos Rastros do Mundo Celestial](../quests/rastros-do-mundo-celestial.md)).
+- **A Dungeon.** A entrada é por um teleporte em Armia. No 1º andar fica o túmulo de Kaizen, cuja ressurreição é "uma clara declaração de guerra contra o reino de Armia" ([Ressurreição do Cavaleiro Negro](../quests/ressurreicao-do-cavaleiro-negro.md)).
+- **Catedral.** A relíquia Pedaço da Salvação passa "entre as catedrais de Armia e Azran" ([Benção de Deus](../quests/bencao-de-deus.md)).
+
+## Noatun
+
+- O guia "Capas" chama o teleporte que sai de Armia de "teleporte para o Reino de Noatun".
+- **Castelo de Noatun.** É a "maior e mais importante guerra para uma guild": a guild "que domina a coroa" coleta o gold do castelo, e o líder tem de ocupar o **altar de Thor** ([Guild](../sistemas/guild.md)).
+- **Portal da Guerra de Reinos.** Os personagens entram na [Guerra de Reinos](../pvp/guerra-de-reinos.md) pelo portal de Noatun.
+- **Invasão.** Todos os dias à meia-noite, no canal novato, Noatun é invadida por Lichs, e derrotá-los invoca o Sand Lich no altar de Thor ([Invasão a Noatun](../eventos/invasao-noatun-sand-lich.md)).
+- Em Noatun ficam o NPC Angela Sister, que dá acesso ao [Deserto Desconhecido](../mapas/deserto-desconhecido.md), e o NPC Hestia, onde se obtém o Peerage Lift para trocar de reino.
+
+## Azran
+
+- **Cidade e arredores.** Fica perto de vários lugares de quest: ao sul, o [Jardim de Deus](../quests/jardim-de-deus.md), onde "os deuses encontraram repouso após uma batalha celestial", as [Terras Místicas](../quests/defensor-da-terra-mistica.md), "designado como um local sagrado pelos antigos", e o [Campo de Treinamento de Cavaleiros](../quests/formatura-de-cavaleiros-aprendizes.md). A leste fica a arena do [Coliseu](../mapas/coliseu.md). Nos arredores, a [caverna da água](../itens/pergaminhos-da-agua.md). A quest [Pesadelo A](../mapas/pesadelo-a.md) se passa em Azran.
+- **Líderes de Azran.** São eles que "convocam por heróis" para defender as Terras Místicas.
+- **Catedral.** Ver Armia, acima.
+- **Ligação com Nippleheim.** Nippleheim fica "na ponta norte de Azran", e foi o povo de Azran quem ouviu primeiro os sons dos elfos ([Nippleheim](../mapas/nippleheim.md)).
+- **Dragon Field.** Acesso pelo NPC Gold Dragon, em Azran ([Dragon Field](../mapas/dragon-field.md)).
+- **Caminho para os Reinos.** Pelo teleporte do Campo Azran, atravessando uma ponte ([Capas](../itens/capas.md)).
+
+## Erion
+
+- A relíquia Pedaço da Salvação simboliza "a proteção e o poder divino sobre as terras de Erion" ([Benção de Deus](../quests/bencao-de-deus.md)). A quest fica ao norte de Erion.
+- O Selo do Guerreiro foi "forjado pelas divindades de Erion" ([Desbloqueio de Capa 355](../quests/desbloqueio-de-capa-355.md)).
+- A Guerra de Torres acontece "diariamente nos arredores de Erion" ([Guild](../sistemas/guild.md)).
+- NPCs: Ehre (Conjurer Ehre) e Farche.
+
+## Nippleheim e Karden
+
+- **A terra do exílio.** "Tzfah e seu braco direito Neses foram expulsos pela furia dos deuses para terra gelida localizada na ponta norte de Azran, Nippleheim" ([Nippleheim](../mapas/nippleheim.md)). O mesmo texto também a chama de "Continente inexplorado de Nipplheim" e de "novo continente chamado Nippleheim".
+- **Comando Karden.** A expedição dos dois reinos construiu uma base avançada "no local mais proximo da cidade de Azran". O Comando Karden virou um ponto estratégico para curar os feridos e abrigar os cavaleiros. Depois chegaram comerciantes e moradores.
+- **Elfos negros.** São os inimigos que a expedição enfrenta lá.
+- **Castelo do Gelo.** A quest [Rainha Valquíria](../quests/rainha-valquiria.md) começa em "Nipleheim" (assim escrito) e continua no Castelo do Gelo.
+- **Grafias.** Outras fontes chamam o lugar de "Niflheim (cidade do gelo)" ([Fadas](../itens/fadas.md)), "Karden (gelo)" ([Passando Adicional para Arma Arch](../itens/adicional-arma-arch.md)) e simplesmente "Gelo" ([Arena Real](../pvp/arena-real.md)).
+
+## Os Reinos
+
+- Sedes de [Hekalotia e Akelonia](reinos.md). O guia "Capas" os chama de **Reino Azul** e **Reino Vermelho**, com uma **Zona Neutra** no meio. Cada reino tem um Rei, e o NPC Guarda Real fica perto dele.
+- A quest [Cavaleiro do Reino](../quests/cavaleiro-do-reino.md) fica "no centro dos Reinos".
+
+## Deserto de Kult e Kefra
+
+- **Deserto de Kult.** Uma "nova área descoberta" que os dois reinos exploraram na disputa pela Coroa de Athila ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+- **Dungeon Kefra.** "Uma enorme construção no fim do Deserto", achada por exploradores de Akelonia: "De tamanho colossal, era difícil acreditar que tudo aquilo havia sido construído sobre pura areia". Lá vive o colosso Kefra.
+- **Continente Desconhecido e cidade de Kefra.** Derrotar Kefra abre um portal para o **Continente Desconhecido**, também chamado de "Continente Perdido". Lá fica a "cidade desconhecida de Kefra", também chamada de "cidade perdida de Kefra" ([Armaduras Celestiais](../itens/armaduras-celestiais.md)), com NPCs como o Alquimista Odin e Uxmal.
+- **Deserto Desconhecido.** Outro mapa de deserto, acessado por Noatun ([Deserto Desconhecido](../mapas/deserto-desconhecido.md)). As fontes não dizem se é ligado ao Deserto de Kult.
+
+## Submundo
+
+- **Nikirr.** O minério celestial Temuh foi achado "numa Dungeon nas colinas da montanha Nikirr". Ali os humanos acharam uma passagem "para as profundezas da terra" ([Submundo](../mapas/submundo.md)).
+- **Estrutura.** O primeiro subsolo é a **Dungeon Nikirr** e o segundo é o **Underworld (Submundo)**, além do **Rio da Morte**, "um rio que marca a fronteira entre a Dungeon Nikirr e o submundo".
+- **Os caídos.** O Submundo é "a moradia dos caidos, aqueles que possuem um odio profundo pelos deuses e humanos tão queridos por eles". Os dois reinos mantêm "um batalhão inteiro de guardas" ali.
+- **Elfos exilados.** Segundo a quest [Início da Infelicidade](../quests/inicio-da-infelicidade.md) (Raid Hut), os elfos foram exilados para o Submundo.
+
+## Koren
+
+A única menção está no texto "História": o mago **Nershess** era "da cidade de Koren". As fontes não dizem onde Koren fica.
+
+## Hekalote
+
+A **Morada dos Deuses**, construída por Yetzirah para ficar perto dos humanos ([Yetzirah e Tzfah](yetzirah-e-tzfah.md)). Hekalote é o "reino divino", ligado ao "mundo mortal" pela ponte Sephira até Tzfah a quebrar ([Batalha Celestial](batalha-celestial.md)). Não é um lugar de Kersef nem um mapa do jogo.
+
+## Veja também
+
+- [Mapas](../mapas/README.md)
+- [Reinos de Hekalotia e Akelonia](reinos.md)
+- [Linha do tempo](linha-do-tempo.md)
+- [Glossário](glossario.md)
+
+## Fontes
+
+- [História](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20364-historia.md](../../sources/feedback_kersef/data/articles/markdown/20364-historia.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [(MAPA) Nippleheim](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20376-mapa-nippleheim.md](../../sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md)
+- [(MAPA) Submundo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20377-mapa-submundo.md](../../sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md)
+- [(MAPA) Dungeon kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20378-mapa-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20378-mapa-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/20378-mapa-dungeon-kefra.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+- [Guia: Guild](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57606-guia-guild), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [57606-guia-guild.md](../../sources/feedback_kersef/data/articles/markdown/57606-guia-guild.md)
+- [GUIA: Guerra de Reinos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21552-guia-guerra-de-reinos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21552-guia-guerra-de-reinos.md](../../sources/feedback_kersef/data/articles/markdown/21552-guia-guerra-de-reinos.md)
+- [Guia: Capas](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57768-guia-capas), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [57768-guia-capas.md](../../sources/feedback_kersef/data/articles/markdown/57768-guia-capas.md)
+- [GUIA: Arena Real](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/24218-guia-arena-real), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [24218-guia-arena-real.md](../../sources/feedback_kersef/data/articles/markdown/24218-guia-arena-real.md)
+- [INVASÃO À NOATUM (SAND LICH)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46458-invasao-a-noatum-sand-lich), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46458-invasao-a-noatum-sand-lich.md](../../sources/feedback_kersef/data/articles/markdown/46458-invasao-a-noatum-sand-lich.md)
+- [Novo Mapa: Deserto Desconhecido](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/49456-novo-mapa-deserto-desconhecido), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [49456-novo-mapa-deserto-desconhecido.md](../../sources/feedback_kersef/data/articles/markdown/49456-novo-mapa-deserto-desconhecido.md)
+- [Novo Mapa: Dragon Field](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/49455-novo-mapa-dragon-field), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [49455-novo-mapa-dragon-field.md](../../sources/feedback_kersef/data/articles/markdown/49455-novo-mapa-dragon-field.md)
+- [Quest Rainha Valquíria](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/25266-quest-rainha-valquiria), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [25266-quest-rainha-valquiria.md](../../sources/feedback_kersef/data/articles/markdown/25266-quest-rainha-valquiria.md)
+- [GUIA: Fadas](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58182-guia-fadas), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58182-guia-fadas.md](../../sources/feedback_kersef/data/articles/markdown/58182-guia-fadas.md)
+- [Passando adicional para arma Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22809-passando-adicional-para-arma-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22809-passando-adicional-para-arma-arch.md](../../sources/feedback_kersef/data/articles/markdown/22809-passando-adicional-para-arma-arch.md)
+- [GUIA: Criação e refinação de armaduras celestiais/ Uso de pedra Luna e joia da Escuridão](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/37570-guia-criacao-e-refinacao-de-armaduras-celestiais-uso-de-pedra-luna-e-joia-da-escuridao), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [37570-guia-criacao-e-refinacao-de-armaduras-celestiais-uso-de-pedra-luna-e-joia-da-escuridao.md](../../sources/feedback_kersef/data/articles/markdown/37570-guia-criacao-e-refinacao-de-armaduras-celestiais-uso-de-pedra-luna-e-joia-da-escuridao.md)
+- [Pesadelo A](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22544-pesadelo-a), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22544-pesadelo-a.md](../../sources/feedback_kersef/data/articles/markdown/22544-pesadelo-a.md)
+- [Coliseu](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22855-coliseu), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22855-coliseu.md](../../sources/feedback_kersef/data/articles/markdown/22855-coliseu.md)
+- [Pergaminhos da Água](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22545-pergaminhos-da-agua), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22545-pergaminhos-da-agua.md](../../sources/feedback_kersef/data/articles/markdown/22545-pergaminhos-da-agua.md)
+- [Campo de Treino](https://wydglobal.raidhut.com/#training-camp), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Conquista do Castelo Orc](https://wydglobal.raidhut.com/#conquering-orc-castle), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Defensor da Alma](https://wydglobal.raidhut.com/#spirit-guardian), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Ressureição do Cavaleiro Negro](https://wydglobal.raidhut.com/#revival-of-the-dark-knight), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Benção de Deus](https://wydglobal.raidhut.com/#bless-of-the-god), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Jardim de Deus](https://wydglobal.raidhut.com/#gods-garden), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Defensor da Terra Mística](https://wydglobal.raidhut.com/#defending-mystic-land), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Formatura de Cavaleiros Aprendizes](https://wydglobal.raidhut.com/#ceremony-to-apprentice), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Cavaleiro do Reino](https://wydglobal.raidhut.com/#knight-of-the-kingdom), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Desbloqueio de capa 355](https://wydglobal.raidhut.com/#mantle-unlock-355), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [With Your Destiny](https://en.wikipedia.org/wiki/With_Your_Destiny), Wikipedia: With Your Destiny. Cópia arquivada: [with_your_destiny.md](../../sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md)
+
+
+<!-- wiki/lore/linha-do-tempo.md -->
+
+---
+title: Linha do Tempo
+summary: Os acontecimentos do mundo de WYD em ordem, da existência dos seres supremos Yetzirah e Tzfah antes da criação até o presente do jogo, 400 anos depois da Batalha Celestial. Separa os eventos que as fontes ordenam dos que elas não datam, como a divisão dos reinos, a guerra pelo Temuh e a descoberta da Dungeon Kefra.
+category: lore
+tags:
+- lore
+- linha-do-tempo
+- cronologia
+- batalha-celestial
+canon:
+- official
+- community
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: História
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia
+  archive: sources/feedback_kersef/data/articles/markdown/20364-historia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Nippleheim"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim
+  archive: sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Sistema de Reinos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20462-sistema-de-reinos
+  archive: sources/feedback_kersef/data/articles/markdown/20462-sistema-de-reinos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Submundo"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo
+  archive: sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Dungeon kefra"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20378-mapa-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/20378-mapa-dungeon-kefra.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Equilibrio da Força
+  url: https://wydglobal.raidhut.com/#balance-of-power
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Início da Infelicidade
+  url: https://wydglobal.raidhut.com/#beginning-of-unhappiness
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: 'Wikipedia: With Your Destiny'
+  title: With Your Destiny
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  archive: sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
+updated: '2026-10-13'
+---
+
+# Linha do Tempo
+
+> Os acontecimentos do mundo de WYD em ordem, da existência dos seres supremos Yetzirah e Tzfah antes da criação até o presente do jogo, 400 anos depois da Batalha Celestial. Separa os eventos que as fontes ordenam dos que elas não datam, como a divisão dos reinos, a guerra pelo Temuh e a descoberta da Dungeon Kefra.
+
+As fontes não usam calendário nem anos numerados. A única medida de tempo é a do ancião do texto [História](historia-de-kersef.md): o presente do jogo fica "400 anos depois" da Batalha Celestial. O mapa [Nippleheim](../mapas/nippleheim.md) fala em "centenas de anos" e "seculos". A ordem abaixo segue a sequência dos próprios textos. Quando uma fonte não diz em que momento algo aconteceu, o evento vai para a seção [Eventos sem posição definida](#eventos-sem-posicao-definida).
+
+Para a história real do jogo (lançamento, publicadoras), veja [With Your Destiny](../historia/with-your-destiny.md).
+
+## Eventos em ordem
+
+| # | Era | Evento | Fonte |
+| --- | --- | --- | --- |
+| 1 | Antes da criação | Os seres supremos [Yetzirah e Tzfah](yetzirah-e-tzfah.md) já existem, "mais antigos que a própria criação". | História |
+| 2 | Início dos Tempos | Primeira união: nascem a Terra, os primeiros humanos, a flora e a fauna. A humanidade começa a povoar a Terra. | História |
+| 3 | Início dos Tempos | Yetzirah constrói **Hekalote**, a Morada dos Deuses, para ficar perto dos humanos. | História |
+| 4 | Início dos Tempos | Tribos se fundem num "reino central" onde se estudam política, ciência, arte e economia. Tzfah passa a odiar a humanidade. | História |
+| 5 | Criação dos Deuses | Mais cinco uniões geram os deuses **Kafma, Armia, Daleth, Samech e Haden**. | História |
+| 6 | Criação dos Deuses | Tzfah tranca os deuses num campo de êxtase e castiga a humanidade com terremotos, vulcões e hordas de monstros. | História |
+| 7 | Criação dos Deuses | Presos, os deuses moldam a energia de alguns humanos, e Yetzirah enfraquece a prisão. Tzfah escraviza quase toda a humanidade. | História |
+| 8 | Batalha Celestial | Os deuses se libertam e, liderados por Armia e Kafma, atacam Tzfah com a ajuda de Yetzirah. | História |
+| 9 | Batalha Celestial | Daleth cria a **ponte Sephira**, e os humanos **Arch** sobem a Hekalote para lutar. O exército de Tzfah massacra os humanos na Terra. | História |
+| 10 | Batalha Celestial | Os deuses banem Tzfah. Ao cair na Terra, ele **quebra a ponte Sephira**, e o encantamento fica incompleto. Tzfah fica semiconsciente. | História |
+| 11 | Depois da batalha | O conhecimento dos deuses cai na Terra. Os humanos aprendem magia e passam a estudar os deuses e os estilhaços da Sephira. | História |
+| 12 | Guerra Continental | O mago **Nershess**, de Koren, se alia a Tzfah. Juntos invadem **Armia**, "o centro sagrado do continente". Monstros e a magia de Nershess devastam as cidades. | História |
+| 13 | Guerra Continental | O poder liberado pela ponte cria mortais capazes de enfrentar os monstros, o "ultimo presente dos deuses". | História |
+| 14 | Séculos depois | As pessoas começam a esquecer a batalha. Sons de elfos vindos do norte assustam o povo de Azran. | Nippleheim |
+| 15 | Séculos depois | Os reis dos dois reinos mandam uma expedição de cavaleiros a **Nippleheim**. Constroem o **Comando Karden** e começa a luta contra os elfos negros. Depois chegam comerciantes e moradores. | Nippleheim |
+| 16 | Presente (400 anos depois) | Os humanos voltam a viver em grandes cidades e reinos, voltam a estudar magia e rezam pela volta dos deuses. O poder dos Arch é "apenas uma lenda". | História |
+| 17 | Presente | **Armia**, cercada por uma muralha guardada dia e noite pela cavalaria real, é a cidade onde todo aventureiro começa. | Armia |
+
+As linhas 14 e 15 vêm de um texto diferente das linhas 1 a 13 e 16. O mapa Nippleheim diz apenas "centenas de anos" depois da batalha, então a posição delas em relação aos "400 anos" do ancião é aproximada.
+
+## Eventos sem posição definida
+
+Estes acontecimentos aparecem nas fontes oficiais sem nenhuma indicação de quando ocorreram em relação à Batalha Celestial:
+
+- **Divisão dos reinos.** Os humanos, que moravam "na mesma vila", se dividem por causa de crenças diferentes e fundam [Hekalotia e Akelonia](reinos.md) (guia "Sistema de Reinos").
+- **Descoberta do Temuh.** O minério celestial foi descoberto "durante o processo de formação das vilas da antiga civilização dos humanos superiores depois de sua criação" (mapa [Submundo](../mapas/submundo.md)).
+- **Guerra pelo Temuh.** "Na época em que o processo de mineração estava no auge", os dois reinos lutam pelo Temuh. A guerra abre a passagem para o Submundo, a colina Nikirr é interditada e o Rio da Morte vira a fronteira (Submundo).
+- **Coroa de Athila e Deserto de Kult.** Os reinos disputam a Coroa de Athila e exploram o Deserto de Kult. Exploradores de Akelonia descobrem a Dungeon Kefra (mapa [Dungeon Kefra](../mapas/dungeon-kefra.md)).
+- **Exílio dos elfos.** "O exílio dos Elfos para o Submundo foi o estopim para uma série de eventos trágicos", e os elfos se tornam Elfos Negros "pelo poder sombrio de Haden" (quest [Início da Infelicidade](../quests/inicio-da-infelicidade.md), Raid Hut).
+- **Trégua de Achro.** "Por gerações", a catedral de Achro é o elo de paz entre Akelonia e Hekalotia (quest [Equilíbrio da Força](../quests/equilibrio-da-forca.md), Raid Hut).
+
+## Divergências entre as fontes
+
+- **O fim de Tzfah.** Na linha 10, "História" fala em aprisioná-lo "no centro da Terra". O mapa Nippleheim diz que Tzfah e Neses foram expulsos para Nippleheim.
+- **Onde estão os elfos negros.** O mapa Nippleheim põe os elfos negros nas terras geladas do norte. A quest "Início da Infelicidade" fala do exílio dos elfos para o Submundo.
+- **Wikipedia (comunidade).** O resumo da Wikipedia junta tudo num só momento: os reinos rivais "se distraíam com batalhas intermináveis" quando "um confronto entre as divindades ameaçou aniquilar toda Kersef". No FAQ oficial, a Batalha Celestial vem séculos antes do presente dos reinos.
+
+## Veja também
+
+- [História](historia-de-kersef.md)
+- [Batalha Celestial](batalha-celestial.md)
+- [Yetzirah e Tzfah](yetzirah-e-tzfah.md)
+- [Reinos de Hekalotia e Akelonia](reinos.md)
+- [Kersef](kersef.md)
+
+## Fontes
+
+- [História](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20364-historia.md](../../sources/feedback_kersef/data/articles/markdown/20364-historia.md)
+- [(MAPA) Nippleheim](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20376-mapa-nippleheim.md](../../sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md)
+- [Sistema de Reinos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20462-sistema-de-reinos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20462-sistema-de-reinos.md](../../sources/feedback_kersef/data/articles/markdown/20462-sistema-de-reinos.md)
+- [(MAPA) Submundo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20377-mapa-submundo.md](../../sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md)
+- [(MAPA) Dungeon kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20378-mapa-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20378-mapa-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/20378-mapa-dungeon-kefra.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Equilibrio da Força](https://wydglobal.raidhut.com/#balance-of-power), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Início da Infelicidade](https://wydglobal.raidhut.com/#beginning-of-unhappiness), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [With Your Destiny](https://en.wikipedia.org/wiki/With_Your_Destiny), Wikipedia: With Your Destiny. Cópia arquivada: [with_your_destiny.md](../../sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md)
+
+
+<!-- wiki/lore/reinos.md -->
+
+---
+title: Reinos de Hekalotia e Akelonia
+summary: Hekalotia e Akelonia (também grafado Akeronia) são os dois reinos rivais de Kersef. A página reúne a origem da divisão, as guerras pelo minério Temuh e pela Coroa de Athila, a catedral de Achro como elo de paz, a expedição conjunta a Nippleheim e os reis, cores e mantos de cada reino.
+category: lore
+tags:
+- lore
+- reino
+- hekalotia
+- akelonia
+- rivalidade
+canon:
+- official
+- community
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Sistema de Reinos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20462-sistema-de-reinos
+  archive: sources/feedback_kersef/data/articles/markdown/20462-sistema-de-reinos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Submundo"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo
+  archive: sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Dungeon kefra"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20378-mapa-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/20378-mapa-dungeon-kefra.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Nippleheim"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim
+  archive: sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Guerra de Reinos'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21552-guia-guerra-de-reinos
+  archive: sources/feedback_kersef/data/articles/markdown/21552-guia-guerra-de-reinos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Guia: Capas'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57768-guia-capas
+  archive: sources/feedback_kersef/data/articles/markdown/57768-guia-capas.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Cavaleiro do Reino
+  url: https://wydglobal.raidhut.com/#knight-of-the-kingdom
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Equilibrio da Força
+  url: https://wydglobal.raidhut.com/#balance-of-power
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Desbloqueio de capa 355
+  url: https://wydglobal.raidhut.com/#mantle-unlock-355
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+- name: 'Wikipedia: With Your Destiny'
+  title: With Your Destiny
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  archive: sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
+updated: '2026-10-13'
+---
+
+# Reinos de Hekalotia e Akelonia
+
+> Hekalotia e Akelonia (também grafado Akeronia) são os dois reinos rivais de Kersef. A página reúne a origem da divisão, as guerras pelo minério Temuh e pela Coroa de Athila, a catedral de Achro como elo de paz, a expedição conjunta a Nippleheim e os reis, cores e mantos de cada reino.
+
+Os humanos de [Kersef](kersef.md) se dividem em dois reinos, **Hekalotia** e **Akelonia**. No jogo, todo personagem pode se juntar a um deles a partir do level 220 e passa a usar o manto do reino. As regras de entrada e saída estão em [Sistema de Reinos](../sistemas/reinos.md) e em [Capas](../itens/capas.md), e a disputa em PvP está em [Guerra de Reinos](../pvp/guerra-de-reinos.md). Esta página trata da lore.
+
+## Nomes e grafias
+
+- **Akelonia** é a grafia dos textos de lore do FAQ oficial ("Sistema de Reinos", "Submundo", "Dungeon Kefra") e das quests da Raid Hut.
+- **Akeronia** aparece na tabela de NPCs do guia oficial "Guerra de Reinos" e no verbete da Wikipedia (fonte da comunidade).
+- **Hekalotia** tem a mesma grafia em todas as fontes. O texto [História](historia-de-kersef.md) chama a Morada dos Deuses de **Hekalote**, mas nenhuma fonte liga o nome do reino ao nome da morada.
+- Nas unidades da Guerra de Reinos, os prefixos são **Akero** (Akero Cannon, Akero Commander...) e **Hekalo** (Hekalo Cannon, Hekalo Commander...).
+
+## Origem da divisão
+
+O guia oficial "Sistema de Reinos" conta que os humanos viviam juntos:
+
+> Há muito tempo, os humanos moravam na mesma vila e seguiam as mesmas regras.
+
+Quando aprenderam mais sobre a própria história e as relíquias dos antepassados, descobriram que eram chamados de "Nação da Classe superior". Uns passaram a desenvolver crenças "na morte, no Paraíso e nos seres desconhecidos que habitam o submundo", enquanto outros "alimentavam sua Fé em Deus".
+
+> Infelizmente, eles se separaram em dois grupos, os crentes em Deus e os que aspiram em dominar o Céu e a Terra.
+
+> Por causa da diferença de suas crenças, eles separaram suas regras e formaram dois novos sistemas, estabelecendo seus reinos: "Hekalotia" e "Akelonia".
+
+O texto **não diz** qual dos dois grupos fundou qual reino.
+
+## Rivalidade e conflitos
+
+### A guerra pelo Temuh
+
+Segundo o mapa [Submundo](../mapas/submundo.md), no auge da mineração "dois reinos do continente de Kerserf, Hekalotia e Akelonia, disputavam entre si os melhores minérios e a melhor tecnologia para extrai-los do solo". Numa escavação nas colinas da montanha Nikirr, encontraram o minério celestial **Temuh**, "um dos presentes dos deuses para a humanidade".
+
+> A ganância falou mais alto e os reinos começaram uma guerra que não teria vencendor, e as marcas dessa guerra ainda podem ser vistas na caverna de Nikirr.
+
+As batalhas abriram o caminho para o Submundo, "a moradia dos caidos". Os monstros de lá eram tão fortes que "mesmo com a força dos reinos lutando lado a lado, nada poderia dete-los". A colina Nikirr foi interditada. Hoje os dois reinos "estão em sinal de alerta constante para proteger o Temuh", com "um batalhão inteiro de guardas".
+
+### A Coroa de Athila e o Deserto de Kult
+
+O mapa [Dungeon Kefra](../mapas/dungeon-kefra.md) fala da "violenta disputa pela de 'Coroa de Athila' entre os reinos de Hekalotia e Akelonia". Para vencer, cada reino formou, "numa especie de competição", um grande grupo de exploradores de elite para mapear o recém-descoberto **Deserto de Kult**. Quando os magos veteranos achavam que não havia mais nada a descobrir, "um grupo de exploradores do reino de Akelonia descobriu uma enorme construção no fim do Deserto": a Dungeon Kefra.
+
+### A catedral de Achro e a trégua
+
+A quest [Equilíbrio da Força](../quests/equilibrio-da-forca.md) (Raid Hut) mostra o outro lado da rivalidade:
+
+> Por gerações, a catedral de Achro serviu como um elo de ligação entre Akelonia e Hekalotia, promovendo a paz e harmonia.
+
+A sacerdotisa Amelia, "descendente de uma longa linhagem de guardiões do equilíbrio", protege o símbolo sagrado. Se o equilíbrio se quebrar, será "o início de uma era de discórdia e guerra entre os reinos". A missão do jogador é "assegurar a continuidade da trégua".
+
+### A expedição conjunta a Nippleheim
+
+O mapa [Nippleheim](../mapas/nippleheim.md) conta que, séculos depois da Guerra Celestial, sons misteriosos de elfos vindos do norte assustaram o povo de Azran. "Os dois Reis dos reinos" reuniram os sábios. Quando souberam que os sons vinham das terras geladas onde estão Tzfah e Neses, "juntaram seus cavaleiros e mandaram a expedicao para o novo continente chamado Nippleheim", que construiu a base do Comando Karden.
+
+### A visão da Wikipedia
+
+O verbete da Wikipedia (comunidade) diz que "dois grandes reinos rivais disputavam o domínio do continente de Kersef: Hekalotia e Akeronia", e que, "enquanto os reinos se distraíam com batalhas intermináveis, um confronto entre as divindades ameaçou aniquilar toda Kersef".
+
+## Reis, cores e símbolos
+
+| | Akelonia | Hekalotia |
+| --- | --- | --- |
+| Cor (quests da Raid Hut) | Vermelho ("Red") | Azul ("Blue") |
+| Rei, segundo o guia "Guerra de Reinos" (FAQ) | King Harbarad | King Glantwat |
+| Rei, segundo a quest "Cavaleiro do Reino" (Raid Hut) | KingGlantuar (Reino Red) | KingHarabard (Reino Blue) |
+| Tropas na Guerra de Reinos | Blaze Ranger, Blaze Shaman, Blaze Sorcerer, Blaze Templer | Frozen Ranger, Frozen Shaman, Frozen Sorcerer, Frozen Templer |
+| Estruturas e chefes | Akero Cannon, Akero Training camp, Akero Commander, Akero ent, Akero Protector, Akero Protect tower | Hekalo Cannon, Hekalo Training camp, Hekalo Commander, Hekalo ent, Hekalo Protector, Hekalo Protect tower |
+| Mantos do reino | Manto de Akelonia, Elite de Akelonia, Mestre de Akelonia | Manto de Hekalotia, Elite de Hekalotia, Mestre de Hekalotia |
+
+**Divergência sobre os reis.** O guia oficial "Guerra de Reinos" põe King Harbarad do lado de Akeronia e King Glantwat do lado de Hekalotia. A quest "Cavaleiro do Reino" da Raid Hut faz o contrário: KingGlantuar é o rei do Reino Red, que entrega o Manto Akelonia, e KingHarabard é o rei do Reino Blue, que entrega o Manto Hekalotia. Os nomes também mudam de grafia (Harbarad/Harabard, Glantwat/Glantuar). Esta página não escolhe uma versão.
+
+Outros detalhes:
+
+- O guia "Capas" chama os reinos de **Reino Azul** e **Reino Vermelho**, separados por uma **Zona Neutra**. O NPC Redmiron fica no Reino Azul e o NPC Verdes no Reino Vermelho.
+- A quest [Cavaleiro do Reino](../quests/cavaleiro-do-reino.md) começa "no centro dos Reinos". Os inimigos são os **DarkKnightKing**, "uma vez cavaleiros valorosos que caíram nas trevas". O texto descreve "um mundo dividido entre o majestoso Hekalotia e o poderoso Akelonia".
+- Quem deixa o reino passa a usar uma **capa branca** (guia "Sistema de Reinos").
+
+## Veja também
+
+- [Sistema de Reinos](../sistemas/reinos.md)
+- [Guerra de Reinos](../pvp/guerra-de-reinos.md)
+- [Capas](../itens/capas.md)
+- [Kersef](kersef.md)
+- [Linha do tempo](linha-do-tempo.md)
+- [Glossário](glossario.md)
+
+## Fontes
+
+- [Sistema de Reinos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20462-sistema-de-reinos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20462-sistema-de-reinos.md](../../sources/feedback_kersef/data/articles/markdown/20462-sistema-de-reinos.md)
+- [(MAPA) Submundo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20377-mapa-submundo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20377-mapa-submundo.md](../../sources/feedback_kersef/data/articles/markdown/20377-mapa-submundo.md)
+- [(MAPA) Dungeon kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20378-mapa-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20378-mapa-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/20378-mapa-dungeon-kefra.md)
+- [(MAPA) Nippleheim](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20376-mapa-nippleheim.md](../../sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md)
+- [GUIA: Guerra de Reinos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21552-guia-guerra-de-reinos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21552-guia-guerra-de-reinos.md](../../sources/feedback_kersef/data/articles/markdown/21552-guia-guerra-de-reinos.md)
+- [Guia: Capas](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/57768-guia-capas), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [57768-guia-capas.md](../../sources/feedback_kersef/data/articles/markdown/57768-guia-capas.md)
+- [Cavaleiro do Reino](https://wydglobal.raidhut.com/#knight-of-the-kingdom), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Equilibrio da Força](https://wydglobal.raidhut.com/#balance-of-power), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [Desbloqueio de capa 355](https://wydglobal.raidhut.com/#mantle-unlock-355), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+- [With Your Destiny](https://en.wikipedia.org/wiki/With_Your_Destiny), Wikipedia: With Your Destiny. Cópia arquivada: [with_your_destiny.md](../../sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md)
+
+
+<!-- wiki/lore/yetzirah-e-tzfah.md -->
+
+---
+title: Yetzirah e Tzfah
+summary: Os dois seres supremos do mito de criação de WYD, mais antigos que a própria criação. Yetzirah ama a humanidade e constrói Hekalote, a Morada dos Deuses; Tzfah passa a odiar os humanos por ciúme, aprisiona os deuses seus filhos e acaba banido depois da Batalha Celestial.
+category: lore
+tags:
+- lore
+- yetzirah
+- tzfah
+- seres-supremos
+- criacao
+canon:
+- official
+- community
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: História
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia
+  archive: sources/feedback_kersef/data/articles/markdown/20364-historia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) Nippleheim"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim
+  archive: sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Novo Mapa: Dragon Field'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/49455-novo-mapa-dragon-field
+  archive: sources/feedback_kersef/data/articles/markdown/49455-novo-mapa-dragon-field.md
+- name: 'Wikipedia: With Your Destiny'
+  title: With Your Destiny
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  archive: sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
+updated: '2026-10-13'
+---
+
+# Yetzirah e Tzfah
+
+> Os dois seres supremos do mito de criação de WYD, mais antigos que a própria criação. Yetzirah ama a humanidade e constrói Hekalote, a Morada dos Deuses; Tzfah passa a odiar os humanos por ciúme, aprisiona os deuses seus filhos e acaba banido depois da Batalha Celestial.
+
+Yetzirah e Tzfah são os **seres supremos** da mitologia de With Your Destiny. A fonte principal é o texto [História](historia-de-kersef.md) do FAQ oficial, narrado por um ancião. Segundo ele, os dois já existiam "antes mesmo de existir a mais antiga estrela no céu e de os mundos povoarem o universo".
+
+> Seus nomes são impronunciáveis em nossa língua, por isso os chamamos de Yetzirah e Tzfah.
+
+Os humanos não rezavam para eles, e sim para os [deuses](deuses.md):
+
+> nos nunca tivemos permissão para rezar para os seres supremos. Eles não precisam das nossas orações, só rezávamos para os deuses
+
+## Ficha rápida
+
+| | Yetzirah | Tzfah |
+| --- | --- | --- |
+| Natureza | Ser supremo | Ser supremo |
+| Gênero no texto | Feminino ("ela cuidava"; mãe dos deuses) | Masculino ("nunca tinha sido dele") |
+| Atitude com os humanos | Ama a humanidade e cuida dela | Odeia a humanidade por ciúme |
+| Morada | [Hekalote](glossario.md), a Morada dos Deuses, que ela construiu | Reino divino, de onde é banido |
+| Filhos | Os humanos, a fauna, a flora e os cinco deuses | Os mesmos, com Yetzirah |
+| Papel na [Batalha Celestial](batalha-celestial.md) | Ajuda os deuses contra Tzfah | Inimigo; banido e aprisionado |
+| Situação no presente do jogo | O texto não diz | Semiconsciente, ainda influencia seu exército maligno |
+
+## Yetzirah
+
+- **Criação.** Na primeira união dos dois seres, "não só a Terra foi criada, mas também os primeiros seres humanos e toda a flora e fauna do planeta".
+- **Hekalote.** Yetzirah "começou a amar seus filhos" e construiu um lugar para estar sempre perto deles: Hekalote, a Morada dos Deuses, "e desse lugar ela cuidava da humanidade".
+- **Mestra dos humanos.** O texto lembra "tudo que Yetzirah tinha ensinado para os humanos", ensinamentos que não bastaram contra a fúria de Tzfah.
+- **Mãe dos deuses.** Depois dos humanos, Yetzirah e Tzfah se uniram mais cinco vezes, e de cada união nasceu um deus: Kafma, Armia, Daleth, Samech e Haden. Os deuses "compartilhavam o amor de sua mãe pelos humanos".
+- **Libertação dos filhos.** Enquanto os deuses estavam presos, Yetzirah "elaborava um plano para libertar seus filhos e salvar a humanidade" e "enfraquecia cada vez mais a prisão dos filhos".
+- **Batalha Celestial.** Os deuses, "tendo a ajuda de Yetzirah", atacaram Tzfah.
+
+O texto não conta o que aconteceu com Yetzirah depois da batalha. Diz apenas que a fúria de Tzfah se voltou "para os deuses e para a sua antiga amante Yetzirah".
+
+## Tzfah
+
+- **Ciúme.** Tzfah "passou a odiar a humanidade, pois eles haviam conquistado algo que nunca tinha sido dele, o amor de Yetzirah".
+- **O erro.** Quando os deuses nasceram, Tzfah percebeu que, "assim que seus filhos crescessem, eles se uniriam e o matariam em nome de sua mãe e por amor aos humanos".
+- **A prisão dos deuses.** Como não podia matá-los, Tzfah os trancou "num campo de êxtase, de onde eles nunca sairiam".
+- **Fúria contra os humanos.** Terremotos, vulcões, outros desastres e "hordas de monstros que atacavam vilas e cidades". Com o tempo, Tzfah "tinha escravizado quase toda a população humana".
+- **Exército próprio.** Tzfah criou "um exército tocado pela mácula do ódio" e mandou destruir todo ser humano enquanto os deuses e Yetzirah estavam ocupados com a batalha.
+- **Banimento.** Os deuses decidiram banir Tzfah do reino divino e aprisioná-lo "no centro da Terra". Ao ser arremessado à Terra, ele quebrou a ponte Sephira e impediu que o encantamento fosse completado. Ficou "num estado de semiconsciência, mas ainda livre para influenciar sua legião maligna para dominar a Terra".
+- **Guerra Continental.** Tzfah percebeu "a macula na alma" do mago Nershess, da cidade de Koren, e o convocou. Juntos invadiram Armia, "o centro sagrado do continente".
+- **Presente.** O ancião termina dizendo que os humanos têm de lutar "para livrar a Terra do mal que Tzfah fez e ainda faz".
+
+### Tzfah em Nippleheim
+
+O texto do mapa [Nippleheim](../mapas/nippleheim.md) (FAQ oficial) dá outro destino para Tzfah:
+
+> Tzfah e seu braco direito Neses foram expulsos pela furia dos deuses para terra gelida localizada na ponta norte de Azran, Nippleheim
+
+Como o encantamento que os deixaria inconscientes não foi completado, os dois passaram a influenciar os monstros do lugar, que servem de guarda para eles "ate que um dia pudessem quebrar o encanto lancado pelos deuses".
+
+## Divergências entre as fontes
+
+- **Onde Tzfah está preso.** O texto "História" fala em aprisioná-lo "no centro da Terra". O mapa Nippleheim diz que ele foi expulso para Nippleheim, a terra gelada ao norte de Azran. As duas fontes são do FAQ oficial e concordam que o encantamento ficou incompleto.
+- **O aliado de Tzfah.** "História" chama o mago de **Nershess** (uma vez grafado "Nesse"). O mapa Nippleheim fala de **Neses**, "braço direito" de Tzfah. O mapa [Dragon Field](../mapas/dragon-field.md) tem um boss chamado **Nesses**. Nenhuma fonte diz com todas as letras que se trata da mesma figura.
+- **Tzfah como criador benevolente.** O verbete da Wikipedia (fonte da comunidade, ver [With Your Destiny](../historia/with-your-destiny.md)) diz que os Seres Supremos Yetzirah e Tzfah "uniram forças para criar um mundo onde a humanidade pudesse triunfar", e que a maior ameaça do jogo é "a fúria de dois deuses supremos". No FAQ oficial, só Tzfah é hostil aos humanos.
+
+## Veja também
+
+- [História](historia-de-kersef.md)
+- [Deuses](deuses.md)
+- [Batalha Celestial](batalha-celestial.md)
+- [Linha do tempo](linha-do-tempo.md)
+- [Glossário](glossario.md)
+- [Nippleheim](../mapas/nippleheim.md)
+
+## Fontes
+
+- [História](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20364-historia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20364-historia.md](../../sources/feedback_kersef/data/articles/markdown/20364-historia.md)
+- [(MAPA) Nippleheim](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20376-mapa-nippleheim), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20376-mapa-nippleheim.md](../../sources/feedback_kersef/data/articles/markdown/20376-mapa-nippleheim.md)
+- [Novo Mapa: Dragon Field](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/49455-novo-mapa-dragon-field), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [49455-novo-mapa-dragon-field.md](../../sources/feedback_kersef/data/articles/markdown/49455-novo-mapa-dragon-field.md)
+- [With Your Destiny](https://en.wikipedia.org/wiki/With_Your_Destiny), Wikipedia: With Your Destiny. Cópia arquivada: [with_your_destiny.md](../../sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md)
 
 
 <!-- wiki/historia/with-your-destiny.md -->
@@ -523,6 +1697,682 @@ Entenda um pouco sobre o funcionamento das skills assistindo o vídeo abaixo!
 - [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
 
 
+<!-- wiki/classes/beastmaster.md -->
+
+---
+title: BeastMaster
+summary: Classe evocadora de WYD, capaz de invocar monstros mais fortes que ela mesma ou de se transformar num híbrido de homem e bicho. As criaturas que ela invoca entram no grupo. Suas linhagens são Elemental, Evocação e Natureza, ensinadas pelo Mestre Archi em Armia.
+category: classes
+tags:
+- classe
+- beastmaster
+- evocador
+- invocacao
+- transformacao
+- skills
+canon: official
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: PERSONAGENS E PRIMEIRAS IMPRESSÕES
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes
+  archive: sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Guia para novatos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos
+  archive: sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Grupo
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20394-grupo
+  archive: sources/feedback_kersef/data/articles/markdown/20394-grupo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills
+  archive: sources/feedback_kersef/data/articles/markdown/20366-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Nona Skill - (9th)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th
+  archive: sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 10th Skill
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill
+  archive: sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 11º Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills
+  archive: sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 12th skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills
+  archive: sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+updated: '2026-10-13'
+---
+
+# BeastMaster
+
+> Classe evocadora de WYD, capaz de invocar monstros mais fortes que ela mesma ou de se transformar num híbrido de homem e bicho. As criaturas que ela invoca entram no grupo. Suas linhagens são Elemental, Evocação e Natureza, ensinadas pelo Mestre Archi em Armia.
+
+O BeastMaster é uma das quatro classes jogáveis de With Your Destiny, ao lado de [TransKnight](transknight.md), [Foema](foema.md) e [Huntress](huntress.md).
+
+**Grafia do nome:** as fontes oficiais usam várias formas. "BeastMaster" aparece na [Nona Skill](nona-skill.md), na página [Grupo](../sistemas/grupo.md) e no mapa de [Armia](../mapas/armia.md); "Beastmaster", em [Personagens e Primeiras Impressões](personagens.md) e [Skills](skills.md); "Beast Master", na página [12ª Skills](decima-segunda-skill.md) e na tabela da página [Arch](../progressao/arch.md); e "BEAST MASTER", no [Guia para Novatos](../progressao/guia-para-novatos.md). As páginas de skills por tier abreviam a classe como "BM", e o drop do boss Kefra se chama "Sephirot de BM".
+
+## Identidade e estilo de luta
+
+As duas descrições oficiais da classe:
+
+> O Beastmaster pode ser criado de diversas formas através das diversas skills de natureza que possui, o Beastmaster pode evocar os monstros mais fortes que o si próprio ou ganhar um bônus no próprio físico se transformando num híbrido de homem e bicho.
+>
+> (Personagens e Primeiras Impressões)
+
+> BEAST MASTER: Evocador. Capaz de sumonar e se transformar em criaturas poderosas.
+>
+> (Guia para novatos)
+
+As fontes descrevem dois caminhos para a classe: **evocar** criaturas para lutar ao seu lado ou **se transformar** num híbrido de homem e bicho para ganhar bônus físicos. As linhagens de skill reforçam isso: Evocação cuida das invocações, Natureza aparece ligada a armas e defesa, e Elemental a fogo e anti-magia.
+
+## Papel em grupo e PvP
+
+- **Invocações no grupo:** segundo a página [Grupo](../sistemas/grupo.md), "os animais que o BeastMaster convoca também são incluidos no grupo".
+- **Mais e melhores invocações:** Unidade Mental (9ª) deixa as evocações mais poderosas, Invocação Final (10ª) invoca o monstro FinalVerid e Powerful Summon Book (11ª) aumenta em 1 unidade a quantidade de todas as evocações.
+- **Defesa:** várias skills deixam o BeastMaster mais resistente. Concha Resistente (9ª) reduz a chance de receber críticos, Espinhos Fortalecidos (10ª) pode refletir dano, Ice Armor (12ª) aumenta a defesa e deixa lento quem o ataca, e Last Resistance (12ª) aumenta HP e defesa por 32 segundos.
+- **Contra magos:** Anti-Magia (9ª) cria um escudo que permite esquivar de magias, Resi Decrease Book (11ª) reduz temporariamente a imunidade do alvo e Manaburn Master (12ª) aumenta a queima de mana da skill Chamas Etéreas.
+
+As fontes não dizem diretamente qual é o papel do BeastMaster no PvP.
+
+## Atributos e builds
+
+As fontes não trazem uma build oficial para o BeastMaster, mas dão estas pistas:
+
+- **MP alto por nível:** na tabela de evolução da página [Arch](../progressao/arch.md), o Beast Master ganha **1 de HP** e **4 de MP** por level, o maior ganho de MP entre as quatro classes.
+- **Duas armas iguais:** a 11ª skill Weapon Power Book (Natureza) aumenta o dano ao usar duas armas iguais.
+- **Várias formas de montar o personagem:** Personagens e Primeiras Impressões diz que o Beastmaster "pode ser criado de diversas formas", como evocador ou transformado.
+
+A página [Skills](skills.md) lembra que, se os pontos forem distribuídos de forma errada, eles podem ser reiniciados com o Círculo Divino, a Benção de Deus e a quest Balanço do Poder.
+
+## Mestre de skill e linhagens
+
+Segundo a página [Skills](skills.md), as skills do BeastMaster são aprendidas com o **Mestre Archi** em Armia. As fontes divergem sobre o nome: na tabela do mapa de [Armia](../mapas/armia.md), o NPC nº 10 aparece como "Ferreiro", com a descrição "Mestre de Skill do BeastMaster". No mesmo mapa, **Arnod** (nº 9) vende itens de defesa para BeastMaster.
+
+![Mestre Archi, mestre de skill dos Beastmaster](../../sources/feedback_kersef/data/images/20366-skills_img_1.png)
+
+O BeastMaster tem três linhagens de skill: **Elemental**, **Evocação** e **Natureza**.
+
+![Janela de skills do Beastmaster](../../sources/feedback_kersef/data/images/20366-skills_img_5.png)
+
+## Skills por tier
+
+A base de conhecimento ainda não tem uma página com as skills até a 8ª. Uma skill de tier anterior aparece nas descrições das skills mais altas: **Chamas Etéreas** (Elemental), citada pela 12ª Manaburn Master. A fonte não diz a que tier ela pertence.
+
+### Elemental
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Anti-Magia (Buff) | Cria um escudo ao redor do personagem que permite esquivar de magias. Quanto mais pontos na linhagem, maior a duração. |
+| 10ª | Chamas Resistentes | Cria uma proteção de fogo no personagem, com chance de invocar uma fera flamejante contra o oponente mais próximo. |
+| 11ª | Resi Decrease Book | Reduz temporariamente a imunidade do alvo. |
+| 12ª | Manaburn Master (Passiva) | Aumenta a queima de mana da skill Chamas Etéreas. |
+
+### Evocação
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Unidade Mental (Passiva) | Deixa as evocações mais poderosas. |
+| 10ª | Invocação Final | Invoca o monstro FinalVerid. |
+| 11ª | Powerful Summon Book | Aumenta em 1 unidade a quantidade de todas as evocações. |
+| 12ª | Ice Armor (Passiva) | Aumenta a defesa do personagem. Quem o atacar pode sofrer redução de movimento (lentidão) por 128 segundos. |
+
+### Natureza
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Concha Resistente (Passiva) | Reduz a chance de receber ataques críticos. |
+| 10ª | Espinhos Fortalecidos (Passiva) | Dá uma chance de refletir o dano do oponente. |
+| 11ª | Weapon Power Book | Aumenta o dano ao usar duas armas iguais. |
+| 12ª | Last Resistance (Ativa) | Aumenta o HP e a defesa do personagem por 32 segundos. |
+
+Requisitos de cada tier, conforme as páginas de skills:
+
+- **9ª:** livro do NPC 9thMaster em Armia; level 201 ou mais, só para Celestial ou Sub-Celestial; 255 pontos de skill; só da mesma linhagem da 8ª ([Nona Skill](nona-skill.md)).
+- **10ª:** todas as skills anteriores e 4000 pontos de fama ([10ª Skill](decima-skill.md)).
+- **11ª:** level 281 ou mais, 8.000 de fama e o livro da skill ([11ª Skills](decima-primeira-skill.md)).
+- **12ª:** Celestial acima do level 320, a 11ª da mesma linhagem e 12.000 de fama, no NPC Jazeg em Armia ([12ª Skills](decima-segunda-skill.md)).
+
+## Evolução
+
+- **Mortal:** como todas as classes, o BeastMaster começa em Armia e faz o [Campo de Treinamento](../quests/campo-de-treinamento.md).
+- **Arch:** o personagem Arch se parece com o da classe inicial, e o jogador pode escolher uma das quatro classes Arch. Na imagem da página [Arch](../progressao/arch.md), o "Beast Master" aparece em sua forma Arch, à direita. Por level, o Arch do Beast Master ganha 1 de HP e 4 de MP.
+- **Celestial:** a criação exige, entre outros itens, a Saphirot da classe atual ([Criação do Celestial](../progressao/criacao-do-celestial.md)).
+- **Sub-Celestial:** a criação exige a Sephirot da classe desejada ([Sub Celestial](../progressao/sub-celestial.md)). A 9ª skill é liberada para Celestial e Sub-Celestial, e a 12ª só para Celestial.
+
+![As quatro classes em forma Arch: Trans Knight, Hunter, Foema e Beast Master](../../sources/feedback_kersef/data/images/20384-arch_img_0.png)
+
+## Mudança de classe e de corpo
+
+Segundo [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md):
+
+- **Virar BeastMaster:** equipe a Sephirot de BeastMaster e fale com o NPC Wooreunammu em Kefra (X:3230 Y:1683), pagando 100kk, ou ative o item Sephiroth Blessing. Ao mudar de classe, todas as skills Sephira são desaprendidas.
+- **Mudança de corpo:** equipe a Sephiroth da classe desejada e ative o item Sephiroth Protection, sem nenhum equipamento no personagem.
+- **Onde conseguir a Sephirot:** o boss Kefra dropa a "Sephirot de BM" com 100% de chance para quem dá o último ataque ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+
+## Veja também
+
+- [TransKnight](transknight.md)
+- [Foema](foema.md)
+- [Huntress](huntress.md)
+- [Personagens e Primeiras Impressões](personagens.md)
+- [Skills](skills.md)
+- [Nona Skill (9th)](nona-skill.md)
+- [10ª Skill](decima-skill.md)
+- [11ª Skills](decima-primeira-skill.md)
+- [12ª Skills](decima-segunda-skill.md)
+- [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md)
+- [Grupo](../sistemas/grupo.md)
+- [Arch](../progressao/arch.md)
+
+## Fontes
+
+- [PERSONAGENS E PRIMEIRAS IMPRESSÕES](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20475-personagens-e-primeiras-impressoes.md](../../sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md)
+- [Guia para novatos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58185-guia-para-novatos.md](../../sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md)
+- [Grupo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20394-grupo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20394-grupo.md](../../sources/feedback_kersef/data/articles/markdown/20394-grupo.md)
+- [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Nona Skill - (9th)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [67187-nona-skill-9th.md](../../sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md)
+- [10th Skill](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [26951-10th-skill.md](../../sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md)
+- [11º Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46455-11o-skills.md](../../sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md)
+- [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+
+
+<!-- wiki/classes/foema.md -->
+
+---
+title: Foema
+summary: Classe feiticeira de WYD que usa ataques mágicos como principal força ofensiva e lança magias capazes de atingir várias criaturas de uma vez. No grupo, pode convocar os outros membros até onde ela está. Suas linhagens são Magia Branca, Magia Negra e Magia Especial, ensinadas pela Foema Anciã em Armia.
+category: classes
+tags:
+- classe
+- foema
+- feiticeira
+- magia
+- grupo
+- skills
+canon: official
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: PERSONAGENS E PRIMEIRAS IMPRESSÕES
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes
+  archive: sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Guia para novatos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos
+  archive: sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Grupo
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20394-grupo
+  archive: sources/feedback_kersef/data/articles/markdown/20394-grupo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills
+  archive: sources/feedback_kersef/data/articles/markdown/20366-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Nona Skill - (9th)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th
+  archive: sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 10th Skill
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill
+  archive: sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 11º Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills
+  archive: sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 12th skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills
+  archive: sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Campo de Treino
+  url: https://wydglobal.raidhut.com/#training-camp
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+updated: '2026-10-13'
+---
+
+# Foema
+
+> Classe feiticeira de WYD que usa ataques mágicos como principal força ofensiva e lança magias capazes de atingir várias criaturas de uma vez. No grupo, pode convocar os outros membros até onde ela está. Suas linhagens são Magia Branca, Magia Negra e Magia Especial, ensinadas pela Foema Anciã em Armia.
+
+A Foema é uma das quatro classes jogáveis de With Your Destiny, ao lado de [TransKnight](transknight.md), [BeastMaster](beastmaster.md) e [Huntress](huntress.md). As fontes se referem a ela no feminino ("a Foema", "Skillmaster das Foemas", "Feiticeira").
+
+**Grafia do nome:** "Foema" em todas as fontes. O [Guia para Novatos](../progressao/guia-para-novatos.md) usa "FOEMA", as páginas de skills por tier abreviam como "FM", e o drop do boss Kefra se chama "Sephirot de FM".
+
+## Identidade e estilo de luta
+
+As duas descrições oficiais da classe:
+
+> São os personagens que utiliza os ataques mágicos normalmente como sua principal força ofensiva, mas utilizando a combinação certa de armas e skills, poderá transformá-la numa guerreira do mesmo nível dos outros personagens.
+>
+> (Personagens e Primeiras Impressões)
+
+> FOEMA: Feiticeira. Esse personagem pode lançar poderosas magias capazes de atingir várias criaturas de uma só vez.
+>
+> (Guia para novatos)
+
+Ou seja, a Foema é a maga do jogo: ataca com magia, inclusive em área. Segundo Personagens e Primeiras Impressões, porém, com a combinação certa de armas e skills ela também pode lutar como "guerreira".
+
+## Papel em grupo e PvP
+
+- **Convocar o grupo:** segundo a página [Grupo](../sistemas/grupo.md), a Foema pode levar os membros do grupo até o local onde ela está, exceto em alguns locais específicos:
+
+> Ter uma Foema no grupo permitirá que a Foema convoque os membros do grupo para outros locais exceto em alguns locais específicos. Para ativar essa skill, clique com o botão direto no jogador que gostaria de convocar. Quando o jogador confirmar a convocação o mesmo irá para o mesmo local que a foema se encontra.
+>
+> (Grupo)
+
+- **Cura e suporte (Magia Branca e Magia Especial):** a 9ª skill Cenote pode aumentar a cura recebida pelos membros do grupo (crítico de cura); a 11ª Special Master Book potencializa os buffs de aumento de dano, defesa e skill; e a 10ª Proteção Absoluta deixa a Foema invulnerável por 64 segundos.
+- **Controle em PvP:** várias skills atrapalham o oponente. Remover Memória (9ª) pode impedir o alvo de se mover, Congelamento Proficiente (10ª) pode prendê-lo no lugar, Incapacitador (10ª) remove os buffs dele, Thunder Force Book (11ª) pode queimar parte da mana dele e Holy Power (12ª) dobra o debuff de evasão da skill Flash.
+
+## Atributos e builds
+
+As fontes não trazem uma build oficial para a Foema, mas dão estas pistas:
+
+- **MP alto por nível:** na tabela de evolução da página [Arch](../progressao/arch.md), a Foema ganha **1 de HP** e **3 de MP** por level.
+- **Dano mágico:** o guia do [Campo de Treinamento](../quests/campo-de-treinamento.md) recomenda que classes de dano mágico comprem do NPC Unicorn armas que dão Ataque Mágico. Segundo Personagens e Primeiras Impressões, a Foema usa ataques mágicos como principal força ofensiva.
+- **Magia Negra ofensiva:** Magia Misteriosa (9ª) aumenta o dano em troca de um custo de mana maior, e Thunder Lising (12ª) aumenta o poder de ataque mágico em 5%. As skills dessa linhagem usam os atributos gelo e relâmpago.
+- **Armas e skills:** Personagens e Primeiras Impressões diz que a combinação certa de armas e skills pode fazer dela uma "guerreira", mas não detalha qual combinação.
+
+A página [Skills](skills.md) lembra que, se os pontos forem distribuídos de forma errada, eles podem ser reiniciados com o Círculo Divino, a Benção de Deus e a quest Balanço do Poder.
+
+## Mestre de skill e linhagens
+
+As skills da Foema são aprendidas com a **Foema Anciã** em Armia (NPC nº 12 no mapa de [Armia](../mapas/armia.md)). No mesmo mapa, o **Ferreiro** (nº 8) vende itens de defesa para Transknight e Foema.
+
+![Foema Anciã, mestre de skill das Foemas](../../sources/feedback_kersef/data/images/20366-skills_img_2.png)
+
+A Foema tem três linhagens de skill: **Magia Branca**, **Magia Negra** e **Magia Especial**.
+
+![Janela de skills da Foema](../../sources/feedback_kersef/data/images/20366-skills_img_6.png)
+
+## Skills por tier
+
+A base de conhecimento ainda não tem uma página com as skills até a 8ª. Duas skills de tiers anteriores aparecem nas descrições das skills mais altas: **Cancelamento** (citada pela 9ª Remover Memória) e **Flash** (citada pela 12ª Holy Power). As fontes não dizem a que tier elas pertencem.
+
+### Magia Branca
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Cenote (Passiva) | Adiciona uma probabilidade de aumentar a cura recebida por membros do grupo (crítico de cura). |
+| 10ª | Proteção Absoluta | Cria um escudo mágico de gelo que deixa o personagem invulnerável por 64 segundos. Usar qualquer outra skill desativa o escudo. |
+| 11ª | Life Wave Book | Reduz em 25% o dano crítico recebido. |
+| 12ª | Holy Power (Passiva) | Dobra a duração do debuff causado pela skill Flash (-10% de evasão por 64 segundos). |
+
+### Magia Negra
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Magia Misteriosa (Buff) | Os ataques causam mais dano, e o custo de mana das skills aumenta. |
+| 10ª | Congelamento Proficiente (Passiva) | Ao usar habilidades do atributo gelo, há chance de o oponente ficar preso no lugar, sem poder se mover. |
+| 11ª | Thunder Force Book | Ao usar skills do atributo relâmpago, há chance de queimar parte da mana do alvo. |
+| 12ª | Thunder Lising (Passiva) | O poder de ataque mágico aumenta em 5%. |
+
+### Magia Especial
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Remover Memória | Ao usar a habilidade "Cancelamento", há chance de o alvo ficar sem poder se mover, embora ainda possa usar suas habilidades. |
+| 10ª | Incapacitador | Remove os efeitos positivos (buffs) do oponente, deixando-o mais fraco. |
+| 11ª | Special Master Book | Potencializa o efeito dos buffs de aumento de dano, defesa e skill. |
+| 12ª | Another Change (Ativa) | Substitui o HP por MP e recupera 2000 de HP por segundo. |
+
+Requisitos de cada tier, conforme as páginas de skills:
+
+- **9ª:** livro do NPC 9thMaster em Armia; level 201 ou mais, só para Celestial ou Sub-Celestial; 255 pontos de skill; só da mesma linhagem da 8ª ([Nona Skill](nona-skill.md)).
+- **10ª:** todas as skills anteriores e 4000 pontos de fama ([10ª Skill](decima-skill.md)).
+- **11ª:** level 281 ou mais, 8.000 de fama e o livro da skill ([11ª Skills](decima-primeira-skill.md)).
+- **12ª:** Celestial acima do level 320, a 11ª da mesma linhagem e 12.000 de fama, no NPC Jazeg em Armia ([12ª Skills](decima-segunda-skill.md)).
+
+## Evolução
+
+- **Mortal:** como todas as classes, a Foema começa em Armia e faz o [Campo de Treinamento](../quests/campo-de-treinamento.md), onde o NPC Unicorn entrega uma arma inicial.
+- **Arch:** o personagem Arch se parece com o da classe inicial, e o jogador pode escolher uma das quatro classes Arch. Na imagem da página [Arch](../progressao/arch.md), a Foema aparece em sua forma Arch, a terceira da esquerda para a direita. Por level, o Arch da Foema ganha 1 de HP e 3 de MP.
+- **Celestial:** a criação exige, entre outros itens, a Saphirot da classe atual ([Criação do Celestial](../progressao/criacao-do-celestial.md)).
+- **Sub-Celestial:** a criação exige a Sephirot da classe desejada ([Sub Celestial](../progressao/sub-celestial.md)). A 9ª skill é liberada para Celestial e Sub-Celestial, e a 12ª só para Celestial.
+
+![As quatro classes em forma Arch: Trans Knight, Hunter, Foema e Beast Master](../../sources/feedback_kersef/data/images/20384-arch_img_0.png)
+
+## Mudança de classe e de corpo
+
+Segundo [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md):
+
+- **Virar Foema:** equipe a Sephirot de Foema e fale com o NPC Wooreunammu em Kefra (X:3230 Y:1683), pagando 100kk, ou ative o item Sephiroth Blessing. Ao mudar de classe, todas as skills Sephira são desaprendidas.
+- **Mudança de corpo:** equipe a Sephiroth da classe desejada e ative o item Sephiroth Protection, sem nenhum equipamento no personagem.
+- **Onde conseguir a Sephirot:** o boss Kefra dropa a "Sephirot de FM" com 100% de chance para quem dá o último ataque ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+
+## Veja também
+
+- [TransKnight](transknight.md)
+- [BeastMaster](beastmaster.md)
+- [Huntress](huntress.md)
+- [Personagens e Primeiras Impressões](personagens.md)
+- [Skills](skills.md)
+- [Nona Skill (9th)](nona-skill.md)
+- [10ª Skill](decima-skill.md)
+- [11ª Skills](decima-primeira-skill.md)
+- [12ª Skills](decima-segunda-skill.md)
+- [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md)
+- [Grupo](../sistemas/grupo.md)
+- [Arch](../progressao/arch.md)
+
+## Fontes
+
+- [PERSONAGENS E PRIMEIRAS IMPRESSÕES](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20475-personagens-e-primeiras-impressoes.md](../../sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md)
+- [Guia para novatos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58185-guia-para-novatos.md](../../sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md)
+- [Grupo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20394-grupo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20394-grupo.md](../../sources/feedback_kersef/data/articles/markdown/20394-grupo.md)
+- [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Nona Skill - (9th)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [67187-nona-skill-9th.md](../../sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md)
+- [10th Skill](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [26951-10th-skill.md](../../sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md)
+- [11º Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46455-11o-skills.md](../../sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md)
+- [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+- [Campo de Treino](https://wydglobal.raidhut.com/#training-camp), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
+
+
+<!-- wiki/classes/huntress.md -->
+
+---
+title: Huntress
+summary: Classe arqueira de WYD, ágil e especialista em armas de longa distância, útil no PvP e na caça de monstros, com a habilidade de acessar o banco. Suas linhagens são Sobrevivência, Troca e Captura, ensinadas pela ForeLearne em Armia. A Wikipedia e a imagem da página Arch chamam a classe de "Hunter".
+category: classes
+tags:
+- classe
+- huntress
+- arqueira
+- longa-distancia
+- pvp
+- skills
+canon:
+- official
+- community
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: PERSONAGENS E PRIMEIRAS IMPRESSÕES
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes
+  archive: sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Guia para novatos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos
+  archive: sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills
+  archive: sources/feedback_kersef/data/articles/markdown/20366-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Controles
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20393-controles
+  archive: sources/feedback_kersef/data/articles/markdown/20393-controles.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'Guia: Evasão'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/24245-guia-evasao
+  archive: sources/feedback_kersef/data/articles/markdown/24245-guia-evasao.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Nona Skill - (9th)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th
+  archive: sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 10th Skill
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill
+  archive: sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 11º Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills
+  archive: sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 12th skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills
+  archive: sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+- name: 'Wikipedia: With Your Destiny'
+  title: With Your Destiny
+  url: https://en.wikipedia.org/wiki/With_Your_Destiny
+  archive: sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
+updated: '2026-10-13'
+---
+
+# Huntress
+
+> Classe arqueira de WYD, ágil e especialista em armas de longa distância, útil no PvP e na caça de monstros, com a habilidade de acessar o banco. Suas linhagens são Sobrevivência, Troca e Captura, ensinadas pela ForeLearne em Armia. A Wikipedia e a imagem da página Arch chamam a classe de "Hunter".
+
+A Huntress é uma das quatro classes jogáveis de With Your Destiny, ao lado de [TransKnight](transknight.md), [Foema](foema.md) e [BeastMaster](beastmaster.md).
+
+**Grafia do nome:** as fontes divergem.
+
+- O FAQ oficial usa "Huntress" em [Personagens e Primeiras Impressões](personagens.md), [Skills](skills.md), nas páginas de skills por tier e no mapa de [Armia](../mapas/armia.md).
+- O [Guia para Novatos](../progressao/guia-para-novatos.md) escreve "HUNTRES", sem o "s" final.
+- A imagem da página [Arch](../progressao/arch.md) traz a legenda "Hunter".
+- A página da Wikipedia ([With Your Destiny](../historia/with-your-destiny.md), fonte da comunidade) lista as classes como "Transknight, Hunter, Foema e Beastmaster".
+- As páginas de skills por tier abreviam a classe como "HT", e o drop do boss Kefra se chama "Sephirot de HT".
+
+Esta página usa "Huntress", a grafia da maior parte do FAQ oficial.
+
+## Identidade e estilo de luta
+
+As duas descrições oficiais da classe:
+
+> A agilidade da Huntress permite dominar os campos de batalha é muito útil, principalmente nos casos de PvP ou mesmo nas caças de monstros. A facilidade de utilizar as armas de longa distância e a habilidade de acessar o banco faz dela uma das caçadoras mais adaptadas ao combate.
+>
+> (Personagens e Primeiras Impressões)
+
+> HUNTRES: Arqueira. Consegue distribuir bastante dano a longa distância, porém o posicionamento é importante ao escolher o personagem.
+>
+> (Guia para novatos)
+
+A Huntress é, portanto, a atiradora ágil do jogo: causa muito dano à distância, mas depende de um bom posicionamento. As skills mostram outros recursos dela, como esquiva, invisibilidade, ataque com garras, veneno e alquimia.
+
+Para quem luta com arco ou arma de arremesso, o guia de [Controles](../sistemas/controles.md) ensina a clicar no alvo com Shift + botão esquerdo para atacar sem sair do lugar. O guia não cita nenhuma classe.
+
+## Papel em grupo e PvP
+
+- **PvP:** segundo Personagens e Primeiras Impressões, a agilidade dela é "muito útil, principalmente nos casos de PvP ou mesmo nas caças de monstros".
+- **Esquiva e contra-ataque:** Contra Ataque (9ª) aumenta o próximo ataque depois de uma esquiva, e Freezing (12ª) aumenta a precisão em 15% com a skill Encantar Gelo ativa.
+- **Emboscada:** Tiro Direto (9ª) dá dano extra no primeiro ataque após sair da invisibilidade, além de paralisar o alvo e reduzir a absorção da skill "controle de mana" dele. Ambush (12ª) faz a Lâmina das Sombras causar 128 segundos de lentidão, mesmo errando o golpe.
+- **Desgaste do alvo:** Absorção da Alma (10ª) diminui o HP do oponente e pode drenar parte dele para a Huntress, e Bleeding Book (11ª) envenena o alvo com dano progressivo.
+- **Banco e alquimia:** Personagens e Primeiras Impressões cita a "habilidade de acessar o banco", e a 9ª Ponto do Mestre (Troca) aumenta a chance de sucesso na composição de joias.
+
+As fontes não descrevem uma função de grupo específica da Huntress além disso.
+
+## Atributos e builds
+
+As fontes não trazem uma build oficial para a Huntress, mas dão estas pistas:
+
+- **HP e MP equilibrados:** na tabela de evolução da página [Arch](../progressao/arch.md), a Huntress ganha **2 de HP** e **2 de MP** por level.
+- **DES e garras:** a 10ª skill Garra Habilidosa (Captura) aumenta a DES do personagem e o dano crítico em 30% ao usar garras. Segundo o guia de [Evasão](../sistemas/evasao.md), quanto maior a destreza, maior a chance de evasão, mas o guia não cita nenhuma classe.
+- **Armas de longa distância:** Personagens e Primeiras Impressões e o Guia para novatos destacam o uso de armas de longa distância.
+- **Sobrevivência:** a 11ª skill Skill Master Book aumenta o limite de pontos de sobrevivência.
+- **Ouro:** a 11ª skill Plunder Book aumenta o custo em ouro e o dano da skill "Escudo Dourado".
+
+A página [Skills](skills.md) lembra que, se os pontos forem distribuídos de forma errada, eles podem ser reiniciados com o Círculo Divino, a Benção de Deus e a quest Balanço do Poder.
+
+## Mestre de skill e linhagens
+
+As skills da Huntress são aprendidas com o mestre de skill da classe em Armia. A página [Skills](skills.md) chama o NPC de **ForeLearne**, e o mapa de [Armia](../mapas/armia.md) (NPC nº 6), de **ForeLearner**. No mesmo mapa, **Rainy** (nº 5) vende itens de defesa para Huntress.
+
+![ForeLearne, mestre de skill das Huntress](../../sources/feedback_kersef/data/images/20366-skills_img_3.png)
+
+A Huntress tem três linhagens de skill: **Sobrevivência**, **Troca** e **Captura**.
+
+![Janela de skills da Huntress](../../sources/feedback_kersef/data/images/20366-skills_img_7.png)
+
+## Skills por tier
+
+A base de conhecimento ainda não tem uma página com as skills até a 8ª. Algumas skills de tiers anteriores aparecem nas descrições das skills mais altas: Tempestade de Raios e Encantar Gelo (Sobrevivência), Escudo Dourado (Troca) e Lâmina das Sombras (Captura). As fontes não dizem a que tier elas pertencem.
+
+### Sobrevivência
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Contra Ataque (Passiva) | Depois de esquivar de um ataque, o próximo ataque é aumentado. |
+| 10ª | Ataque rápido Proficiente (Passiva) | Aprimora a habilidade "Tempestade de Raios". |
+| 11ª | Skill Master Book | Aumenta o limite de pontos de sobrevivência. |
+| 12ª | Freezing (Passiva) | Aumenta a precisão em 15% se a skill Encantar Gelo estiver ativa. |
+
+### Troca
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Ponto do Mestre (Passiva) | Amplia o poder de Alquimia do personagem, aumentando a chance de sucesso na composição de joias. |
+| 10ª | Absorção da Alma | Diminui o HP do oponente, e parte desse HP pode ser drenada para o personagem. |
+| 11ª | Plunder Book | Aumenta o custo em ouro e o dano da skill "Escudo Dourado". |
+| 12ª | Reinforce Soul (Passiva) | Aumenta em 20% o bônus da skill Limite da Alma. Se a soul estiver configurada em dois atributos, aumenta 20% em cada um. |
+
+### Captura
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Tiro Direto (Passiva) | O primeiro ataque após sair da invisibilidade causa dano extra proporcional ao HP do alvo, paralisa o alvo e reduz por pouco tempo a absorção da skill "controle de mana" dele. |
+| 10ª | Garra Habilidosa (Passiva) | Aumenta a DES do personagem e o dano crítico em 30% ao usar garras. |
+| 11ª | Bleeding Book | Envenena o alvo com uma toxina poderosa que causa dano progressivamente. |
+| 12ª | Ambush (Passiva) | A skill Lâmina das Sombras causa 128 segundos de lentidão no inimigo, mesmo errando (miss), reduzindo o movimento dele para 1. |
+
+Requisitos de cada tier, conforme as páginas de skills:
+
+- **9ª:** livro do NPC 9thMaster em Armia; level 201 ou mais, só para Celestial ou Sub-Celestial; 255 pontos de skill; só da mesma linhagem da 8ª ([Nona Skill](nona-skill.md)).
+- **10ª:** todas as skills anteriores e 4000 pontos de fama ([10ª Skill](decima-skill.md)).
+- **11ª:** level 281 ou mais, 8.000 de fama e o livro da skill ([11ª Skills](decima-primeira-skill.md)).
+- **12ª:** Celestial acima do level 320, a 11ª da mesma linhagem e 12.000 de fama, no NPC Jazeg em Armia ([12ª Skills](decima-segunda-skill.md)).
+
+## Evolução
+
+- **Mortal:** como todas as classes, a Huntress começa em Armia e faz o [Campo de Treinamento](../quests/campo-de-treinamento.md).
+- **Arch:** o personagem Arch se parece com o da classe inicial, e o jogador pode escolher uma das quatro classes Arch. Na imagem da página [Arch](../progressao/arch.md), a Huntress aparece em sua forma Arch com a legenda "Hunter", a segunda da esquerda para a direita. Por level, o Arch da Huntress ganha 2 de HP e 2 de MP.
+- **Celestial:** a criação exige, entre outros itens, a Saphirot da classe atual. É também no Celestial que se aprende a skill Sephira Limite da Alma (Soul), configurada pelo NPC Ehre em Erion ([Criação do Celestial](../progressao/criacao-do-celestial.md)). A 12ª skill Reinforce Soul, da linhagem Troca, aumenta o bônus dessa skill.
+- **Sub-Celestial:** a criação exige a Sephirot da classe desejada ([Sub Celestial](../progressao/sub-celestial.md)). A 9ª skill é liberada para Celestial e Sub-Celestial, e a 12ª só para Celestial.
+
+![As quatro classes em forma Arch: Trans Knight, Hunter, Foema e Beast Master](../../sources/feedback_kersef/data/images/20384-arch_img_0.png)
+
+## Mudança de classe e de corpo
+
+Segundo [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md):
+
+- **Virar Huntress:** equipe a Sephirot de Huntress e fale com o NPC Wooreunammu em Kefra (X:3230 Y:1683), pagando 100kk, ou ative o item Sephiroth Blessing. Ao mudar de classe, todas as skills Sephira são desaprendidas.
+- **Mudança de corpo:** equipe a Sephiroth da classe desejada e ative o item Sephiroth Protection, sem nenhum equipamento no personagem.
+- **Onde conseguir a Sephirot:** o boss Kefra dropa a "Sephirot de HT" com 100% de chance para quem dá o último ataque ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+
+## Veja também
+
+- [TransKnight](transknight.md)
+- [Foema](foema.md)
+- [BeastMaster](beastmaster.md)
+- [Personagens e Primeiras Impressões](personagens.md)
+- [Skills](skills.md)
+- [Nona Skill (9th)](nona-skill.md)
+- [10ª Skill](decima-skill.md)
+- [11ª Skills](decima-primeira-skill.md)
+- [12ª Skills](decima-segunda-skill.md)
+- [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md)
+- [Evasão](../sistemas/evasao.md)
+- [Arch](../progressao/arch.md)
+- [With Your Destiny](../historia/with-your-destiny.md)
+
+## Fontes
+
+- [PERSONAGENS E PRIMEIRAS IMPRESSÕES](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20475-personagens-e-primeiras-impressoes.md](../../sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md)
+- [Guia para novatos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58185-guia-para-novatos.md](../../sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md)
+- [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Controles](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20393-controles), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20393-controles.md](../../sources/feedback_kersef/data/articles/markdown/20393-controles.md)
+- [Guia: Evasão](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/24245-guia-evasao), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [24245-guia-evasao.md](../../sources/feedback_kersef/data/articles/markdown/24245-guia-evasao.md)
+- [Nona Skill - (9th)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [67187-nona-skill-9th.md](../../sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md)
+- [10th Skill](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [26951-10th-skill.md](../../sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md)
+- [11º Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46455-11o-skills.md](../../sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md)
+- [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+- [With Your Destiny](https://en.wikipedia.org/wiki/With_Your_Destiny), Wikipedia: With Your Destiny. Cópia arquivada: [with_your_destiny.md](../../sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md)
+
+
 <!-- wiki/classes/mudanca-de-classe.md -->
 
 ---
@@ -865,6 +2715,223 @@ e adicionar uma nova skill.
 ## Fontes
 
 - [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+
+
+<!-- wiki/classes/transknight.md -->
+
+---
+title: TransKnight
+summary: Classe guerreira de WYD, especialista em ataques físicos a curta distância, com grande quantidade de vida e eficiente tanto na caça de monstros quanto no PvP. Suas linhagens de skill são Confiança, Trans e Espada Mágica, e ela é ensinada pelo Capitão Cavaleiros em Armia.
+category: classes
+tags:
+- classe
+- transknight
+- guerreiro
+- combate-corpo-a-corpo
+- pvp
+- skills
+canon: official
+language: pt-BR
+sources:
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: PERSONAGENS E PRIMEIRAS IMPRESSÕES
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes
+  archive: sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Guia para novatos
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos
+  archive: sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills
+  archive: sources/feedback_kersef/data/articles/markdown/20366-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: "(MAPA) ARMIA"
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia
+  archive: sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Nona Skill - (9th)
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th
+  archive: sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 10th Skill
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill
+  archive: sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 11º Skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills
+  archive: sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 12th skills
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills
+  archive: sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Arch
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch
+  archive: sources/feedback_kersef/data/articles/markdown/20384-arch.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação do Celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Criação de sub-celestial
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial
+  archive: sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: 'GUIA: Mudança de classe e mudança de corpo'
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo
+  archive: sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md
+- name: FAQ WYD Global (feedback.kersef.com)
+  title: Dungeon Kefra
+  url: https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra
+  archive: sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md
+- name: Guia Quest Mortal (Raid Hut)
+  title: Campo de Treino
+  url: https://wydglobal.raidhut.com/#training-camp
+  archive: sources/raidhut_quests/data/articles/markdown/quests_mortais.md
+updated: '2026-10-13'
+---
+
+# TransKnight
+
+> Classe guerreira de WYD, especialista em ataques físicos a curta distância, com grande quantidade de vida e eficiente tanto na caça de monstros quanto no PvP. Suas linhagens de skill são Confiança, Trans e Espada Mágica, e ela é ensinada pelo Capitão Cavaleiros em Armia.
+
+O TransKnight é uma das quatro classes jogáveis de With Your Destiny, ao lado de [Foema](foema.md), [BeastMaster](beastmaster.md) e [Huntress](huntress.md).
+
+**Grafia do nome:** as fontes oficiais usam várias formas. As páginas de [Skills](skills.md) e de [12ª Skills](decima-segunda-skill.md) escrevem "TransKnight"; [Personagens e Primeiras Impressões](personagens.md) e o mapa de [Armia](../mapas/armia.md) escrevem "Transknight"; o [Guia para Novatos](../progressao/guia-para-novatos.md) escreve "TRANS KNIGHT" e a tabela da página [Arch](../progressao/arch.md), "Trans Knight". As páginas de skills por tier abreviam a classe como "TK", e o drop do boss Kefra se chama "Sephirot de TK".
+
+## Identidade e estilo de luta
+
+As duas descrições oficiais da classe:
+
+> Transknight que utiliza os ataques físicos e tem uma grande quantidade de vida. Muito eficiente não somente na função de caçar os monstros, mas também nos PvPs.
+>
+> (Personagens e Primeiras Impressões)
+
+> TRANS KNIGHT: Guerreiro. Um corajoso cavaleiro perito em ataques a curta distância que consegue bloquear bastante dano.
+>
+> (Guia para novatos)
+
+Em resumo, as fontes apresentam o TransKnight como o guerreiro corpo a corpo do jogo: ataca fisicamente, de perto, e aguenta muito dano graças ao HP alto.
+
+## Papel em grupo e PvP
+
+- **PvP:** a página Personagens e Primeiras Impressões diz que ele é "muito eficiente" não só na caça de monstros, mas também nos PvPs.
+- **Linha de frente:** o Guia para novatos o descreve como perito em curta distância e capaz de "bloquear bastante dano".
+- **Sobrevivência:** várias skills da linhagem Confiança giram em torno de invulnerabilidade e cura própria (Proteção Divina, Benção Divina e Aura de Cura; veja abaixo).
+
+As fontes não descrevem uma função de grupo específica do TransKnight além disso.
+
+## Atributos e builds
+
+As fontes não trazem uma build oficial para o TransKnight, mas dão estas pistas:
+
+- **HP alto por nível:** na tabela de evolução da página [Arch](../progressao/arch.md), o Trans Knight ganha **4 de HP** e **1 de MP** por level, o maior ganho de HP entre as quatro classes.
+- **Dano físico:** o guia do [Campo de Treinamento](../quests/campo-de-treinamento.md) recomenda que classes de dano físico comprem do NPC Unicorn armas que dão Aumento de Dano. Segundo Personagens e Primeiras Impressões, o TransKnight usa ataques físicos.
+- **Duas armas de uma mão:** a 9ª skill Mãos Sangrentas (Trans) só funciona "ao usar duas armas de uma mão".
+- **Crítico:** a linhagem Trans aumenta o crítico (Mestre das Armas, 10ª) e o dano crítico (Fencing Master Book, 11ª).
+- **INT na linhagem Confiança:** a 9ª skill Proteção Divina amplifica a cura da skill "Aura de Cura" em "10% dos pontos em INT".
+- **Gelo e magia na Espada Mágica:** essa linhagem tem skills de ataque mágico e de congelamento (Espelho Mágico, Conexão de Gelo, Freezing Counter Book, Seal Master).
+
+A página [Skills](skills.md) lembra que, se os pontos forem distribuídos de forma errada, eles podem ser reiniciados com o Círculo Divino, a Benção de Deus e a quest Balanço do Poder.
+
+## Mestre de skill e linhagens
+
+As skills do TransKnight são aprendidas com o **Capitão Cavaleiros** em Armia (no mapa de [Armia](../mapas/armia.md), "Cap. Cavaleiros", NPC nº 7). No mesmo mapa, o **Ferreiro** (nº 8) vende itens de defesa para Transknight e Foema.
+
+![Capitão Cavaleiros, mestre de skill dos TransKnight](../../sources/feedback_kersef/data/images/20366-skills_img_0.png)
+
+Como toda classe, o TransKnight tem três linhagens de skill: **Confiança**, **Trans** e **Espada Mágica**. Também existe a aba **Sephira**, comum a todas as classes.
+
+![Janela de skills do TransKnight com as linhagens Confiança, Trans e Espada Mágica](../../sources/feedback_kersef/data/images/20366-skills_img_4.png)
+
+## Skills por tier
+
+A base de conhecimento ainda não tem uma página com as skills até a 8ª. Algumas skills de tiers anteriores aparecem nas descrições das skills mais altas: Aura de Cura, Giro da Fúria, Destino (Confiança), Assalto (Trans), Lâmina Congelada e Tempestade de Gelo (Espada Mágica). A [10ª Skill](decima-skill.md) diz que Tempestade de Gelo é a **8ª skill** da linhagem Espada Mágica.
+
+### Confiança
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Proteção Divina (Buff) | O personagem fica invulnerável por certo período, e a cura da skill "Aura de Cura" é amplificada (10% dos pontos em INT). |
+| 10ª | Benção Divina (Passiva) | O HP é regenerado em 100% ao usar a 9ª skill "Proteção Divina". |
+| 11ª | Blaze Launcher | Reduz uma certa quantidade de armadura do alvo ao acertar a skill "Giro da Fúria". |
+| 12ª | Clod Attack (Passiva) | Ao acertar a skill Destino, há uma probabilidade de reduzir a evasão do oponente em 10% por 64 segundos. |
+
+### Trans
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 9ª | Mãos Sangrentas (Passiva) | Ao usar duas armas de uma mão e acertar um crítico, há chance de regenerar uma pequena quantidade de HP. |
+| 10ª | Mestre das Armas (Passiva) | Aumenta o crítico do personagem. |
+| 11ª | Fencing Master Book | Aumenta o dano crítico do personagem. |
+| 12ª | WindStorm (Passiva) | Elimina a penalidade de redução de HP e maximiza o ataque ao buffar a skill Assalto. |
+
+### Espada Mágica
+
+| Tier | Skill | Efeito (segundo a fonte) |
+| --- | --- | --- |
+| 8ª | Tempestade de Gelo | Citada na 10ª e na 12ª skill; sem descrição própria nas fontes. |
+| 9ª | Espelho Mágico (Passiva) | Aumenta a chance de acertar um ataque mágico no oponente. |
+| 10ª | Conexão de Gelo (Passiva) | Ao usar Tempestade de Gelo, há probabilidade de congelar o oponente, impedindo-o de se mover por certo tempo. |
+| 11ª | Freezing Counter Book | Aumenta em 5% o dano da skill "Lâmina Congelada". |
+| 12ª | Seal Master (Passiva) | Aprimora a lentidão após congelar o inimigo com a skill Tempestade de Gelo. |
+
+Requisitos de cada tier, conforme as páginas de skills:
+
+- **9ª:** livro do NPC 9thMaster em Armia; level 201 ou mais, só para Celestial ou Sub-Celestial; 255 pontos de skill; só da mesma linhagem da 8ª ([Nona Skill](nona-skill.md)).
+- **10ª:** todas as skills anteriores e 4000 pontos de fama ([10ª Skill](decima-skill.md)).
+- **11ª:** level 281 ou mais, 8.000 de fama e o livro da skill ([11ª Skills](decima-primeira-skill.md)).
+- **12ª:** Celestial acima do level 320, a 11ª da mesma linhagem e 12.000 de fama, no NPC Jazeg em Armia ([12ª Skills](decima-segunda-skill.md)).
+
+## Evolução
+
+- **Mortal:** como todas as classes, o TransKnight começa em Armia e faz o [Campo de Treinamento](../quests/campo-de-treinamento.md), onde o NPC Unicorn entrega uma arma inicial.
+- **Arch:** o personagem Arch se parece com o da classe inicial, e o jogador pode escolher uma das quatro classes Arch. Na imagem da página [Arch](../progressao/arch.md), o "Trans Knight" aparece em sua forma Arch, à esquerda. Por level, o Arch do Trans Knight ganha 4 de HP e 1 de MP.
+- **Celestial:** a criação exige, entre outros itens, a Saphirot da classe atual ([Criação do Celestial](../progressao/criacao-do-celestial.md)).
+- **Sub-Celestial:** a criação exige a Sephirot da classe desejada ([Sub Celestial](../progressao/sub-celestial.md)). A 9ª skill é liberada para Celestial e Sub-Celestial, e a 12ª só para Celestial.
+
+![As quatro classes em forma Arch: Trans Knight, Hunter, Foema e Beast Master](../../sources/feedback_kersef/data/images/20384-arch_img_0.png)
+
+## Mudança de classe e de corpo
+
+Segundo [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md):
+
+- **Virar TransKnight:** equipe a Sephirot de TransKnight e fale com o NPC Wooreunammu em Kefra (X:3230 Y:1683), pagando 100kk, ou ative o item Sephiroth Blessing. Ao mudar de classe, todas as skills Sephira são desaprendidas.
+- **Mudança de corpo:** equipe a Sephiroth da classe desejada e ative o item Sephiroth Protection, sem nenhum equipamento no personagem.
+- **Onde conseguir a Sephirot:** o boss Kefra dropa a "Sephirot de TK" com 100% de chance para quem dá o último ataque ([Dungeon Kefra](../mapas/dungeon-kefra.md)).
+
+## Veja também
+
+- [Foema](foema.md)
+- [BeastMaster](beastmaster.md)
+- [Huntress](huntress.md)
+- [Personagens e Primeiras Impressões](personagens.md)
+- [Skills](skills.md)
+- [Nona Skill (9th)](nona-skill.md)
+- [10ª Skill](decima-skill.md)
+- [11ª Skills](decima-primeira-skill.md)
+- [12ª Skills](decima-segunda-skill.md)
+- [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md)
+- [Ataque Crítico x4](../sistemas/critico-x4.md)
+- [Arch](../progressao/arch.md)
+
+## Fontes
+
+- [PERSONAGENS E PRIMEIRAS IMPRESSÕES](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20475-personagens-e-primeiras-impressoes), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20475-personagens-e-primeiras-impressoes.md](../../sources/feedback_kersef/data/articles/markdown/20475-personagens-e-primeiras-impressoes.md)
+- [Guia para novatos](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/58185-guia-para-novatos), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [58185-guia-para-novatos.md](../../sources/feedback_kersef/data/articles/markdown/58185-guia-para-novatos.md)
+- [Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20366-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20366-skills.md](../../sources/feedback_kersef/data/articles/markdown/20366-skills.md)
+- [(MAPA) ARMIA](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20375-mapa-armia), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20375-mapa-armia.md](../../sources/feedback_kersef/data/articles/markdown/20375-mapa-armia.md)
+- [Nona Skill - (9th)](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/67187-nona-skill-9th), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [67187-nona-skill-9th.md](../../sources/feedback_kersef/data/articles/markdown/67187-nona-skill-9th.md)
+- [10th Skill](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/26951-10th-skill), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [26951-10th-skill.md](../../sources/feedback_kersef/data/articles/markdown/26951-10th-skill.md)
+- [11º Skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/46455-11o-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [46455-11o-skills.md](../../sources/feedback_kersef/data/articles/markdown/46455-11o-skills.md)
+- [12th skills](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/50022-12th-skills), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [50022-12th-skills.md](../../sources/feedback_kersef/data/articles/markdown/50022-12th-skills.md)
+- [Arch](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/20384-arch), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [20384-arch.md](../../sources/feedback_kersef/data/articles/markdown/20384-arch.md)
+- [Criação do Celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22279-criacao-do-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22279-criacao-do-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22279-criacao-do-celestial.md)
+- [Criação de sub-celestial](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/22808-criacao-de-sub-celestial), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [22808-criacao-de-sub-celestial.md](../../sources/feedback_kersef/data/articles/markdown/22808-criacao-de-sub-celestial.md)
+- [GUIA: Mudança de classe e mudança de corpo](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/23390-guia-mudanca-de-classe-e-mudanca-de-corpo), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md](../../sources/feedback_kersef/data/articles/markdown/23390-guia-mudanca-de-classe-e-mudanca-de-corpo.md)
+- [Dungeon Kefra](https://feedback.kersef.com/pt-br/knowledge-bases/21/articles/21703-dungeon-kefra), FAQ WYD Global (feedback.kersef.com). Cópia arquivada: [21703-dungeon-kefra.md](../../sources/feedback_kersef/data/articles/markdown/21703-dungeon-kefra.md)
+- [Campo de Treino](https://wydglobal.raidhut.com/#training-camp), Guia Quest Mortal (Raid Hut). Cópia arquivada: [quests_mortais.md](../../sources/raidhut_quests/data/articles/markdown/quests_mortais.md)
 
 
 <!-- wiki/progressao/arch.md -->

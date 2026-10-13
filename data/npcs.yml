@@ -1,0 +1,67 @@
+# Gerado a partir de wiki/ em 2026-10-13. Fonte de verdade: as páginas da wiki.
+- {name: "Zesty Priest", location: "norte de Erion", role: "inicia a quest Benção de Deus", pages: [wiki/quests/bencao-de-deus.md]}
+- {name: "Kruno Priest", location: "norte de Erion", role: "transforma o Pedaço da Chance em Composto de Chance", pages: [wiki/quests/bencao-de-deus.md]}
+- {name: "Prisang Nell", location: null, role: "vende o Mercenary Coupon", pages: [wiki/quests/cacador-de-espolios.md]}
+- {name: "Artesão", location: null, role: "entrega o traje Normal Hunter Costume ou Mystic Hunter Costume", pages: [wiki/quests/cacador-de-espolios.md]}
+- {name: "HuntMaster", location: null, role: "inicia a caça com o Normal Hunter Costume (12:00-23:59)", pages: [wiki/quests/cacador-de-espolios.md]}
+- {name: "LootMaster", location: null, role: "recebe os espólios do traje Normal (00:00-11:59)", pages: [wiki/quests/cacador-de-espolios.md]}
+- {name: "Huntsman", location: null, role: "inicia a caça com o Mystic Hunter Costume (00:00-11:59)", pages: [wiki/quests/cacador-de-espolios.md]}
+- {name: "Lootsman", location: null, role: "recebe os espólios do traje Místico (12:00-23:59)", pages: [wiki/quests/cacador-de-espolios.md]}
+- {name: "RubiMaster", location: "2467 1656", role: "troca Rubis por recompensas", pages: [wiki/quests/cacador-de-espolios.md]}
+- {name: "PirateMaster", location: "última sala de qualquer Carta de Duelo", role: "abre o Tesouro Perdido", pages: [wiki/quests/cacador-de-espolios.md]}
+- {name: "Unicorn", location: "Campo de Treinamento, leste de Armia", role: "vende armas para iniciantes", pages: [wiki/quests/campo-de-treinamento.md]}
+- {name: "CabuncleWind", location: "Campo de Treinamento, leste de Armia", role: "dá buffs temporários", pages: [wiki/quests/campo-de-treinamento.md]}
+- {name: "FirstTrainer", location: "Campo de Treinamento, leste de Armia", role: "dá [20] Poção de Cura (M)", pages: [wiki/quests/campo-de-treinamento.md]}
+- {name: "SecondTrainer", location: "Campo de Treinamento, leste de Armia", role: "aplica adicionais aleatórios nas armas", pages: [wiki/quests/campo-de-treinamento.md]}
+- {name: "ThirdTrainer", location: "Campo de Treinamento, leste de Armia", role: "refina armas e armaduras até +6", pages: [wiki/quests/campo-de-treinamento.md]}
+- {name: "TrainerChief", location: "Campo de Treinamento, leste de Armia", role: "troca o Emblema Orc pelo Olho Crescente", pages: [wiki/quests/campo-de-treinamento.md]}
+- {name: "RoyalGuard", location: "centro dos Reinos (Reino Red e Reino Blue)", role: "inicia a quest Cavaleiro do Reino", pages: [wiki/quests/cavaleiro-do-reino.md]}
+- {name: "KingGlantuar", location: "Reino Red", role: "dá o Manto Akelonia a quem jura lealdade", pages: [wiki/quests/cavaleiro-do-reino.md]}
+- {name: "KingHarabard", location: "Reino Blue", role: "dá o Manto Hekalotia a quem jura lealdade", pages: [wiki/quests/cavaleiro-do-reino.md]}
+- {name: "Farche", location: "Erion", role: "vende o Pedido de Caça e o Selo do Guerreiro", pages: [wiki/quests/cavaleiro-do-reino.md, wiki/quests/desbloqueio-de-capa-355.md, wiki/quests/hidra-imortal.md, wiki/quests/inicio-da-infelicidade.md, wiki/quests/molar-do-gargula.md, wiki/quests/ressurreicao-do-cavaleiro-negro.md]}
+- {name: "Gravekeeper", location: "cemitério de Armia", role: "dá acesso ao cemitério da quest Defensor da Alma", pages: [wiki/quests/defensor-da-alma.md]}
+- {name: "KnightsLeader", location: "Azran", role: "inicia a quest Defensor da Terra Mística", pages: [wiki/quests/defensor-da-terra-mistica.md]}
+- {name: "ExploitLeader", location: "Terras Místicas, sul de Azran", role: "deve ser protegido e entrega o amuleto", pages: [wiki/quests/defensor-da-terra-mistica.md]}
+- {name: "Guard", location: "sul de Azran", role: "inicia a quest Equilíbrio da Força", pages: [wiki/quests/equilibrio-da-forca.md]}
+- {name: "Guard", location: "1º andar do Submundo", role: "dá acesso à quest Início da Infelicidade", pages: [wiki/quests/inicio-da-infelicidade.md]}
+- {name: "Amelia Priest", location: "sul de Azran", role: "entrega o Composto de Equilíbrio", pages: [wiki/quests/equilibrio-da-forca.md]}
+- {name: "TS Chief", location: "sul de Azran", role: "inicia a quest Formatura de Cavaleiros Aprendizes", pages: [wiki/quests/formatura-de-cavaleiros-aprendizes.md]}
+- {name: "TS Leader", location: "sul de Azran", role: "entrega o Manto do Aprendiz", pages: [wiki/quests/formatura-de-cavaleiros-aprendizes.md]}
+- {name: "Scout", location: "1º andar da Dungeon", role: "dá acesso às quests do 1º andar da Dungeon", pages: [wiki/quests/hidra-imortal.md, wiki/quests/molar-do-gargula.md, wiki/quests/ressurreicao-do-cavaleiro-negro.md]}
+- {name: "Gardener", location: "Jardim de Deus, sul de Azran", role: "dá acesso ao Jardim de Deus", pages: [wiki/quests/jardim-de-deus.md]}
+- {name: "Hoder", location: "mapa da quest Zona Infernal", role: "adiciona um atributo às Cytheras de Bahamut e Amunra", pages: [wiki/quests/irmaos-nordicos.md]}
+- {name: "Balder", location: "mapa da quest Zona Infernal", role: "refina capas celestiais de +9 até +13", pages: [wiki/quests/irmaos-nordicos.md]}
+- {name: "Dragão Dourado", location: "Armia", role: "adiciona atributo à arma com os 7 cristais e abre baús do tesouro", pages: [wiki/mapas/armia.md, wiki/quests/rastros-do-mundo-celestial.md]}
+- {name: "Martin", location: "Armia e Nippleheim", role: "vende itens de recuperação, pergaminhos e poções", pages: [wiki/mapas/armia.md, wiki/mapas/nippleheim.md]}
+- {name: "Balmos", location: "Armia", role: "recebe inscrição para Guerra de Guilda", pages: [wiki/mapas/armia.md]}
+- {name: "Rainy", location: "Armia", role: "vende itens de defesa para Huntress", pages: [wiki/mapas/armia.md]}
+- {name: "ForeLearner", location: "Armia", role: "mestre de skill da Huntress", pages: [wiki/mapas/armia.md]}
+- {name: "Cap. Cavaleiros", location: "Armia", role: "mestre de skill do Transknight", pages: [wiki/mapas/armia.md]}
+- {name: "Ferreiro", location: "Armia", role: "vende itens de defesa para Transknight e Foema; mestre de skill do BeastMaster", pages: [wiki/mapas/armia.md]}
+- {name: "Arnod", location: "Armia", role: "vende itens de defesa para BeastMaster", pages: [wiki/mapas/armia.md]}
+- {name: "Premium Neil", location: "Armia e Nippleheim", role: "vende itens CASH", pages: [wiki/mapas/armia.md, wiki/mapas/nippleheim.md]}
+- {name: "Foema Anciã", location: "Armia", role: "mestre de skill da Foema", pages: [wiki/mapas/armia.md]}
+- {name: "Guarda Carga", location: "Armia e Nippleheim", role: "guarda itens do personagem", pages: [wiki/mapas/armia.md, wiki/mapas/nippleheim.md]}
+- {name: "Galford", location: "Armia", role: "vende vários tipos de armamentos", pages: [wiki/mapas/armia.md]}
+- {name: "Aki", location: "Armia", role: "vende poções e pergaminhos", pages: [wiki/mapas/armia.md]}
+- {name: "Mestre de Habilidade", location: "Armia", role: "reconfigura parte dos pontos de status por 30 Safiras", pages: [wiki/mapas/armia.md]}
+- {name: "Chefe de Treino", location: "Armia", role: "recompensa quem derrota o Orc Guerreiro e leva o emblema do Orc", pages: [wiki/mapas/armia.md]}
+- {name: "Kibita", location: "Armia", role: "registra a cidadania de um canal", pages: [wiki/mapas/armia.md]}
+- {name: "Metre Grifo", location: "Armia", role: "transporta para a dungeon e áreas de quest", pages: [wiki/mapas/armia.md]}
+- {name: "Angela Sister", location: "Noatun", role: "dá acesso ao Deserto Desconhecido pelo Artefato Ancestral", pages: [wiki/mapas/deserto-desconhecido.md]}
+- {name: "Gold Dragon", location: "Azran", role: "dá acesso ao Dragon Field", pages: [wiki/mapas/dragon-field.md]}
+- {name: "Dragon Elder", location: "Azran", role: "compõe o Dragon Guardian a partir da Dragon Soul", pages: [wiki/mapas/dragon-field.md]}
+- {name: "GoldDragonElder", location: null, role: "recebe o Mark of Archangel para a 2ª parte do Dragon Field", pages: [wiki/mapas/dragon-field.md]}
+- {name: "Teron", location: "entrada da Dungeon Kefra", role: "comerciante", pages: [wiki/mapas/dungeon-kefra.md]}
+- {name: "Sobrevivente", location: "Dungeon Kefra", role: "dá 100 entradas no Hall do Kefra por Pergaminho Selado", pages: [wiki/mapas/dungeon-kefra.md]}
+- {name: "Alquimista Odin", location: "Continente Desconhecido", role: "compõe a Pista de Runas a partir de sete poeiras de Lactolerium", pages: [wiki/mapas/dungeon-kefra.md, wiki/mapas/pista-de-runas.md]}
+- {name: "Uxmal", location: "Continente Desconhecido (Hall de Kefra)", role: "registra a quest Pista de Runas", pages: [wiki/mapas/dungeon-kefra.md, wiki/mapas/pista-de-runas.md]}
+- {name: "July", location: "Nippleheim", role: "capitã do Navio de Guerra, transporta para Azran", pages: [wiki/mapas/nippleheim.md]}
+- {name: "Shany", location: "Nippleheim", role: "cria spirit stone de nível alto com Spirit Stone +9", pages: [wiki/mapas/nippleheim.md]}
+- {name: "Tiny", location: "Nippleheim", role: "cria Armas Arch Ancient", pages: [wiki/mapas/nippleheim.md]}
+- {name: "Dionys", location: "Zona Infernal", role: "deve ser protegido na fase 06 em troca de experiência", pages: [wiki/mapas/zona-infernal.md]}
+- {name: "9th Master", location: "Armia", role: "fornece o livro da nona skill de cada classe", pages: [wiki/npcs/9th-master.md]}
+- {name: "Dedekinto", location: null, role: "compõe a Poeira de Lac 100", pages: [wiki/npcs/dedekinto.md]}
+- {name: "DivineMerchant", location: "Armia", role: "vende itens imóveis em troca de Victory Coupons", pages: [wiki/npcs/divine-merchant.md]}
+- {name: "GodMaster", location: "Armia", role: "troca livros de skill, como a 10ª e a 11ª skill", pages: [wiki/npcs/godmaster.md]}
+- {name: "Jazeg", location: "2117 2081", role: "troca o adicional dos Amuletos Arcanos +11 ou +15", pages: [wiki/npcs/jazeg.md]}

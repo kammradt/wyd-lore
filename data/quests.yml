@@ -1,0 +1,377 @@
+# Gerado a partir de wiki/ em 2026-10-13. Fonte de verdade: as páginas da wiki.
+- slug: bencao-de-deus
+  page: wiki/quests/bencao-de-deus.md
+  name: "Benção de Deus"
+  level_min: 70
+  level_max: 75
+  location: "norte de Erion"
+  start_npc: Zesty Priest
+  npcs: [Zesty Priest, Kruno Priest]
+  bosses: [NainTrollChief]
+  required_items: ["Pedaço da Chance"]
+  rewards:
+    - "[01] Composto de Chance (reseta 50 pontos de skills e aprendizado; não usável por Arch)"
+  repeatable: false
+  steps:
+    - "Fale com o NPC Zesty Priest"
+    - "Derrote os NainTrollChief até dropar o Pedaço da Chance"
+    - "Entregue o Pedaço da Chance ao NPC Kruno Priest"
+    - "Receba o Composto de Chance"
+
+- slug: cacador-de-espolios
+  page: wiki/quests/cacador-de-espolios.md
+  name: "Caçador de Espólios"
+  level_min: null
+  level_max: null
+  location: null
+  start_npc: null
+  npcs: [Prisang Nell, Artesão, HuntMaster, LootMaster, Huntsman, Lootsman, RubiMaster, PirateMaster]
+  bosses: []
+  required_items:
+    - "Mercenary Coupon"
+    - "Normal Hunter Costume ou Mystic Hunter Costume (equipado)"
+    - "[30] Espólio de Caça"
+    - "[01] Autorização de Caça"
+  rewards:
+    - "Rubi (3 a 7, aleatório), trocado no RubiMaster"
+    - "[01] Tesouro Perdido (Normal, Místico ou Arcano), aberto no PirateMaster"
+  repeatable: true
+  steps:
+    - "Compre o Mercenary Coupon (1 NP) com o Prisang Nell"
+    - "Escolha no NPC Artesão o Normal Hunter Costume ou o Mystic Hunter Costume"
+    - "Com o traje equipado, inicie a quest no HuntMaster (Normal, 12:00-23:59) ou no Huntsman (Místico, 00:00-11:59)"
+    - "Colete 30 ou mais Espólios de Caça"
+    - "Entregue ao LootMaster (00:00-11:59) ou ao Lootsman (12:00-23:59) com a Autorização de Caça"
+    - "Troque Rubis no RubiMaster ou abra o Tesouro Perdido no PirateMaster com o Símbolo da Coragem equipado"
+
+- slug: campo-de-treinamento
+  page: wiki/quests/campo-de-treinamento.md
+  name: "Campo de Treinamento"
+  level_min: 1
+  level_max: 35
+  location: "campo de treinamento a leste de Armia"
+  start_npc: null
+  npcs: [Unicorn, CabuncleWind, FirstTrainer, SecondTrainer, ThirdTrainer, TrainerChief]
+  bosses: [GremlinDecoy, GiantCrill, OrcSniper, OrcWarrior]
+  required_items: ["Chave da Primeira Porta", "Chave da Segunda Porta", "Chave da Última Porta", "Emblema Orc"]
+  rewards:
+    - "[20] Poção de Cura (M) (FirstTrainer)"
+    - "Adicionais aleatórios nas armas equipadas (SecondTrainer)"
+    - "Refinação de armas e armaduras até +6 (ThirdTrainer)"
+    - "[01] Olho Crescente, 3.000 de experiência (TrainerChief)"
+  repeatable: false
+  steps:
+    - "Compre uma arma no NPC Unicorn e receba buffs do CabuncleWind"
+    - "Derrote o GremlinDecoy, pegue a Chave da Primeira Porta e receba poções do FirstTrainer"
+    - "Derrote o GiantCrill, pegue a Chave da Segunda Porta e receba adicionais do SecondTrainer"
+    - "Derrote o OrcSniper, pegue a Chave da Última Porta e refine com o ThirdTrainer"
+    - "Derrote o OrcWarrior, obtenha o Emblema Orc e entregue ao TrainerChief"
+
+- slug: cavaleiro-do-reino
+  page: wiki/quests/cavaleiro-do-reino.md
+  name: "Cavaleiro do Reino"
+  level_min: 220
+  level_max: 250
+  location: "centro dos Reinos"
+  start_npc: RoyalGuard
+  npcs: [RoyalGuard, KingGlantuar, KingHarabard, Farche]
+  bosses: [DarkKnightKing]
+  required_items: ["Emblema do Reino"]
+  rewards:
+    - "[01] Manto Akelonia (Red) ou [01] Manto Hekalotia (Blue)"
+  repeatable: false
+  steps:
+    - "Fale com o NPC RoyalGuard do seu reino"
+    - "Derrote os DarkKnightKing até dropar o Emblema do Reino"
+    - "Equipe o Emblema do Reino"
+    - "Fale com o KingGlantuar (Red) ou o KingHarabard (Blue) para receber o manto"
+
+- slug: conquista-do-castelo-orc
+  page: wiki/quests/conquista-do-castelo-orc.md
+  name: "Conquista do Castelo Orc"
+  level_min: 1
+  level_max: 400
+  location: "Castelo Orc, ao norte de Armia"
+  start_npc: null
+  npcs: []
+  bosses: [OrcKeeper, OrcGuard, CheifOrc, OrcLord]
+  required_items: ["Chave do Portão Sul", "Última Chave Orc", "Última Chave Orc Leste"]
+  rewards:
+    - "[01] Pílula do Poder Mágico (9 pontos de skill, usável uma vez por personagem)"
+  repeatable: true
+  steps:
+    - "Derrote o OrcKeeper e pegue a Chave do Portão Sul"
+    - "Abra o Portão Orc Sul e derrote o OrcGuard para pegar a Última Chave Orc"
+    - "Abra o Último Portão Orc Sul e elimine o CheifOrc para pegar a Última Chave Orc Leste"
+    - "Abra o Último Portão Orc Leste e derrote o OrcLord"
+    - "Receba a Pílula do Poder Mágico"
+
+- slug: contrato-dos-espiritos
+  page: wiki/quests/contrato-dos-espiritos.md
+  name: "Contrato dos Espíritos"
+  level_min: 355
+  level_max: 355
+  location: "Dungeon Kefra"
+  start_npc: null
+  npcs: []
+  bosses: []
+  required_items: []
+  rewards:
+    - "Aumento dos valores de habilidade a cada fase (custa 100 milhões de experiência)"
+  repeatable: false
+  steps:
+    - "Alcance o level 355 como Arch com mais de 1.950.000.000 de experiência"
+    - "Pressione X para confirmar a quest na janela de informações"
+    - "Cace na Dungeon Kefra os itens da quest"
+    - "Use os itens na ordem das fases, começando pela fase 1"
+    - "Volte ao level 355 e inicie a próxima fase, até a fase 4"
+    - "Desconecte e conecte após cada fase; use /qst para conferir"
+
+- slug: defensor-da-alma
+  page: wiki/quests/defensor-da-alma.md
+  name: "Defensor da Alma"
+  level_min: 40
+  level_max: 115
+  location: "cemitério de Armia"
+  start_npc: Gravekeeper
+  npcs: [Gravekeeper]
+  bosses: []
+  required_items: []
+  rewards:
+    - "Caixa da Sabedoria (30.000 de experiência)"
+  repeatable: true
+  steps:
+    - "Fale com o NPC Gravekeeper no cemitério de Armia"
+    - "Derrote os monstros que infestam o local"
+    - "Colete e use a Caixa da Sabedoria"
+
+- slug: defensor-da-terra-mistica
+  page: wiki/quests/defensor-da-terra-mistica.md
+  name: "Defensor da Terra Mística"
+  level_min: 60
+  level_max: 400
+  location: "Terras Místicas, ao sul de Azran"
+  start_npc: KnightsLeader
+  npcs: [KnightsLeader, ExploitLeader]
+  bosses: []
+  required_items: []
+  rewards:
+    - "Amuleto de Prata, Amuleto de Ouro ou Amuleto Místico, conforme o desempenho"
+  repeatable: false
+  steps:
+    - "Fale com o NPC KnightsLeader em Azran"
+    - "Vá às Terras Místicas e derrote os monstros que atacam o ExploitLeader"
+    - "Proteja o NPC ExploitLeader"
+    - "Fale com o ExploitLeader após derrotar todos os monstros"
+
+- slug: desbloqueio-de-capa-355
+  page: wiki/quests/desbloqueio-de-capa-355.md
+  name: "Desbloqueio de Capa 355"
+  level_min: 355
+  level_max: 400
+  location: null
+  start_npc: null
+  npcs: [Farche]
+  bosses: []
+  required_items: ["Selo do Guerreiro"]
+  rewards:
+    - "[01] Elite de Akelonia (Red) ou [01] Elite de Hekalotia (Blue)"
+  repeatable: null
+  steps:
+    - "Obtenha o Selo do Guerreiro com outros jogadores ou com o NPC Farche"
+    - "Clique com o botão direito no Selo do Guerreiro para concluir a quest"
+
+- slug: equilibrio-da-forca
+  page: wiki/quests/equilibrio-da-forca.md
+  name: "Equilíbrio da Força"
+  level_min: 120
+  level_max: 125
+  location: "sul de Azran"
+  start_npc: Guard
+  npcs: [Guard, Amelia Priest]
+  bosses: [InionTrollChief]
+  required_items: ["Pedaço de Equilíbrio"]
+  rewards:
+    - "[01] Composto de Equilíbrio (reajusta 100 pontos de aprendizagem de habilidade)"
+  repeatable: false
+  steps:
+    - "Fale com o NPC Guard"
+    - "Derrote os InionTrollChief até dropar o Pedaço de Equilíbrio"
+    - "Fale com o NPC Amelia Priest e receba o Composto de Equilíbrio"
+
+- slug: formatura-de-cavaleiros-aprendizes
+  page: wiki/quests/formatura-de-cavaleiros-aprendizes.md
+  name: "Formatura de Cavaleiros Aprendizes"
+  level_min: 101
+  level_max: 150
+  location: "sul de Azran"
+  start_npc: TS Chief
+  npcs: [TS Chief, TS Leader]
+  bosses: [TaursKing]
+  required_items: ["Emblema da Aprendizagem"]
+  rewards:
+    - "[01] Manto do Aprendiz"
+  repeatable: false
+  steps:
+    - "Fale com o NPC TS Chief"
+    - "Derrote os TaursKing até dropar o Emblema da Aprendizagem"
+    - "Equipe o Emblema da Aprendizagem e fale com o NPC TS Leader"
+
+- slug: hidra-imortal
+  page: wiki/quests/hidra-imortal.md
+  name: "Hidra Imortal"
+  level_min: 266
+  level_max: 320
+  location: "1º andar da Dungeon"
+  start_npc: Scout
+  npcs: [Scout, Farche]
+  bosses: ["Hidras Douradas"]
+  required_items: []
+  rewards:
+    - "Olho de Sangue (500.000 de experiência)"
+  repeatable: true
+  steps:
+    - "Vá ao 1º andar da Dungeon (acesso ao norte de Armia)"
+    - "Clique no NPC Scout para entrar no local da quest"
+    - "Derrote os monstros corrompidos"
+    - "Colete e use o Olho de Sangue"
+
+- slug: inicio-da-infelicidade
+  page: wiki/quests/inicio-da-infelicidade.md
+  name: "Início da Infelicidade"
+  level_min: 321
+  level_max: 355
+  location: "1º andar do Submundo"
+  start_npc: Guard
+  npcs: [Guard, Farche]
+  bosses: []
+  required_items: []
+  rewards:
+    - "Pedra Espiritual dos Elfos (800.000 de experiência)"
+  repeatable: true
+  steps:
+    - "Vá ao 1º andar do Submundo"
+    - "Clique no NPC Guard para entrar no local da quest"
+    - "Derrote os monstros corrompidos"
+    - "Colete e use a Pedra Espiritual dos Elfos"
+
+- slug: irmaos-nordicos
+  page: wiki/quests/irmaos-nordicos.md
+  name: "Irmãos Nórdicos"
+  level_min: null
+  level_max: null
+  location: "mapa da quest Zona Infernal"
+  start_npc: null
+  npcs: [Hoder, Balder]
+  bosses: []
+  required_items:
+    - "[01] Cristal de Bahamut (Hoder)"
+    - "[01] Royal Arena Coupon (Hoder)"
+    - "[02] Cristal de Amunra ou [01] Wyden Coin (Hoder)"
+    - "[40] poeiras de Lactolerium (Balder)"
+    - "[01] Cristal de Bahamut ou [25] Rubis (Balder)"
+    - "[02] Cristal de Amunra ou [01] Guild Coin (Balder)"
+  rewards:
+    - "Um atributo adicional na Cythera de Bahamut ou de Amunra (Hoder)"
+    - "Tentativa de refinação da capa de personagens celestiais entre +9 e +13 (Balder)"
+  repeatable: null
+  steps:
+    - "Vá ao mapa da quest Zona Infernal"
+    - "Para Hoder, desequipe o traje e entregue os itens para adicionar um atributo à Cythera"
+    - "Para Balder, desequipe a montaria e entregue os itens para tentar refinar a capa celestial"
+
+- slug: jardim-de-deus
+  page: wiki/quests/jardim-de-deus.md
+  name: "Jardim de Deus"
+  level_min: 116
+  level_max: 190
+  location: "Jardim de Deus, ao sul de Azran"
+  start_npc: Gardener
+  npcs: [Gardener]
+  bosses: []
+  required_items: []
+  rewards:
+    - "Lágrima Angelical (120.000 de experiência)"
+  repeatable: true
+  steps:
+    - "Vá ao Jardim de Deus, ao sul de Azran"
+    - "Clique no NPC Gardener para entrar"
+    - "Derrote os monstros que corrompem o local"
+    - "Colete e use a Lágrima Angelical"
+
+- slug: molar-do-gargula
+  page: wiki/quests/molar-do-gargula.md
+  name: "Molar do Gárgula"
+  level_min: 201
+  level_max: 255
+  location: "1º andar da Dungeon"
+  start_npc: Scout
+  npcs: [Scout, Farche]
+  bosses: [GagoilChief]
+  required_items: []
+  rewards:
+    - "[01] Molar do Gárgula (refina as armaduras equipadas para +6, uso único)"
+  repeatable: null
+  steps:
+    - "Vá ao 1º andar da Dungeon e fale com o NPC Scout"
+    - "Derrote os GagoilChief até dropar o Molar do Gárgula"
+    - "Use o Molar do Gárgula com o botão direito"
+
+- slug: rainha-valquiria
+  page: wiki/quests/rainha-valquiria.md
+  name: "Rainha Valquíria"
+  level_min: null
+  level_max: null
+  location: "Nipleheim"
+  start_npc: null
+  npcs: []
+  bosses: [IceQueen Mirror, Berserker Titan, Berserker Ref, Valkyria tina, Valkyria Rosen, Verid, Sombra Negra, Ice Queen Verid]
+  required_items: []
+  rewards:
+    - "Coração do Beriel (100%)"
+    - "Um entre: [01] Alma do Beriel, [01] Refinação Abençoada +1, [01] Emblema da Proteção, [01] Barra de prata(50kk)"
+  repeatable: null
+  steps:
+    - "Em grupo de Celestiais, encontre e mate a IceQueen Mirror em Nipleheim"
+    - "No Castelo do Gelo, mate os 29 monstros invocados em até 15 minutos"
+    - "Mate a Sombra Negra no centro do mapa"
+    - "Elimine a Ice Queen Verid na segunda sala do mapa"
+
+- slug: rastros-do-mundo-celestial
+  page: wiki/quests/rastros-do-mundo-celestial.md
+  name: "À Procura dos Rastros do Mundo Celestial"
+  level_min: null
+  level_max: null
+  location: "arredores de Armia"
+  start_npc: null
+  npcs: ["Dragão Dourado"]
+  bosses: []
+  required_items:
+    - "Cristal I a Cristal VII"
+    - "Arma não Arch com refinação +10 ou superior, ou arma Ancient"
+  rewards:
+    - "Novo atributo aleatório na arma"
+  repeatable: true
+  steps:
+    - "Cace monstros nos arredores de Armia para obter os 7 cristais"
+    - "Leve os 7 cristais ao Dragão Dourado em Armia"
+    - "Receba um novo atributo aleatório na arma"
+
+- slug: ressurreicao-do-cavaleiro-negro
+  page: wiki/quests/ressurreicao-do-cavaleiro-negro.md
+  name: "Ressurreição do Cavaleiro Negro"
+  level_min: 191
+  level_max: 265
+  location: "1º andar da Dungeon"
+  start_npc: Scout
+  npcs: [Scout, Farche]
+  bosses: []
+  required_items: []
+  rewards:
+    - "Coração de Kaizen (250.000 de experiência)"
+  repeatable: true
+  steps:
+    - "Vá ao 1º andar da Dungeon (acesso ao norte de Armia)"
+    - "Clique no NPC Scout para entrar no local da quest"
+    - "Derrote os monstros corrompidos"
+    - "Colete e use o Coração de Kaizen"

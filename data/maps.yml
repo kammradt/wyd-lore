@@ -1,0 +1,100 @@
+# Gerado a partir de wiki/ em 2026-10-13. Fonte de verdade: as páginas da wiki.
+- slug: armia
+  page: wiki/mapas/armia.md
+  name: Armia
+  type: cidade
+  level_range: null
+  monsters: []
+  npcs: [Martin, Balmos, Rainy, ForeLearner, Cap. Cavaleiros, Ferreiro, Arnod, Premium Neil, "Foema Anciã", Guarda Carga, Galford, "Dragão Dourado", Aki, Mestre de Habilidade, Chefe de Treino, Kibita, Metre Grifo]
+  connected_to: ["Castelo de Noatun", "região de entrada para as Dungeons", "Campo de Treinamento"]
+  notes: "Cidade murada onde todo personagem iniciante começa, com comerciantes, banco, zona de guilda e zona PvP."
+
+- slug: coliseu
+  page: wiki/mapas/coliseu.md
+  name: Coliseu
+  type: evento
+  level_range: null
+  monsters: []
+  npcs: []
+  connected_to: [Azran]
+  notes: "Quest diária de drop com PvP na arena a leste de Azran, nos servidores novatos, em três níveis às 19:00, 20:00 e 21:00, com entrada pelo item Notificação Pública."
+
+- slug: deserto-desconhecido
+  page: wiki/mapas/deserto-desconhecido.md
+  name: Deserto Desconhecido
+  type: campo
+  level_range: null
+  monsters: [BoneDragon, Scorpion, Fire Gagoil]
+  npcs: [Angela Sister]
+  connected_to: [Noatun, Dragon Field]
+  notes: "Mapa do canal novato acessado pela Angela Sister em Noatun com o Artefato Ancestral, reiniciado a cada 20 minutos e fonte da Dragon Soul."
+
+- slug: dragon-field
+  page: wiki/mapas/dragon-field.md
+  name: Dragon Field
+  type: outro
+  level_range: null
+  monsters: [Legend Verid, Nesses, Haden]
+  npcs: [Gold Dragon, Dragon Elder, GoldDragonElder]
+  connected_to: [Azran, Deserto Desconhecido]
+  notes: "Mapa acessado pelo Gold Dragon em Azran com o Dragon Guardian equipado, com o boss Legend Verid na Parte 1 e os bosses Nesses e Haden na Parte 2."
+
+- slug: dungeon-kefra
+  page: wiki/mapas/dungeon-kefra.md
+  name: Dungeon Kefra
+  type: dungeon
+  level_range: null
+  monsters: [Kefra, Lich Crunt, Lichs]
+  npcs: [Teron, Sobrevivente, Alquimista Odin, Uxmal]
+  connected_to: [Deserto de Kult, Hall do Kefra, Continente Desconhecido]
+  notes: "Construção colossal no fim do Deserto de Kult onde o boss semanal Kefra guarda o portal para o Continente Desconhecido."
+
+- slug: nippleheim
+  page: wiki/mapas/nippleheim.md
+  name: Nippleheim
+  type: campo
+  level_range: null
+  monsters: [elfos negros]
+  npcs: [July, Guarda Carga, Shany, Tiny, Martin, Premium Neil]
+  connected_to: [Azran]
+  notes: "Terra gélida ao norte de Azran para onde Tzfah e Neses foram exilados, com a base do Comando Karden contra os elfos negros."
+
+- slug: pesadelo-a
+  page: wiki/mapas/pesadelo-a.md
+  name: Pesadelo A
+  type: evento
+  level_range: null
+  monsters: [Taron, Iron Taron, Hell Spider, Manticora, Lugefer]
+  npcs: []
+  connected_to: [Azran]
+  notes: "Quest de upar em grupo para Archs de nível alto e celestiais em que o grupo protege 8 NPCs de Azran por 15 minutos."
+
+- slug: pista-de-runas
+  page: wiki/mapas/pista-de-runas.md
+  name: Pista de Runas
+  type: evento
+  level_range: null
+  monsters: [Lich, Sulrang, Gold Carbuncle, ZAKUM]
+  npcs: [Alquimista Odin, Uxmal]
+  connected_to: [Continente Desconhecido, Hall de Kefra]
+  notes: "Quest em grupo de sete etapas (+0 a +6) composta no Alquimista Odin e registrada com o Uxmal, que dá runas, experiência e a Refinação Abençoada."
+
+- slug: submundo
+  page: wiki/mapas/submundo.md
+  name: Submundo
+  type: dungeon
+  level_range: null
+  monsters: ["monstros do tipo demônio"]
+  npcs: []
+  connected_to: [Dungeon Nikirr, Rio da Morte]
+  notes: "Área subterrânea nascida da guerra pelo minério celestial Temuh, dividida em Dungeon Nikirr e Underworld, com demônios mais fortes quanto mais fundo."
+
+- slug: zona-infernal
+  page: wiki/mapas/zona-infernal.md
+  name: Zona Infernal
+  type: evento
+  level_range: null
+  monsters: [HellLich, ArchLich]
+  npcs: [Dionys, Hoder, Balder]
+  connected_to: []
+  notes: "Quest diária em grupo às 22:00 e 22:30 para até 52 jogadores, em seis fases que terminam com a proteção do NPC Dionys."
