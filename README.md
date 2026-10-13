@@ -163,6 +163,7 @@ Raw scraped copies of every source, kept unchanged under [`sources/`](sources/).
 ```
 wyd/
 ├── README.md                        # This file
+├── AGENTS.md                        # Rules for AI agents (CLAUDE.md points here)
 ├── llms.txt                         # Page index for AI agents
 ├── llms-full.txt                    # Whole knowledge base in one file
 ├── wiki/                            # Curated knowledge base ⭐
