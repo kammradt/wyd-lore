@@ -1,0 +1,56 @@
+# Base MkDocs config for the wiki site. scripts/site/build.rb copies this file
+# into build/site/, adds the navigation from scripts/kb/categories.yml, and
+# assembles the docs directory from wiki/ and the archived images.
+site_name: WYD Lore
+site_description: Base de conhecimento sobre With Your Destiny (WYD), em português.
+site_url: https://kammradt.github.io/wyd-lore/
+repo_url: https://github.com/kammradt/wyd-lore
+repo_name: kammradt/wyd-lore
+edit_uri: edit/main/
+copyright: Projeto de fãs, sem vínculo com JoyImpact ou Raid Hut. Texto em CC BY-SA 4.0; conteúdo do jogo pertence aos detentores dos direitos.
+
+theme:
+  name: material
+  language: pt-BR
+  icon:
+    logo: material/sword-cross
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Tema claro
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.view
+
+plugins:
+  - search:
+      lang: pt
+  - tags
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - assets/extra.css

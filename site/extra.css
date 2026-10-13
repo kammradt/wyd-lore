@@ -1,0 +1,5 @@
+/* Keep archived screenshots and item icons readable without stretching them. */
+.md-typeset img { max-width: 100%; height: auto; }
+.md-typeset table img { max-width: 64px; }
+.md-typeset blockquote:first-of-type { font-size: 1.05em; }
+.wyd-meta { font-size: 0.8em; opacity: 0.8; }
