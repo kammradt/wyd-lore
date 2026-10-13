@@ -1,13 +1,12 @@
 ---
 title: Skills
-title_en: Skills
-summary_en: 'Explains how to learn skills from each class''s skill master in Armia: Capitão Cavaleiros for TransKnight, Mestre Archi for Beastmaster, Foema Anciã for Foema and ForeLearne for Huntress. It describes the three skill lineages per class, the 24-skill limit, learning points, Aprender Arma and how to use the skill hotbar.'
+summary: 'Explica como aprender skills com o mestre de cada classe em Armia: Capitão Cavaleiros para TransKnight, Mestre Archi para Beastmaster, Foema Anciã para Foema e ForeLearne para Huntress. Descreve as três linhagens de skill de cada classe, o limite de 24 skills, os pontos de aprendizado, o Aprender Arma e o uso da barra de atalhos.'
 category: classes
 tags:
 - skills
 - classes
-- skill-lineage
-- npc-skillmaster
+- linhagem
+- npc-mestre-de-skill
 - armia
 canon: official
 language: pt-BR
@@ -21,7 +20,7 @@ updated: '2026-10-13'
 
 # Skills
 
-> **Skills.** Explains how to learn skills from each class's skill master in Armia: Capitão Cavaleiros for TransKnight, Mestre Archi for Beastmaster, Foema Anciã for Foema and ForeLearne for Huntress. It describes the three skill lineages per class, the 24-skill limit, learning points, Aprender Arma and how to use the skill hotbar.
+> Explica como aprender skills com o mestre de cada classe em Armia: Capitão Cavaleiros para TransKnight, Mestre Archi para Beastmaster, Foema Anciã para Foema e ForeLearne para Huntress. Descreve as três linhagens de skill de cada classe, o limite de 24 skills, os pontos de aprendizado, o Aprender Arma e o uso da barra de atalhos.
 
 Ao evoluir a personagem através da caça, o mesmo recebe pontos de aprendizagem e pontos em skill. Para aprender uma nova skill, simplesmente vá a Armia e localize o Mestre de Skill de sua classe e compre a(s) skill(s) que desejar. Skills básicas ou de nível baixo podem ser aprendidas por um baixo preço de Pontos de Skill. A Skill pode ser aprendida somente através do NPC Mestre de Skill de cada classe. A quantidade de Pontos de Skill gastas variam de acordo com a Skill que desejar comprar.
 

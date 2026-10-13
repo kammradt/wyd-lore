@@ -10,7 +10,7 @@ wyd/
 ├── Gemfile                          # Ruby dependencies (shared)
 ├── llms.txt / llms-full.txt         # Knowledge base index and full text for AI agents
 ├── wiki/                            # Curated knowledge base, one page per topic (built from sources/)
-├── scripts/kb/                      # build_wiki.rb, manifest.yml, metadata.yml
+├── scripts/kb/                      # build_wiki.rb, build_indexes.rb, check.rb
 ├── README.md                        # Main project documentation
 └── sources/                         # All scraped content organized by source
     ├── feedback_kersef/             # WYD FAQ scraping project
@@ -47,6 +47,8 @@ wyd/
 # Rules & Guidelines
 
 ## 1. Documentation (Markdown)
+- **Language:** All game content in `wiki/` (lore, quests, items, page titles, summaries, tags) is written in Brazilian Portuguese. Code, comments, scripts and repo docs are in English.
+- **Page headers:** Every `wiki/` page starts with a YAML header (title, summary, category, tags, canon, language, sources, updated). Run `ruby scripts/kb/build_indexes.rb && ruby scripts/kb/check.rb` after changing pages.
 - **Tone:** Narrative, historical, and encyclopedic. Maintain the "fantasy" atmosphere when describing lore, but keep patch note histories factual.
 - **Formatting:** - Use hierarchical headers (`#`, `##`, `###`) to structure eras or game versions.
   - Use tables for stats, drop lists, or item comparisons.

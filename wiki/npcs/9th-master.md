@@ -1,12 +1,11 @@
 ---
 title: 9th Master
-title_en: 9th Master
-summary_en: The 9th Master NPC in Armia (X:2136 Y:2115) provides the ninth skill book for each class; books are account-bound and purchases cannot be undone.
+summary: O NPC 9th Master, em Armia (X:2136 Y:2115), fornece o livro da nona skill de cada classe; os livros são vinculados à conta e as compras não podem ser desfeitas.
 category: npcs
 tags:
 - npc
 - skills
-- skill-books
+- livros-de-skill
 - armia
 canon: official
 language: pt-BR
@@ -20,7 +19,7 @@ updated: '2026-10-13'
 
 # 9th Master
 
-> **9th Master.** The 9th Master NPC in Armia (X:2136 Y:2115) provides the ninth skill book for each class; books are account-bound and purchases cannot be undone.
+> O NPC 9th Master, em Armia (X:2136 Y:2115), fornece o livro da nona skill de cada classe; os livros são vinculados à conta e as compras não podem ser desfeitas.
 
 Esse NPC é responsável pela entrega na nona skill da classe desejada. Ele fica localizado em Armia (X:2136 Y:2115) próximo a saída para o campo de Armia,
 

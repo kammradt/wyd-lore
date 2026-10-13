@@ -1,11 +1,10 @@
 ---
 title: DivineMerchant (Victory Coupom)
-title_en: DivineMerchant (Victory Coupon)
-summary_en: The DivineMerchant NPC in Armia (X:2143 Y:2087) sells account-bound items for Victory Coupons dropped in LAN N, M and A, including Pedra da Imortalidade for Arch creation, mount Amagos and the Pedra Ideal (Limitada) for Celestial creation.
+summary: O NPC DivineMerchant, em Armia (X:2143 Y:2087), vende itens vinculados à conta em troca de Victory Coupons dropados nas LAN N, M e A, incluindo a Pedra da Imortalidade para criar Arch, Amagos de montaria e a Pedra Ideal (Limitada) para criar Celestial.
 category: npcs
 tags:
 - npc
-- shop
+- loja
 - victory-coupon
 - armia
 canon: official
@@ -20,7 +19,7 @@ updated: '2026-10-13'
 
 # DivineMerchant (Victory Coupom)
 
-> **DivineMerchant (Victory Coupon).** The DivineMerchant NPC in Armia (X:2143 Y:2087) sells account-bound items for Victory Coupons dropped in LAN N, M and A, including Pedra da Imortalidade for Arch creation, mount Amagos and the Pedra Ideal (Limitada) for Celestial creation.
+> O NPC DivineMerchant, em Armia (X:2143 Y:2087), vende itens vinculados à conta em troca de Victory Coupons dropados nas LAN N, M e A, incluindo a Pedra da Imortalidade para criar Arch, Amagos de montaria e a Pedra Ideal (Limitada) para criar Celestial.
 
 O DivineMerchant é um NPC importante localizado na cidade de Armia (X:2143 Y: 2087) que ajuda na evolução dos jogadores.
 

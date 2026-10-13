@@ -1,7 +1,7 @@
 # Lore
 
-*Lore.* Mitologia, deuses e a história do mundo de Kersef.
+Mitologia, deuses e a história do mundo de Kersef.
 
-| Página | English | Resumo |
+| Página | Resumo | Canon |
 | --- | --- | --- |
-| [História](history-of-kersef.md) | History of Kersef | An elder narrator tells WYD's creation myth: the supreme beings Yetzirah and Tzfah create the world and humanity, then the gods Kafma, Armia, Daleth, Samech and Haden. It covers the Celestial Battle, the destruction of the Sephira bridge, the Continental War led by the mage Nershess, and the world 400 years later, where the power of the Arch survives only as legend. |
+| [História](historia-de-kersef.md) | Um ancião narra o mito da criação de WYD: os seres supremos Yetzirah e Tzfah criam o mundo e a humanidade, e depois os deuses Kafma, Armia, Daleth, Samech e Haden. O texto passa pela Batalha Celestial, a destruição da ponte Sephira, a Guerra Continental liderada pelo mago Nershess e o mundo 400 anos depois, onde o poder do Arch sobrevive apenas como lenda. | official |

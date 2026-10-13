@@ -46,23 +46,28 @@ We've deliberately chosen **Markdown as our documentation format** for a powerfu
 
 ## 📚 Knowledge Base
 
-The curated knowledge base lives in [`wiki/`](wiki/README.md): **84 pages** organized by topic (lore, classes, progression, quests, maps, items, systems, PvP, NPCs, events). Start at [`wiki/README.md`](wiki/README.md).
+The curated knowledge base lives in [`wiki/`](wiki/README.md): **84 pages in Brazilian Portuguese**, organized by topic (lore, história, classes, progressão, quests, mapas, itens, sistemas, PvP, NPCs, eventos). Game content is Portuguese only; code, scripts and repo docs are in English.
 
-- **For humans**: each category folder has a README index with Portuguese and English titles and a one-line summary.
-- **For AI agents**: [`llms.txt`](llms.txt) lists every page with an English summary, and [`llms-full.txt`](llms-full.txt) has the whole knowledge base in one file.
-- **Every page has a YAML header** with `title_en`, `summary_en`, `tags`, its `sources` (original URL plus the archived copy) and a `canon` label:
-  - `official`: published by the developer or publisher (JoyImpact, Raid Hut)
-  - `community`: third-party writing such as Wikipedia, fan blogs and forums
-  - `private-server`: content created by private servers, kept in [`wiki/servers/`](wiki/servers/README.md) and out of canon
+- **For humans**: start at [`wiki/README.md`](wiki/README.md). Each category folder has a README index with a one-line summary per page.
+- **For AI agents**: [`llms.txt`](llms.txt) lists every page with its summary, and [`llms-full.txt`](llms-full.txt) has the whole knowledge base in one file.
+- **Every page has a YAML header**: `title`, `summary`, `category`, `tags`, `canon`, `language`, `sources` (original URL plus the archived copy) and `updated`. The `canon` label is one of:
+  - `official`: published by the developer or a publisher (JoyImpact, HanbitSoft, Raid Hut), or text from the game client
+  - `community`: third-party writing such as Wikipedia, fan blogs, forums and videos
+  - `private-server`: content created by private servers, kept in [`wiki/servidores/`](wiki/servidores/README.md) and out of canon
 
-Pages are generated from the archived sources by [`scripts/kb/build_wiki.rb`](scripts/kb/build_wiki.rb). [`manifest.yml`](scripts/kb/manifest.yml) decides which source articles feed which page (several sources can merge into one), and [`metadata.yml`](scripts/kb/metadata.yml) holds the English titles, summaries and tags.
+### Scripts (`scripts/kb/`)
+
+| Script | What it does |
+| --- | --- |
+| `build_wiki.rb` | Initial migration: creates pages from the archived sources using `manifest.yml` (which source articles feed which page) and `metadata.yml` (title, summary, tags). Skips pages that already exist unless named or `--force`. |
+| `build_indexes.rb` | Regenerates `wiki/README.md`, every category README, `llms.txt` and `llms-full.txt` from the page headers. Run it after any page change. |
+| `check.rb` | Validates headers, categories, canon labels and every relative link and image. |
 
 ```bash
-ruby scripts/kb/build_wiki.rb                        # rebuild every page and index
-ruby scripts/kb/build_wiki.rb quests/training-camp   # rebuild one page
+ruby scripts/kb/build_indexes.rb && ruby scripts/kb/check.rb
 ```
 
-The build overwrites the pages it rebuilds, so once a page is edited by hand, leave it out of later rebuilds.
+After the migration the pages in `wiki/` are the source of truth: edit them directly (by hand or through the update pipeline), never by re-running the migration.
 
 ## 🗄️ Archived Sources
 

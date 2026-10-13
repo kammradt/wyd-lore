@@ -1,13 +1,13 @@
 ---
 title: 'Dedekinto: Criação de Lac 100'
-title_en: 'Dedekinto: Lac 100 Crafting'
-summary_en: The Dedekinto NPC composes an account-bound Poeira de Lac 100 from 10 Poeira de Lac and 1 Shiny Laktorerium pieces; all materials are destroyed on failure.
+summary: O NPC Dedekinto compõe uma Poeira de Lac 100 vinculada à conta a partir de 10 Poeiras de Lac e 1 Shiny Laktorerium; todos os materiais são destruídos em caso de falha.
 category: npcs
 tags:
 - npc
-- crafting
+- npc-dedekinto
+- composicao
 - lac
-- refinement
+- refinacao
 canon: official
 language: pt-BR
 sources:
@@ -20,7 +20,7 @@ updated: '2026-10-13'
 
 # Dedekinto: Criação de Lac 100
 
-> **Dedekinto: Lac 100 Crafting.** The Dedekinto NPC composes an account-bound Poeira de Lac 100 from 10 Poeira de Lac and 1 Shiny Laktorerium pieces; all materials are destroyed on failure.
+> O NPC Dedekinto compõe uma Poeira de Lac 100 vinculada à conta a partir de 10 Poeiras de Lac e 1 Shiny Laktorerium; todos os materiais são destruídos em caso de falha.
 
 Agora será possível compor o item “Poeira de Lac 100” no NPC “Dedekinto”. Para isso serão necessários os itens abaixo:
 

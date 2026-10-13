@@ -1,12 +1,12 @@
 ---
 title: GodMaster
-title_en: GodMaster
-summary_en: The GodMaster NPC in Armia (X:2126 Y:2123) trades class-specific skill books such as the 10th and 11th skills; books are account-bound and purchases cannot be undone.
+summary: O NPC GodMaster, em Armia (X:2126 Y:2123), troca livros de skills específicos de cada classe, como a 10ª e a 11ª skill; os livros são vinculados à conta e as compras não podem ser desfeitas.
 category: npcs
 tags:
 - npc
+- npc-godmaster
 - skills
-- skill-books
+- livros-de-skill
 - armia
 canon: official
 language: pt-BR
@@ -20,7 +20,7 @@ updated: '2026-10-13'
 
 # GodMaster
 
-> **GodMaster.** The GodMaster NPC in Armia (X:2126 Y:2123) trades class-specific skill books such as the 10th and 11th skills; books are account-bound and purchases cannot be undone.
+> O NPC GodMaster, em Armia (X:2126 Y:2123), troca livros de skills específicos de cada classe, como a 10ª e a 11ª skill; os livros são vinculados à conta e as compras não podem ser desfeitas.
 
 O NPC GodMaster fica localizado na cidade de Armia (X: 2126 Y: 2123) e tem como principal objetivo principal negociar livros de skill com os jogadores interessados em aprimorar seus personagens.
 

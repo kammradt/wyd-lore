@@ -1,8 +1,8 @@
 # PvP
 
-*PvP.* Guerras de reino, arenas e combate entre jogadores.
+Guerras de reino, arenas e combate entre jogadores.
 
-| Página | English | Resumo |
+| Página | Resumo | Canon |
 | --- | --- | --- |
-| [Guerra de Reinos](kingdom-war.md) | Kingdom War | Explains the Kingdom War held Monday to Friday from 22:00 to 22:50 on the Novato server, entered through the Noatun portal, where players kill enemy-kingdom players, NPCs and the King to earn fame without CP loss. |
-| [Arena Real](royal-arena.md) | Royal Arena | Describes the Royal Arena tournament for Celestial characters, with registration at the Repus NPCs in Armia, Azran and Gelo at 13:00, 19:00, 20:30 and 23:00 for up to 52 players, its Infinite Tower mode, battle pass, ranking tiers and Real Master rewards. |
+| [Arena Real](arena-real.md) | Apresenta a Arena Real, torneio para personagens Celestiais com inscrição nos NPCs Repus em Armia, Azran e Gelo às 13:00, 19:00, 20:30 e 23:00 para até 52 jogadores, além do modo Torre Infinita, do passe de batalha, dos tiers de ranking e das recompensas do NPC Real Master. | official |
+| [Guerra de Reinos](guerra-de-reinos.md) | Explica a Guerra de Reinos, que acontece de segunda a sexta, das 22:00 às 22:50, no servidor Novato, com entrada pelo portal de Noatun, onde os jogadores matam jogadores, NPCs e o Rei do reino inimigo para ganhar fame sem perder CP. | official |

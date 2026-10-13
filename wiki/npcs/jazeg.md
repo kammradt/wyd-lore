@@ -1,13 +1,13 @@
 ---
 title: Jazeg
-title_en: Jazeg
-summary_en: The Jazeg NPC (2117 2081) changes the bonus option on Amuleto Arcano (HP) and Amuleto Arcano (MP) items refined to +11 or +15, with no chance of failure.
+summary: O NPC Jazeg (2117 2081) troca a opção bônus dos itens Amuleto Arcano (HP) e Amuleto Arcano (MP) refinados a +11 ou +15, sem chance de falha.
 category: npcs
 tags:
 - npc
-- accessories
-- amulet
-- item-options
+- npc-jazeg
+- acessorios
+- amuleto
+- adicional
 canon: official
 language: pt-BR
 sources:
@@ -20,7 +20,7 @@ updated: '2026-10-13'
 
 # Jazeg
 
-> **Jazeg.** The Jazeg NPC (2117 2081) changes the bonus option on Amuleto Arcano (HP) and Amuleto Arcano (MP) items refined to +11 or +15, with no chance of failure.
+> O NPC Jazeg (2117 2081) troca a opção bônus dos itens Amuleto Arcano (HP) e Amuleto Arcano (MP) refinados a +11 ou +15, sem chance de falha.
 
 Adicionado o NPC Jazeg(2117 2081) onde será possível alterar o adicional nos itens “Amuleto Arcano (HP)” e “Amuleto Arcano(MP)” que possuírem a refinação +11 ou +15.
 
