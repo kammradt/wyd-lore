@@ -56,3 +56,6 @@ Temporary Items
 .idea/
 *.sublime-*
 .cursor/
+
+# Wiki site build output (scripts/site/build.rb)
+/build/

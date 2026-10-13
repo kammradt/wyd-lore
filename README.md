@@ -69,6 +69,18 @@ ruby scripts/kb/build_indexes.rb && ruby scripts/kb/check.rb
 
 After the migration the pages in `wiki/` are the source of truth: edit them directly (by hand or through the update pipeline), never by re-running the migration.
 
+## 🌐 Wiki Site
+
+The same `wiki/` pages are published as a searchable website built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/): Portuguese search, light and dark themes, tag pages, and a canon/sources line under each title. It is planned for **https://kammradt.github.io/wyd-lore/**.
+
+- [`.github/workflows/site.yml`](.github/workflows/site.yml) checks the knowledge base, builds the site on every push to `main`, and deploys it to GitHub Pages. Pull requests only build it.
+- One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**. A private repository needs a paid GitHub plan for Pages.
+
+```bash
+pip install -r site/requirements.txt
+ruby scripts/site/build.rb --serve   # preview at http://127.0.0.1:8000
+```
+
 ## 🗄️ Archived Sources
 
 Raw scraped copies of every source, kept unchanged under [`sources/`](sources/). The knowledge base is built from these.
