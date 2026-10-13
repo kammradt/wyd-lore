@@ -44,9 +44,34 @@ readme << "## Categorias\n\n"
 categories.each do |key, cat|
   readme << "- [#{cat['name']}](#{key}/README.md) (#{(pages[key] || []).size}): #{cat['description']}\n"
 end
+readme << "\nVeja também a lista de [fontes](fontes.md) conhecidas e o que cada uma cobre.\n" if File.exist?(File.join(KB::ROOT, "sources/registry.yml"))
 readme << "\n## Canon\n\n"
 KB.canon_labels.each { |k, v| readme << "- `#{k}`: #{v}\n" }
 File.write(File.join(KB::WIKI, 'README.md'), readme)
+
+# wiki/fontes.md: the source registry, readable by people.
+registry_path = File.join(KB::ROOT, 'sources/registry.yml')
+if File.exist?(registry_path)
+  registry = YAML.load_file(registry_path)
+  kinds = { 'official' => 'Fontes oficiais', 'community' => 'Fontes da comunidade',
+            'private-server' => 'Servidores privados' }
+  fontes = +"# Fontes\n\nTodas as fontes conhecidas sobre With Your Destiny, ordenadas por confiança " \
+            "(5 = fonte oficial primária, 1 = especulação). As marcadas com ✔ são coletadas toda semana pelo " \
+            "pipeline de atualização. A lista completa, com notas de pesquisa, está em " \
+            "[`sources/registry.yml`](../sources/registry.yml).\n"
+  kinds.each do |canon, title|
+    list = registry['sources'].select { _1['canon'] == canon }
+    next if list.empty?
+
+    fontes << "\n## #{title}\n\n| Fonte | Tipo | Confiança | Coleta | Conteúdo |\n| --- | --- | --- | --- | --- |\n"
+    list.each do |s|
+      collected = s.dig('fetch', 'enabled') ? '✔' : (s['archive'] ? 'arquivada' : '')
+      fontes << "| [#{table_cell(s['name'])}](#{s['url']}) | #{s['kind']} | #{s['trust']} | #{collected} | " \
+                "#{table_cell(s['covers'].to_s[0, 220])}#{'…' if s['covers'].to_s.size > 220} |\n"
+    end
+  end
+  File.write(File.join(KB::WIKI, 'fontes.md'), fontes)
+end
 
 llms = +"# WYD Lore\n\n"
 llms << "> Base de conhecimento sobre o MMORPG With Your Destiny (WYD, JoyImpact, 2003): lore de Kersef, classes, " \

@@ -52,7 +52,7 @@ FileUtils.mkdir_p(File.join(DOCS, 'assets'))
 Dir.glob(File.join(KB::WIKI, '**/*.md')).each do |src|
   rel = src.delete_prefix("#{KB::WIKI}/")
   text = relink(File.read(src), src)
-  if File.basename(src) != 'README.md'
+  if File.basename(src) != 'README.md' && rel.include?('/')
     header, body = KB.parse_page(src)
     body = relink(body, src).sub(/\A(\s*# .+\n)/) { "#{Regexp.last_match(1)}\n#{meta_line(header)}" }
     text = KB.render_page(header, body)
@@ -76,6 +76,7 @@ KB.categories.each do |key, cat|
   list = (pages[key] || []).sort_by { |_p, h, _b| h['title'].downcase.unicode_normalize(:nfkd) }
   nav << { cat['name'] => ["#{key}/README.md"] + list.map { |path, h, _b| { h['title'] => path } } }
 end
+nav << { 'Fontes' => 'fontes.md' } if File.exist?(File.join(KB::WIKI, 'fontes.md'))
 nav << { 'Tags' => 'tags.md' }
 
 config = YAML.load_file(File.join(KB::ROOT, 'site/mkdocs.yml'))
