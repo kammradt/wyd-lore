@@ -90,9 +90,9 @@ ruby scripts/site/build.rb --serve   # preview at http://127.0.0.1:8000
 
 **Game text or blogs?** Both, for different jobs. Text from the game client (NPC dialogue, item names, quest messages) is the authoritative source for names and quotes. It is sparse, though: short lines, no continuous story. The official FAQ articles and fan blogs carry the narrative, the history and the player memory. Pages cite the game text to verify names and quotes, and use blogs for story and context, labeled `community`. Private-server news is kept as a separate post-canon layer in `wiki/servidores/`. Game files belong to JoyImpact, so the wiki quotes short excerpts and the repo never stores the files themselves.
 
-### Weekly pipeline
+### Update pipeline
 
-[`.github/workflows/update.yml`](.github/workflows/update.yml) runs every Monday, and on demand from the Actions tab:
+[`.github/workflows/update.yml`](.github/workflows/update.yml) runs only when you start it from the Actions tab (Update knowledge base → Run workflow). It has no schedule for now; the file shows how to add a weekly one.
 
 1. **Fetch** ([`scripts/pipeline/fetch.rb`](scripts/pipeline/fetch.rb)). For every source with an enabled `fetch` block, a driver lists its items and archives the new or changed ones under `sources/<id>/`. Drivers cover RSS/Atom feeds (Blogger, WordPress, Raid Hut news), listing pages (the Kersef FAQ), MediaWiki (Fandom), Wayback Machine snapshots and fixed URL lists. Each source has an `index.yml` with content hashes, so unchanged items are skipped.
 2. **Update.** Claude reads the new items and folds them into `wiki/` following [`scripts/pipeline/prompts/update.md`](scripts/pipeline/prompts/update.md): it updates existing pages or creates new ones, cites every source and keeps the canon labels honest. It then rebuilds the indexes and runs `check.rb`.
