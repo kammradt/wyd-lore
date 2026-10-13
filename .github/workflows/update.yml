@@ -1,4 +1,4 @@
-# Weekly knowledge base update.
+# Knowledge base update, run by hand from the Actions tab (no schedule).
 #
 # 1. fetch: archives new and changed articles from every enabled source in sources/registry.yml.
 # 2. update: Claude folds them into wiki/ (scripts/pipeline/prompts/update.md) and opens a PR.
@@ -11,8 +11,9 @@
 name: Update knowledge base
 
 on:
-  schedule:
-    - cron: '0 9 * * 1' # Mondays, 06:00 in Brasília
+  # No schedule for now: run it by hand. To make it weekly again, add:
+  # schedule:
+  #   - cron: '0 9 * * 1' # Mondays, 06:00 in Brasília
   workflow_dispatch:
     inputs:
       source:
