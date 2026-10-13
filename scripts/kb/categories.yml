@@ -1,0 +1,40 @@
+# Knowledge base categories, in display order. Keys are the folder names under wiki/.
+lore:
+  name: Lore
+  description: Mitologia, deuses e a história do mundo de Kersef.
+historia:
+  name: História do jogo
+  description: Desenvolvedora, publicadoras, versões e linha do tempo do WYD no mundo real.
+classes:
+  name: Classes
+  description: As classes jogáveis e suas skills.
+progressao:
+  name: Progressão
+  description: "Evolução do personagem: Mortal, Arch, Celestial e Sub-Celestial."
+quests:
+  name: Quests
+  description: Quests por faixa de level, com etapas, NPCs e recompensas.
+mapas:
+  name: Mapas e dungeons
+  description: Regiões, cidades e dungeons de Kersef.
+itens:
+  name: Itens
+  description: Armas, armaduras, acessórios e materiais.
+sistemas:
+  name: Sistemas
+  description: "Mecânicas do jogo: refinação, guildas, reinos, montarias e mais."
+pvp:
+  name: PvP
+  description: Guerras de reino, arenas e combate entre jogadores.
+npcs:
+  name: NPCs
+  description: Personagens não jogáveis e o que oferecem.
+eventos:
+  name: Eventos
+  description: Invasões e eventos do servidor.
+suporte:
+  name: Suporte
+  description: Ajuda técnica e de conta. Não é conteúdo do jogo.
+servidores:
+  name: Servidores privados
+  description: Conteúdo criado por servidores privados, separado do canon oficial.

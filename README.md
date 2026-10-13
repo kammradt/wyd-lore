@@ -44,9 +44,34 @@ We've deliberately chosen **Markdown as our documentation format** for a powerfu
 - Current: Raid Hut Ltd. (2019-present, Global) & JoyImpact (Korea)
 
 
-## 📚 Documentation Sources
+## 📚 Knowledge Base
 
-We've collected and scrapped information form several sources.
+The curated knowledge base lives in [`wiki/`](wiki/README.md): **84 pages in Brazilian Portuguese**, organized by topic (lore, história, classes, progressão, quests, mapas, itens, sistemas, PvP, NPCs, eventos). Game content is Portuguese only; code, scripts and repo docs are in English.
+
+- **For humans**: start at [`wiki/README.md`](wiki/README.md). Each category folder has a README index with a one-line summary per page.
+- **For AI agents**: [`llms.txt`](llms.txt) lists every page with its summary, and [`llms-full.txt`](llms-full.txt) has the whole knowledge base in one file.
+- **Every page has a YAML header**: `title`, `summary`, `category`, `tags`, `canon`, `language`, `sources` (original URL plus the archived copy) and `updated`. The `canon` label is one of:
+  - `official`: published by the developer or a publisher (JoyImpact, HanbitSoft, Raid Hut), or text from the game client
+  - `community`: third-party writing such as Wikipedia, fan blogs, forums and videos
+  - `private-server`: content created by private servers, kept in [`wiki/servidores/`](wiki/servidores/README.md) and out of canon
+
+### Scripts (`scripts/kb/`)
+
+| Script | What it does |
+| --- | --- |
+| `build_wiki.rb` | Initial migration: creates pages from the archived sources using `manifest.yml` (which source articles feed which page) and `metadata.yml` (title, summary, tags). Skips pages that already exist unless named or `--force`. |
+| `build_indexes.rb` | Regenerates `wiki/README.md`, every category README, `llms.txt` and `llms-full.txt` from the page headers. Run it after any page change. |
+| `check.rb` | Validates headers, categories, canon labels and every relative link and image. |
+
+```bash
+ruby scripts/kb/build_indexes.rb && ruby scripts/kb/check.rb
+```
+
+After the migration the pages in `wiki/` are the source of truth: edit them directly (by hand or through the update pipeline), never by re-running the migration.
+
+## 🗄️ Archived Sources
+
+Raw scraped copies of every source, kept unchanged under [`sources/`](sources/). The knowledge base is built from these.
 
 ### 🎮 [Feedback Kersef - Game Guides](sources/feedback_kersef/data/articles/markdown/)
 
@@ -98,6 +123,12 @@ We've collected and scrapped information form several sources.
 ```
 wyd/
 ├── README.md                        # This file
+├── llms.txt                         # Page index for AI agents
+├── llms-full.txt                    # Whole knowledge base in one file
+├── wiki/                            # Curated knowledge base ⭐
+│   ├── README.md                    # Categories and canon labels
+│   └── <category>/<page>.md         # lore, classes, quests, maps, items...
+├── scripts/kb/                      # Builds wiki/ from sources/
 ├── Gemfile                          # Ruby dependencies
 └── sources/                         # All scraped content
     ├── feedback_kersef/             # WYD FAQ (feedback.kersef.com)
@@ -140,18 +171,7 @@ bundle install
 
 ### Reading the Documentation
 
-All documentation is in Markdown format with local images. Simply open any `.md` file in the `markdown/` directories:
-
-```bash
-# Game guides (78 files)
-open sources/feedback_kersef/data/articles/markdown/
-
-# Quest guide
-open sources/raidhut_quests/data/articles/markdown/quests_mortais.md
-
-# Wikipedia article
-open sources/wikipedia_with_your_destiny/data/articles/markdown/with_your_destiny.md
-```
+Start at [`wiki/README.md`](wiki/README.md) and browse by category. The raw scraped copies stay under `sources/*/data/articles/markdown/`.
 
 ## 🛠️ Technology Stack
 

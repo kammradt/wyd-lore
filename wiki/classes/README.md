@@ -1,0 +1,13 @@
+# Classes
+
+As classes jogáveis e suas skills.
+
+| Página | Resumo | Canon |
+| --- | --- | --- |
+| [10ª Skill](decima-skill.md) | Descreve a 10ª skill de cada linhagem das classes Foema, TransKnight, BeastMaster e Huntress, como Proteção Absoluta e Invocação Final. Para aprender é preciso ter todas as skills anteriores e 4000 pontos de fama. | official |
+| [11ª Skills](decima-primeira-skill.md) | Lista o livro da 11ª skill de cada linhagem, como Blaze Launcher, Life Wave Book e Bleeding Book, com seus efeitos. Para aprender é preciso nível 281 ou superior, 8.000 pontos de fama e o livro da skill. | official |
+| [12ª Skills](decima-segunda-skill.md) | Lista as 12ª skills de todas as linhagens, aprendidas por personagens Celestial acima do nível 320 com o NPC Jazeg em Armia. A 11ª skill da mesma linhagem é pré-requisito, e o custo é de 12.000 de fama (reduzido inicialmente para 1.200 durante os testes). | official |
+| [Mudança de Classe e Mudança de Corpo](mudanca-de-classe.md) | Explica como trocar a classe do personagem pelo NPC Wooreunammu em Kefra (Sephirot da classe desejada mais 100kk) ou com o item Sephiroth Blessing, que desaprende todas as skills Sephira. A mudança de corpo usa o item Sephiroth Protection, e ambos os itens vêm dos eventos mensais do servidor Global. | official |
+| [Nona Skill (9th)](nona-skill.md) | Lista as 9ª skills de cada classe, compradas no NPC 9thMaster em Armia e aprendidas a partir do nível 201 por personagens Celestial e Sub-Celestial por 255 pontos de skill. Só é possível aprender a 9ª da mesma linhagem da 8ª; ela eleva o limite de maestria para 320 e pode ser desaprendida com o Círculo Divino Composto. | official |
+| [Personagens e Primeiras Impressões](personagens.md) | Apresenta as quatro classes (Transknight, Foema, Beastmaster e Huntress) e suas várias linhagens de skills. Também explica o início na cidade de Armia, o Campo de Treinamento para personagens de nível 1 e os controles básicos do mouse para andar e atacar. | official |
+| [Skills](skills.md) | Explica como aprender skills com o mestre de cada classe em Armia: Capitão Cavaleiros para TransKnight, Mestre Archi para Beastmaster, Foema Anciã para Foema e ForeLearne para Huntress. Descreve as três linhagens de skill de cada classe, o limite de 24 skills, os pontos de aprendizado, o Aprender Arma e o uso da barra de atalhos. | official |
