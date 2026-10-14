@@ -88,7 +88,7 @@ ruby scripts/site/build.rb --serve   # preview at http://127.0.0.1:8000
 
 [`sources/registry.yml`](sources/registry.yml) lists **90 known sources**, ranked by trust (5 = official primary source, 1 = speculation) and labeled with the canon their pages must carry. It covers official sites and FAQs, archived official sites on the Wayback Machine, fan blogs, Fandom wikis, forums, videos, private servers, server lists, and open-source emulators that contain the game's own text. A readable version is generated at [`wiki/fontes.md`](wiki/fontes.md).
 
-**Game text or blogs?** Both, for different jobs. Text from the game client (NPC dialogue, item names, quest messages) is the authoritative source for names and quotes. It is sparse, though: short lines, no continuous story. The official FAQ articles and fan blogs carry the narrative, the history and the player memory. Pages cite the game text to verify names and quotes, and use blogs for story and context, labeled `community`. Private-server news is kept as a separate post-canon layer in `wiki/servidores/`. Game files belong to JoyImpact, so the wiki quotes short excerpts and the repo never stores the files themselves.
+**Game text or blogs?** Both, for different jobs. Text from the game client (NPC dialogue, item names, quest messages) is the authoritative source for names and quotes. It is sparse, though: short lines, no continuous story. The official FAQ articles and fan blogs carry the narrative, the history and the player memory. Pages cite the game text to verify names and quotes, and use blogs for story and context, labeled `community`. Private-server news is kept as a separate post-canon layer in `wiki/servidores/`.
 
 ### Update pipeline
 

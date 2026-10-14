@@ -6,7 +6,7 @@ This repo is a knowledge base about the MMORPG With Your Destiny (WYD). Read thi
 
 - **Language:** all game and lore content (`wiki/`, `data/`) is in Brazilian Portuguese. Code, scripts, commit messages and repo docs are in English.
 - **One branch:** work from `main`. Open a pull request for every change and delete the branch after it merges.
-- **Sources stay raw:** never edit files under `sources/*/data/`; they are the archived originals. Never copy game client files into the repo (they belong to JoyImpact); quote short excerpts only.
+- **Sources stay raw:** never edit files under `sources/*/data/`; they are the archived originals.
 - **Cite everything:** every wiki page lists its sources in the YAML header, each with the original `url` and the `archive` copy under `sources/`.
 - **Keep canon honest:** `canon` is `official`, `community` or `private-server`. Private-server content goes only in `wiki/servidores/`. When sources disagree, show both versions and say which source says what.
 - **No scheduled scraping:** `.github/workflows/update.yml` runs only by hand. Don't add a schedule unless the owner asks.
@@ -24,6 +24,14 @@ This repo is a knowledge base about the MMORPG With Your Destiny (WYD). Read thi
 | `scripts/kb/` | `build_indexes.rb`, `check.rb`, and the one-time migration `build_wiki.rb`. |
 | `scripts/pipeline/` | `fetch.rb` and the Claude prompts for the update and discovery jobs. |
 | `scripts/site/`, `site/` | The MkDocs Material site, deployed to https://kammradt.github.io/wyd-lore/ on merge. |
+
+## Local asset sources
+
+Game assets are not in this repo yet, but at least one full source exists on the owner's machine:
+
+- `wyd-client` (clone of https://github.com/acgfbr/wyd-client, a web port of the classic client), kept at `/home/kamm/repos/wyd-client`. Under `public/game-data/classic/` it has item and skill icon atlases (`ui/`), 3D models, animations and textures for players, monsters, mounts and map objects (`.msh`, `.msa`, `.ani`, `.bon`, `.dds`), the 111 maps, item, skill and NPC data, and audio. `docs/matriz-cobertura-classico.md` there has the full inventory.
+
+When a page or tool needs these assets, copy or link them as that use requires.
 
 ## Page header
 
